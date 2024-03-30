@@ -2098,7 +2098,7 @@
         "rest": 0.16253549689676156
       },
       {
-        "ticker": "C&amp;A",
+        "ticker": "C&A",
         "category": "Apparel",
         "selected": 2.27885052598265,
         "rest": 1.9542572639422648
@@ -3250,7 +3250,7 @@
         "rest": 0.015761440803399286
       },
       {
-        "ticker": "Jack&amp;Jones",
+        "ticker": "Jack&Jones",
         "category": "Apparel",
         "selected": 1.1243048803797344,
         "rest": 0.7121611865019409
@@ -3262,7 +3262,7 @@
         "rest": 0.00900402227658065
       },
       {
-        "ticker": "Domestic &amp; General",
+        "ticker": "Domestic & General",
         "category": "Home Services",
         "selected": 0.16739368599569615,
         "rest": 0.130974791745189
@@ -3598,7 +3598,7 @@
         "rest": 0.22499052021599605
       },
       {
-        "ticker": "Pans &amp; Company",
+        "ticker": "Pans & Company",
         "category": "Bakery",
         "selected": 0.41535838761296195,
         "rest": 0.22909620095965177
@@ -3688,7 +3688,7 @@
         "rest": 0.06094780242409532
       },
       {
-        "ticker": "Renatta&amp;Go",
+        "ticker": "Renatta&Go",
         "category": "Apparel",
         "selected": 0.05476103337959123,
         "rest": 0.10396816120162489
@@ -3976,7 +3976,7 @@
         "rest": 0.12538917708837272
       },
       {
-        "ticker": "Neck &amp; Neck",
+        "ticker": "Neck & Neck",
         "category": "Apparel",
         "selected": 0.05177476686976369,
         "rest": 0.14368496852988963
@@ -4564,7 +4564,7 @@
         "rest": 7.4560146867181505
       },
       {
-        "ticker": "H&amp;M",
+        "ticker": "H&M",
         "category": "Apparel",
         "selected": 8.224202454952353,
         "rest": 10.029116801367575
@@ -4576,7 +4576,7 @@
         "rest": 0.03251240396238736
       },
       {
-        "ticker": "Pull &amp; Bear",
+        "ticker": "Pull & Bear",
         "category": "Apparel",
         "selected": 5.744051844861548,
         "rest": 5.602744906584684
@@ -4678,7 +4678,7 @@
         "rest": 0.03570621550184716
       },
       {
-        "ticker": "Sergio &amp; Cano",
+        "ticker": "Sergio & Cano",
         "category": "Apparel",
         "selected": 0.02037823754012256,
         "rest": 0.03120933106119039
@@ -5218,7 +5218,7 @@
         "rest": 0.06287031584662728
       },
       {
-        "ticker": "Loops&amp;Coffee",
+        "ticker": "Loops&Coffee",
         "category": "Coffee Shop",
         "selected": 0.01060118570162183,
         "rest": 0.0061311364871776885
@@ -5284,7 +5284,7 @@
         "rest": 0.1706471655366045
       },
       {
-        "ticker": "Pipa&amp;Co",
+        "ticker": "Pipa&Co",
         "category": "Pet Supplies",
         "selected": 0.04140222032047709,
         "rest": 0.040125143466645696
@@ -6022,7 +6022,7 @@
           "window": [{"op": "rank", "as": "rank_asc"}],
           "sort": [{"field": "change", "order": "ascending"}]
         },
-        {"filter": "datum.rank_desc &lt;= 10 || datum.rank_asc &lt;= 10"}
+        {"filter": "datum.rank_desc <= 10 || datum.rank_asc <= 10"}
       ],
       "mark": "bar",
       "params": [
@@ -6066,7 +6066,7 @@
           "window": [{"op": "rank", "as": "rank_asc"}],
           "sort": [{"field": "change", "order": "ascending"}]
         },
-        {"filter": "datum.rank_desc &lt;= 10 || datum.rank_asc &lt;= 10"}
+        {"filter": "datum.rank_desc <= 10 || datum.rank_asc <= 10"}
       ],
       "mark": "bar",
       "encoding": {
