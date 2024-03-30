@@ -6046,7 +6046,7 @@
           "condition": {"param": "pts", "value": "red", "empty": false},
           "field": "change",
           "type": "quantitative",
-          "scale": {"domainMid": 0, "range": "diverging"}
+          "scale": {"domainMid": 0, "range": "diverging", "domainMax": 300}
         }
       }
     },
@@ -6086,7 +6086,7 @@
         "color": {
           "field": "change",
           "type": "quantitative",
-          "scale": {"domainMid": 0, "range": "diverging"}
+          "scale": {"domainMid": 0, "range": "diverging", "domainMax": 300}
         }
       }
     }
