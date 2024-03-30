@@ -1,0 +1,6094 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "click on the categories to zoom in",
+  "data": {
+    "values": [
+      {
+        "ticker": "Ticketsport.es",
+        "category": "Sports",
+        "selected": 0.016353779917980118,
+        "rest": 0.022553088877257474
+      },
+      {
+        "ticker": "Ikea",
+        "category": "Home Goods",
+        "selected": 31.718708917655896,
+        "rest": 28.327462151089644
+      },
+      {
+        "ticker": "Granier",
+        "category": "Apparel",
+        "selected": 0.21011917190604895,
+        "rest": 0.15215632336852772
+      },
+      {
+        "ticker": "Terra Natura",
+        "category": "Attractions",
+        "selected": 0.04546341235009868,
+        "rest": 0.048567162240777215
+      },
+      {
+        "ticker": "Facsa",
+        "category": "Utilities",
+        "selected": 0.24799462875885148,
+        "rest": 0.3863001920093175
+      },
+      {
+        "ticker": "Llamaya",
+        "category": "Telecom",
+        "selected": 0.017984740698686788,
+        "rest": 0.026174435702698406
+      },
+      {
+        "ticker": "Double Agent",
+        "category": "Apparel",
+        "selected": 0.02802275098565279,
+        "rest": 0.03463319085988875
+      },
+      {
+        "ticker": "Oysho",
+        "category": "Apparel",
+        "selected": 1.33063888138822,
+        "rest": 2.5969620049413153
+      },
+      {
+        "ticker": "Ale-Hop",
+        "category": "Restaurant",
+        "selected": 0.1941763236444471,
+        "rest": 0.22524164434411248
+      },
+      {
+        "ticker": "Vincci",
+        "category": "Travel",
+        "selected": 0.1406442822799616,
+        "rest": 0.11313329897663825
+      },
+      {
+        "ticker": "Panaria",
+        "category": "Restaurant",
+        "selected": 0.07165302064279909,
+        "rest": 0.07223374819905955
+      },
+      {
+        "ticker": "Financiera El Corte Ingles",
+        "category": "Financial Services",
+        "selected": 10.292621480347742,
+        "rest": 13.252357645644876
+      },
+      {
+        "ticker": "Wizz Air",
+        "category": "Airlines",
+        "selected": 0.7114133371150079,
+        "rest": 0.5644820868374376
+      },
+      {
+        "ticker": "Spotify",
+        "category": "Music",
+        "selected": 9.529150605728887,
+        "rest": 4.973573728923717
+      },
+      {
+        "ticker": "GES Seguros",
+        "category": "Insurance",
+        "selected": 0.29055711713950044,
+        "rest": 0.5472518062898022
+      },
+      {
+        "ticker": "Emasa",
+        "category": "Utilities",
+        "selected": 0.1410060119491069,
+        "rest": 0.1483861727930789
+      },
+      {
+        "ticker": "Seguros Lagun Aro",
+        "category": "Insurance",
+        "selected": 0.9231848292396099,
+        "rest": 1.4852994590498003
+      },
+      {
+        "ticker": "Amazon Digital",
+        "category": "E-commerce",
+        "selected": 0.17076190009818512,
+        "rest": 0.121620150449399
+      },
+      {
+        "ticker": "Vente Privee",
+        "category": "E-commerce",
+        "selected": 0.4921500157716421,
+        "rest": 0.839940375999516
+      },
+      {
+        "ticker": "Paf",
+        "category": "Gambling",
+        "selected": 0.13217516497499648,
+        "rest": 0.15137762601698937
+      },
+      {
+        "ticker": "Bidegi",
+        "category": "Transportation",
+        "selected": 1.1157515691011606,
+        "rest": 1.1418897186892942
+      },
+      {
+        "ticker": "RCI Banque and Services",
+        "category": "Financial Services",
+        "selected": 10.72163351136991,
+        "rest": 9.842649343325359
+      },
+      {
+        "ticker": "Clarel",
+        "category": "Beauty",
+        "selected": 0.43783915030168197,
+        "rest": 0.5413278685059393
+      },
+      {
+        "ticker": "Odeon",
+        "category": "Entertainment",
+        "selected": 0.25232738641543717,
+        "rest": 0.1502836288710236
+      },
+      {
+        "ticker": "Banggood",
+        "category": "E-commerce",
+        "selected": 1.6336741237522985,
+        "rest": 0.4332318652111858
+      },
+      {
+        "ticker": "Froiz",
+        "category": "Retail Stores",
+        "selected": 1.2891863544300501,
+        "rest": 1.5490168888885474
+      },
+      {
+        "ticker": "Aldeas infantiles",
+        "category": "Non-Profit",
+        "selected": 0.5706056005778437,
+        "rest": 0.6564171118225947
+      },
+      {
+        "ticker": "Opencor",
+        "category": "Financial Services",
+        "selected": 0.126552214404376,
+        "rest": 0.07695858981386722
+      },
+      {
+        "ticker": "Neumaticos Soledad",
+        "category": "Automotive",
+        "selected": 0.4194655358441893,
+        "rest": 0.2680216473831423
+      },
+      {
+        "ticker": "La Musa Latina",
+        "category": "Restaurant",
+        "selected": 0.023858493352571588,
+        "rest": 0.02354820682382126
+      },
+      {
+        "ticker": "Rodi Motor",
+        "category": "Automotive",
+        "selected": 0.5662334957646422,
+        "rest": 0.34740457839155897
+      },
+      {
+        "ticker": "SEUR",
+        "category": "Logistics",
+        "selected": 0.10601477674116172,
+        "rest": 0.05549965422285714
+      },
+      {
+        "ticker": "Maquillalia",
+        "category": "Beauty",
+        "selected": 0.08375026711365932,
+        "rest": 0.07561227616412905
+      },
+      {
+        "ticker": "La Plaza de Dia",
+        "category": "Grocery",
+        "selected": 2.646800098082943,
+        "rest": 2.077329760085841
+      },
+      {
+        "ticker": "Parque Warner",
+        "category": "Entertainment",
+        "selected": 0.35112061793660504,
+        "rest": 0.21371816185607595
+      },
+      {
+        "ticker": "Pikolin",
+        "category": "Home Goods",
+        "selected": 0.14818911317863365,
+        "rest": 0.14860716164977159
+      },
+      {
+        "ticker": "Perrachica",
+        "category": "Restaurant",
+        "selected": 0.09562243254550076,
+        "rest": 0.11376062815920683
+      },
+      {
+        "ticker": "Totto",
+        "category": "Luggage",
+        "selected": 0.021041163679710866,
+        "rest": 0.02596713374946267
+      },
+      {
+        "ticker": "Camper",
+        "category": "Apparel",
+        "selected": 0.1311581710480774,
+        "rest": 0.12520619448249384
+      },
+      {
+        "ticker": "Oculus",
+        "category": "Gaming",
+        "selected": 0.4373806066592574,
+        "rest": 0.046119141210834665
+      },
+      {
+        "ticker": "Carrefour Estaciones de Servicio",
+        "category": "Fuel",
+        "selected": 4.3780847504730716,
+        "rest": 5.114732373321415
+      },
+      {
+        "ticker": "Mac Cosmetics",
+        "category": "Beauty",
+        "selected": 0.03527765094959709,
+        "rest": 0.04527899713221167
+      },
+      {
+        "ticker": "Telpark",
+        "category": "Transportation",
+        "selected": 1.0536784707560105,
+        "rest": 0.9399074886909538
+      },
+      {
+        "ticker": "Just Eat",
+        "category": "Fast Food",
+        "selected": 20.182321295246748,
+        "rest": 7.054653659262131
+      },
+      {
+        "ticker": "KFC",
+        "category": "Fast Food",
+        "selected": 1.9195201802039636,
+        "rest": 1.156093614647778
+      },
+      {
+        "ticker": "El Mordisco",
+        "category": "Restaurant",
+        "selected": 0.029390603358430502,
+        "rest": 0.02523679899361271
+      },
+      {
+        "ticker": "Aplazame",
+        "category": "Financial Services",
+        "selected": 2.391335833865489,
+        "rest": 0.7623088851372577
+      },
+      {
+        "ticker": "Don Canino",
+        "category": "Pet Supplies",
+        "selected": 0.08933337246959938,
+        "rest": 0.060361336485368525
+      },
+      {
+        "ticker": "Financiera Española de Credito a Distancia",
+        "category": "Financial Services",
+        "selected": 2.024665305855597,
+        "rest": 1.1899392496814003
+      },
+      {
+        "ticker": "Autogrill",
+        "category": "Restaurant",
+        "selected": 0.18752003817807203,
+        "rest": 0.15475163123695815
+      },
+      {
+        "ticker": "Carrefour",
+        "category": "Grocery",
+        "selected": 72.6984082446153,
+        "rest": 73.8443320574221
+      },
+      {
+        "ticker": "Viajes El Corte Ingles",
+        "category": "Travel",
+        "selected": 1.0555825972668,
+        "rest": 1.0180578657214012
+      },
+      {
+        "ticker": "Deportes Halcon",
+        "category": "Sports",
+        "selected": 0.0733670800387071,
+        "rest": 0.06763680736342517
+      },
+      {
+        "ticker": "Chubb european",
+        "category": "Insurance",
+        "selected": 0.1844889872505815,
+        "rest": 0.2026429930787662
+      },
+      {
+        "ticker": "Bricomart",
+        "category": "Home Goods",
+        "selected": 2.2131695618419593,
+        "rest": 2.8598602818058434
+      },
+      {
+        "ticker": "Renfe",
+        "category": "Transportation",
+        "selected": 23.38108696396529,
+        "rest": 19.077278809590936
+      },
+      {
+        "ticker": "Aromas",
+        "category": "Restaurant",
+        "selected": 0.09229917787594302,
+        "rest": 0.14622907374797134
+      },
+      {
+        "ticker": "Geox",
+        "category": "Apparel",
+        "selected": 0.3647333293947473,
+        "rest": 0.40449335678351217
+      },
+      {
+        "ticker": "Energia XXI",
+        "category": "Fuel",
+        "selected": 6.505697019462591,
+        "rest": 7.770025360656706
+      },
+      {
+        "ticker": "Wiggle",
+        "category": "Sports",
+        "selected": 0.20124072604764226,
+        "rest": 0.13983582799209918
+      },
+      {
+        "ticker": "Bicing",
+        "category": "Bicycle Sharing",
+        "selected": 0.21262378625422015,
+        "rest": 0.13673323946400798
+      },
+      {
+        "ticker": "Linea Directa",
+        "category": "Insurance",
+        "selected": 18.099812732832163,
+        "rest": 19.77726043049656
+      },
+      {
+        "ticker": "Emov",
+        "category": "Transportation",
+        "selected": 0.4797103627317798,
+        "rest": 0.37717714032368616
+      },
+      {
+        "ticker": "Foot Locker",
+        "category": "Apparel",
+        "selected": 0.7858455776276467,
+        "rest": 0.6748974625424248
+      },
+      {
+        "ticker": "Aurgi",
+        "category": "Retail Stores",
+        "selected": 0.7217303526118843,
+        "rest": 0.6641555149187894
+      },
+      {
+        "ticker": "La Pausa",
+        "category": "Restaurant",
+        "selected": 0.021096134804758023,
+        "rest": 0.031501788048454736
+      },
+      {
+        "ticker": "Punt Roma",
+        "category": "Restaurant",
+        "selected": 0.23123688865217287,
+        "rest": 0.283803094546803
+      },
+      {
+        "ticker": "BudgetAir",
+        "category": "Travel",
+        "selected": 0.6609719251632159,
+        "rest": 0.5120670422830311
+      },
+      {
+        "ticker": "Wagamama",
+        "category": "Restaurant",
+        "selected": 0.10071114944862523,
+        "rest": 0.06907804277744756
+      },
+      {
+        "ticker": "Amazon Kindle",
+        "category": "E-commerce",
+        "selected": 1.1534713546352555,
+        "rest": 0.7012347168275649
+      },
+      {
+        "ticker": "Eurostars",
+        "category": "Travel",
+        "selected": 0.6003748317655176,
+        "rest": 0.5371898163749295
+      },
+      {
+        "ticker": "Cinesur",
+        "category": "Movies",
+        "selected": 0.09571115338130937,
+        "rest": 0.08759853870804096
+      },
+      {
+        "ticker": "Gasolineras Blancas/Libres/Otras",
+        "category": "Fuel",
+        "selected": 10.947347963397103,
+        "rest": 10.017025403910383
+      },
+      {
+        "ticker": "Notikumi",
+        "category": "Events",
+        "selected": 0.17954988157675864,
+        "rest": 0.1147961766320686
+      },
+      {
+        "ticker": "Douglas",
+        "category": "Beauty",
+        "selected": 0.42006922958598375,
+        "rest": 0.5547576987154227
+      },
+      {
+        "ticker": "Metro de Sevilla",
+        "category": "Transportation",
+        "selected": 0.13938433499663117,
+        "rest": 0.09232041900410673
+      },
+      {
+        "ticker": "Prosegur",
+        "category": "Security Services",
+        "selected": 0.4473975001838088,
+        "rest": 0.8328089079507897
+      },
+      {
+        "ticker": "Curenergia",
+        "category": "Energy",
+        "selected": 0.9032185434353246,
+        "rest": 1.0270295456014251
+      },
+      {
+        "ticker": "Rib's",
+        "category": "Restaurant",
+        "selected": 0.8648617226163312,
+        "rest": 0.5467041739902854
+      },
+      {
+        "ticker": "Norauto",
+        "category": "Automotive",
+        "selected": 3.598948738863548,
+        "rest": 3.0819887790631944
+      },
+      {
+        "ticker": "Wanna",
+        "category": "Events",
+        "selected": 2.7339272192506177,
+        "rest": 2.764038046706712
+      },
+      {
+        "ticker": "Ayuda en accion",
+        "category": "Non-Profit",
+        "selected": 0.24447685864369778,
+        "rest": 0.3626571538374269
+      },
+      {
+        "ticker": "Hiper Usera",
+        "category": "Grocery",
+        "selected": 0.18353789950517474,
+        "rest": 0.20947500605726477
+      },
+      {
+        "ticker": "American Express",
+        "category": "Financial Services",
+        "selected": 1.266625210739502,
+        "rest": 1.527013247691254
+      },
+      {
+        "ticker": "Seat",
+        "category": "Automotive",
+        "selected": 0.27857986523580364,
+        "rest": 0.20907320984948408
+      },
+      {
+        "ticker": "UAB",
+        "category": "Education",
+        "selected": 0.37572551572439217,
+        "rest": 0.19653574282163647
+      },
+      {
+        "ticker": "Jysk",
+        "category": "Home Goods",
+        "selected": 0.25748202059788133,
+        "rest": 0.2946075773363076
+      },
+      {
+        "ticker": "Fismuler",
+        "category": "Healthcare",
+        "selected": 0.07614018486875776,
+        "rest": 0.10713595079563602
+      },
+      {
+        "ticker": "Pomodoro",
+        "category": "Restaurant",
+        "selected": 0.26710975823262156,
+        "rest": 0.1928374661378518
+      },
+      {
+        "ticker": "RKS Footwear",
+        "category": "Apparel",
+        "selected": 0.15783838334219127,
+        "rest": 0.1568402742267316
+      },
+      {
+        "ticker": "Dunkin' Donuts",
+        "category": "Restaurant",
+        "selected": 0.018180524227405362,
+        "rest": 0.009717881564405952
+      },
+      {
+        "ticker": "Sfam",
+        "category": "Retail Stores",
+        "selected": 0.8679028429695893,
+        "rest": 0.529537609066417
+      },
+      {
+        "ticker": "Cines Verdi",
+        "category": "Movies",
+        "selected": 0.058063930291255055,
+        "rest": 0.04103013644486955
+      },
+      {
+        "ticker": "Zippy",
+        "category": "Children",
+        "selected": 0.0510900089082578,
+        "rest": 0.08190647851099778
+      },
+      {
+        "ticker": "Petromiralles",
+        "category": "Fuel",
+        "selected": 0.1944256397519315,
+        "rest": 0.16071181760370998
+      },
+      {
+        "ticker": "Bioparc",
+        "category": "Attractions",
+        "selected": 0.08399492355348753,
+        "rest": 0.07739897139971398
+      },
+      {
+        "ticker": "Kiabi",
+        "category": "Apparel",
+        "selected": 2.239723690896481,
+        "rest": 2.5349287028324246
+      },
+      {
+        "ticker": "Llao llao",
+        "category": "Restaurant",
+        "selected": 0.07062696804727608,
+        "rest": 0.054206933020686444
+      },
+      {
+        "ticker": "Bitiba",
+        "category": "Fashion",
+        "selected": 0.22762356353583701,
+        "rest": 0.18416807672503005
+      },
+      {
+        "ticker": "Kiko Milano",
+        "category": "Beauty",
+        "selected": 0.14811101823586,
+        "rest": 0.2458202126656203
+      },
+      {
+        "ticker": "La Chelinda",
+        "category": "Restaurant",
+        "selected": 0.11525979984903091,
+        "rest": 0.0742337064604327
+      },
+      {
+        "ticker": "Sonorama",
+        "category": "Festivals",
+        "selected": 0.12333552037347217,
+        "rest": 0.12381605713019866
+      },
+      {
+        "ticker": "Wesmartpark",
+        "category": "Parking",
+        "selected": 0.08547904308643654,
+        "rest": 0.04002541272854897
+      },
+      {
+        "ticker": "atresmedia",
+        "category": "Media",
+        "selected": 0.0285525358943105,
+        "rest": 0.017511007933372617
+      },
+      {
+        "ticker": "Allianz",
+        "category": "Insurance",
+        "selected": 10.357627855250533,
+        "rest": 13.549450416718663
+      },
+      {
+        "ticker": "Hiperdino",
+        "category": "Grocery",
+        "selected": 2.020222070010671,
+        "rest": 1.819140987159437
+      },
+      {
+        "ticker": "Supercor",
+        "category": "Grocery",
+        "selected": 4.233954076953747,
+        "rest": 3.9515273926051973
+      },
+      {
+        "ticker": "Lizarran",
+        "category": "Restaurant",
+        "selected": 0.42627702377920057,
+        "rest": 0.3127321891724612
+      },
+      {
+        "ticker": "Republica Movil",
+        "category": "Telecom",
+        "selected": 0.16143126057063203,
+        "rest": 0.1540751411784085
+      },
+      {
+        "ticker": "Hollister",
+        "category": "Apparel",
+        "selected": 1.0895242233062934,
+        "rest": 0.8021801980988812
+      },
+      {
+        "ticker": "Homeaway",
+        "category": "Travel",
+        "selected": 0.31504780642532804,
+        "rest": 0.2974450294765472
+      },
+      {
+        "ticker": "Guess",
+        "category": "Apparel",
+        "selected": 0.3624170149692929,
+        "rest": 0.44172400905008885
+      },
+      {
+        "ticker": "Super Perfumerias",
+        "category": "Beauty",
+        "selected": 0.06512875155761938,
+        "rest": 0.08374055241412964
+      },
+      {
+        "ticker": "Meetic",
+        "category": "Dating App",
+        "selected": 0.16214537600679418,
+        "rest": 0.1130994447134667
+      },
+      {
+        "ticker": "Lacoste",
+        "category": "Apparel",
+        "selected": 0.04413018665351571,
+        "rest": 0.05089939276951982
+      },
+      {
+        "ticker": "Tussam",
+        "category": "Transportation",
+        "selected": 0.042166316784475334,
+        "rest": 0.02430080462165077
+      },
+      {
+        "ticker": "Silken",
+        "category": "Travel",
+        "selected": 0.1523119889138792,
+        "rest": 0.1442255252108138
+      },
+      {
+        "ticker": "Autoeurope",
+        "category": "Rental Cars",
+        "selected": 0.21048823288951782,
+        "rest": 0.2043589583444239
+      },
+      {
+        "ticker": "Emasagra",
+        "category": "Utilities",
+        "selected": 0.4856644968093754,
+        "rest": 0.49938562614261145
+      },
+      {
+        "ticker": "Compralaentrada.com",
+        "category": "Tickets",
+        "selected": 0.04953348931988404,
+        "rest": 0.026052022515286828
+      },
+      {
+        "ticker": "Mercado Provenzal",
+        "category": "Grocery",
+        "selected": 0.0126963868797362,
+        "rest": 0.009089586330155004
+      },
+      {
+        "ticker": "Botemania",
+        "category": "Nightlife",
+        "selected": 0.530933470718968,
+        "rest": 0.841671781447542
+      },
+      {
+        "ticker": "Feuvert",
+        "category": "Retail Stores",
+        "selected": 2.014372001784522,
+        "rest": 1.595081543609289
+      },
+      {
+        "ticker": "Catalana Occidente",
+        "category": "Insurance",
+        "selected": 4.221478072935771,
+        "rest": 4.805829572120152
+      },
+      {
+        "ticker": "Kiehl's",
+        "category": "Beauty",
+        "selected": 0.116838081953627,
+        "rest": 0.23700457436400196
+      },
+      {
+        "ticker": "Bofrost",
+        "category": "Food Delivery",
+        "selected": 0.47776402560209885,
+        "rest": 0.31150714366553706
+      },
+      {
+        "ticker": "Marionnaud",
+        "category": "Beauty",
+        "selected": 0.12180392089757616,
+        "rest": 0.12200891383117732
+      },
+      {
+        "ticker": "Museo Guggenheim",
+        "category": "Arts",
+        "selected": 0.04112729410736404,
+        "rest": 0.03981512923084492
+      },
+      {
+        "ticker": "Intermarche",
+        "category": "Grocery",
+        "selected": 0.2477765724755508,
+        "rest": 0.17506437866513805
+      },
+      {
+        "ticker": "Lycamobile",
+        "category": "Telecom",
+        "selected": 0.0326080948404852,
+        "rest": 0.041447597838285326
+      },
+      {
+        "ticker": "Travelgenio.es",
+        "category": "Travel",
+        "selected": 1.1075751604547193,
+        "rest": 1.0938961662708022
+      },
+      {
+        "ticker": "Midas",
+        "category": "Automotive",
+        "selected": 0.7772474719426938,
+        "rest": 0.6908880894810715
+      },
+      {
+        "ticker": "Chicco",
+        "category": "Children",
+        "selected": 0.045032194292025575,
+        "rest": 0.07338563037733481
+      },
+      {
+        "ticker": "Esso",
+        "category": "Fuel",
+        "selected": 0.21142057420391275,
+        "rest": 0.18641877864525722
+      },
+      {
+        "ticker": "Mutua Madrileña",
+        "category": "Insurance",
+        "selected": 22.685115206302516,
+        "rest": 23.944244443466832
+      },
+      {
+        "ticker": "Room Mate Hotels",
+        "category": "Travel",
+        "selected": 0.07730764655012484,
+        "rest": 0.07467857701096002
+      },
+      {
+        "ticker": "Gros Mercat",
+        "category": "Grocery",
+        "selected": 0.6705241543772917,
+        "rest": 0.45671304891907555
+      },
+      {
+        "ticker": "Adolfo Dominguez",
+        "category": "Apparel",
+        "selected": 0.209812720004307,
+        "rest": 0.33919425254077606
+      },
+      {
+        "ticker": "Mytaxi",
+        "category": "Transportation",
+        "selected": 1.5058817275128586,
+        "rest": 1.1002624652614144
+      },
+      {
+        "ticker": "Deezer",
+        "category": "Music",
+        "selected": 0.08297320202242629,
+        "rest": 0.0351719764620564
+      },
+      {
+        "ticker": "Cinesa",
+        "category": "Entertainment",
+        "selected": 3.8584286915211576,
+        "rest": 2.2854108354615494
+      },
+      {
+        "ticker": "Clarks",
+        "category": "Apparel",
+        "selected": 0.1509933215737263,
+        "rest": 0.16817355525028466
+      },
+      {
+        "ticker": "Shein",
+        "category": "E-commerce",
+        "selected": 0.727380767249697,
+        "rest": 0.913059365214693
+      },
+      {
+        "ticker": "Oferplan",
+        "category": "Discounts",
+        "selected": 0.13234363957934747,
+        "rest": 0.16470099163419932
+      },
+      {
+        "ticker": "Macson",
+        "category": "Apparel",
+        "selected": 0.2196717509421672,
+        "rest": 0.146105178772574
+      },
+      {
+        "ticker": "Uniqlo",
+        "category": "Apparel",
+        "selected": 0.8159027644694403,
+        "rest": 0.8320148631664098
+      },
+      {
+        "ticker": "Deliberry",
+        "category": "Food Delivery",
+        "selected": 0.34632307024209935,
+        "rest": 0.24342003601999704
+      },
+      {
+        "ticker": "Universitat Oberta Catalunya",
+        "category": "Education",
+        "selected": 2.296844434238766,
+        "rest": 0.985781754182986
+      },
+      {
+        "ticker": "Repsol Energia",
+        "category": "Energy",
+        "selected": 0.26152940029518534,
+        "rest": 0.31179125722559337
+      },
+      {
+        "ticker": "Fundacion Teaming",
+        "category": "Non-Profit",
+        "selected": 0.12449594354524379,
+        "rest": 0.13720300162653962
+      },
+      {
+        "ticker": "Mercedes Benz",
+        "category": "Automotive",
+        "selected": 0.7927654255987957,
+        "rest": 0.9857468644917348
+      },
+      {
+        "ticker": "Marco Aldany",
+        "category": "Apparel",
+        "selected": 0.48034822291919027,
+        "rest": 0.4822030574953505
+      },
+      {
+        "ticker": "Som Energia",
+        "category": "Energy",
+        "selected": 1.5459238046693378,
+        "rest": 1.1779062761738872
+      },
+      {
+        "ticker": "SMAP",
+        "category": "Parking",
+        "selected": 0.031507351991862324,
+        "rest": 0.026663726265667015
+      },
+      {
+        "ticker": "K-Tuin",
+        "category": "Retail Stores",
+        "selected": 1.5777550678142458,
+        "rest": 1.4759394148113756
+      },
+      {
+        "ticker": "La Redoute",
+        "category": "E-commerce",
+        "selected": 0.27266032827752823,
+        "rest": 0.367323258258357
+      },
+      {
+        "ticker": "Cepsa",
+        "category": "Fuel",
+        "selected": 24.897561855491496,
+        "rest": 21.713218221949056
+      },
+      {
+        "ticker": "Eroski Estaciones de Sercvicio",
+        "category": "Fuel",
+        "selected": 0.6449986649067039,
+        "rest": 0.5740876026849013
+      },
+      {
+        "ticker": "Toys R Us",
+        "category": "Retail Stores",
+        "selected": 1.0994282481441913,
+        "rest": 1.3154721319389073
+      },
+      {
+        "ticker": "Ubereats.com",
+        "category": "Delivery",
+        "selected": 3.6942212964982715,
+        "rest": 1.806821014347302
+      },
+      {
+        "ticker": "Mamma Mia",
+        "category": "Restaurant",
+        "selected": 0.06538369185695558,
+        "rest": 0.05963006680896499
+      },
+      {
+        "ticker": "Blanco",
+        "category": "Home Goods",
+        "selected": 0.012378906702114374,
+        "rest": 0.03817948810053167
+      },
+      {
+        "ticker": "Vodafone",
+        "category": "Telecom",
+        "selected": 47.76243092104898,
+        "rest": 50.82937654469336
+      },
+      {
+        "ticker": "Habanera",
+        "category": "Restaurant",
+        "selected": 0.0648472881907136,
+        "rest": 0.09776315116639635
+      },
+      {
+        "ticker": "Ahorramas",
+        "category": "Grocery",
+        "selected": 13.026889615013431,
+        "rest": 14.728515018710578
+      },
+      {
+        "ticker": "Santander Generales",
+        "category": "Insurance",
+        "selected": 1.2690951377714752,
+        "rest": 1.9272711319843572
+      },
+      {
+        "ticker": "Twins",
+        "category": "Retail Stores",
+        "selected": 0.9687120615122895,
+        "rest": 1.1200354531911547
+      },
+      {
+        "ticker": "Northweek",
+        "category": "Apparel",
+        "selected": 0.1370338623486911,
+        "rest": 0.06724035120067483
+      },
+      {
+        "ticker": "G Star",
+        "category": "Apparel",
+        "selected": 0.1091601999201323,
+        "rest": 0.147462137530737
+      },
+      {
+        "ticker": "La Mafia",
+        "category": "Restaurant",
+        "selected": 0.2566203253384968,
+        "rest": 0.2260607145720098
+      },
+      {
+        "ticker": "Volkswagen Financial Services",
+        "category": "Financial Services",
+        "selected": 23.52989610900324,
+        "rest": 21.4069241970804
+      },
+      {
+        "ticker": "Vadepizza",
+        "category": "Food Delivery",
+        "selected": 0.07976060729854809,
+        "rest": 0.041517806500232894
+      },
+      {
+        "ticker": "Udaco",
+        "category": "Education",
+        "selected": 0.048452731258512405,
+        "rest": 0.06107391664390937
+      },
+      {
+        "ticker": "Tino Gonzalez",
+        "category": "Restaurant",
+        "selected": 0.10424442777532923,
+        "rest": 0.13081027263113815
+      },
+      {
+        "ticker": "Cashper",
+        "category": "Financial Services",
+        "selected": 0.37438871238635846,
+        "rest": 0.6957682395739186
+      },
+      {
+        "ticker": "Intimissimi",
+        "category": "Apparel",
+        "selected": 0.5392159548985064,
+        "rest": 0.8805680866558082
+      },
+      {
+        "ticker": "Ecooltra",
+        "category": "Transportation",
+        "selected": 0.8426689210061337,
+        "rest": 0.4290344934134472
+      },
+      {
+        "ticker": "Guadalcesa",
+        "category": "Utilities",
+        "selected": 0.02415948680825004,
+        "rest": 0.02729533056221484
+      },
+      {
+        "ticker": "Merkal",
+        "category": "Grocery",
+        "selected": 0.9500583662079954,
+        "rest": 1.1243480829367747
+      },
+      {
+        "ticker": "Reparalia",
+        "category": "Home Improvement",
+        "selected": 0.08243186649988209,
+        "rest": 0.10954612634651308
+      },
+      {
+        "ticker": "Euskaltel",
+        "category": "Telecom",
+        "selected": 1.9045964994954754,
+        "rest": 2.2572819893048672
+      },
+      {
+        "ticker": "Logitravel.com",
+        "category": "Travel",
+        "selected": 1.0779305432876467,
+        "rest": 0.8753121819286883
+      },
+      {
+        "ticker": "Saba Aparcamientos",
+        "category": "Transportation",
+        "selected": 0.2570809066505547,
+        "rest": 0.2539617479686034
+      },
+      {
+        "ticker": "Agoda.com",
+        "category": "Travel",
+        "selected": 0.10769582910500974,
+        "rest": 0.10648769567548734
+      },
+      {
+        "ticker": "Toy Planet",
+        "category": "Retail Stores",
+        "selected": 0.136452332704254,
+        "rest": 0.18357757771330813
+      },
+      {
+        "ticker": "Airbnb.com",
+        "category": "Travel",
+        "selected": 17.773911373854535,
+        "rest": 14.02459454662882
+      },
+      {
+        "ticker": "Oxfam Interman",
+        "category": "Non-Profit",
+        "selected": 0.5988466218571514,
+        "rest": 0.5515158427262102
+      },
+      {
+        "ticker": "La Tagliatella",
+        "category": "Restaurant",
+        "selected": 3.6839711354350215,
+        "rest": 2.7941102986113155
+      },
+      {
+        "ticker": "Perfumerias Laguna",
+        "category": "Beauty",
+        "selected": 0.022986929262821785,
+        "rest": 0.03754278195663666
+      },
+      {
+        "ticker": "Claire's",
+        "category": "Apparel",
+        "selected": 0.14649741946192057,
+        "rest": 0.18213596835919574
+      },
+      {
+        "ticker": "Only You Hotels",
+        "category": "Travel",
+        "selected": 0.04379711108940213,
+        "rest": 0.054172140882383764
+      },
+      {
+        "ticker": "Metro Barcelona",
+        "category": "Transportation",
+        "selected": 5.251488308277941,
+        "rest": 3.0987344904826877
+      },
+      {
+        "ticker": "Caser",
+        "category": "Insurance",
+        "selected": 4.599234794339156,
+        "rest": 6.39690256639969
+      },
+      {
+        "ticker": "Auto Res",
+        "category": "Insurance",
+        "selected": 0.1951394738866925,
+        "rest": 0.14593166232346821
+      },
+      {
+        "ticker": "Faunia",
+        "category": "Attractions",
+        "selected": 0.1243649214609848,
+        "rest": 0.1360656822101923
+      },
+      {
+        "ticker": "Hertz",
+        "category": "Transportation",
+        "selected": 1.4849823332261356,
+        "rest": 0.9705622657370421
+      },
+      {
+        "ticker": "AMA Seguros",
+        "category": "Insurance",
+        "selected": 1.3192376449628884,
+        "rest": 1.5070183445066565
+      },
+      {
+        "ticker": "Amazonico",
+        "category": "Restaurant",
+        "selected": 0.058711885173191716,
+        "rest": 0.0798700318117693
+      },
+      {
+        "ticker": "Spagnolo",
+        "category": "Restaurant",
+        "selected": 0.017311026823293968,
+        "rest": 0.037571130974905984
+      },
+      {
+        "ticker": "PSN",
+        "category": "Gaming",
+        "selected": 0.45195287422150204,
+        "rest": 0.6643008155596508
+      },
+      {
+        "ticker": "Alimerka",
+        "category": "Grocery",
+        "selected": 2.804053519553882,
+        "rest": 3.0576607173471584
+      },
+      {
+        "ticker": "Reale",
+        "category": "Insurance",
+        "selected": 2.9583735859092584,
+        "rest": 4.259338242951358
+      },
+      {
+        "ticker": "Aviva",
+        "category": "Insurance",
+        "selected": 0.21173635835876548,
+        "rest": 0.23044043130014086
+      },
+      {
+        "ticker": "Honda Bank",
+        "category": "Financial Services",
+        "selected": 2.372477742694919,
+        "rest": 1.5614880036305447
+      },
+      {
+        "ticker": "Starbucks",
+        "category": "Restaurant",
+        "selected": 1.3697132406724482,
+        "rest": 0.9378738903705498
+      },
+      {
+        "ticker": "Ibis Budget",
+        "category": "Travel",
+        "selected": 0.17965667622845657,
+        "rest": 0.1485034271142642
+      },
+      {
+        "ticker": "Starlite",
+        "category": "Events",
+        "selected": 0.07172683745436582,
+        "rest": 0.10558207080315124
+      },
+      {
+        "ticker": "Petit Bateau",
+        "category": "Children",
+        "selected": 0.023135822006591335,
+        "rest": 0.054787829856486066
+      },
+      {
+        "ticker": "Balearia",
+        "category": "Transportation",
+        "selected": 0.567687063124174,
+        "rest": 0.5906800673372452
+      },
+      {
+        "ticker": "Budget",
+        "category": "Rental Cars",
+        "selected": 0.07187611664536643,
+        "rest": 0.09875056097835595
+      },
+      {
+        "ticker": "Adidas",
+        "category": "Apparel",
+        "selected": 2.319851405572436,
+        "rest": 2.118703478254917
+      },
+      {
+        "ticker": "Querol",
+        "category": "Grocery",
+        "selected": 0.10122463138245864,
+        "rest": 0.11922103158838754
+      },
+      {
+        "ticker": "Securitas Direct",
+        "category": "Security",
+        "selected": 4.647180167538936,
+        "rest": 5.8037271481194965
+      },
+      {
+        "ticker": "Condis Express",
+        "category": "Grocery",
+        "selected": 0.23717118132965315,
+        "rest": 0.11908873475399856
+      },
+      {
+        "ticker": "La Vaca Argentina",
+        "category": "Restaurant",
+        "selected": 0.05100935562338166,
+        "rest": 0.03909120925283271
+      },
+      {
+        "ticker": "Wish",
+        "category": "E-commerce",
+        "selected": 1.022529836861165,
+        "rest": 0.9031852138925938
+      },
+      {
+        "ticker": "Super Amara",
+        "category": "Grocery",
+        "selected": 0.6582645513809865,
+        "rest": 0.6474792821139815
+      },
+      {
+        "ticker": "Chicfy",
+        "category": "E-commerce",
+        "selected": 0.0669193664563871,
+        "rest": 0.19271672660005862
+      },
+      {
+        "ticker": "Bimba y Lola",
+        "category": "Apparel",
+        "selected": 0.4822931525444004,
+        "rest": 0.9527743811134345
+      },
+      {
+        "ticker": "Uber",
+        "category": "Transportation",
+        "selected": 5.515121122353771,
+        "rest": 3.774368239104009
+      },
+      {
+        "ticker": "Subway",
+        "category": "Fast Food",
+        "selected": 0.19247484914565396,
+        "rest": 0.0991118579668542
+      },
+      {
+        "ticker": "Dormity",
+        "category": "Home Goods",
+        "selected": 0.23574848634603007,
+        "rest": 0.1892814459358813
+      },
+      {
+        "ticker": "EDP HC Energia",
+        "category": "Energy",
+        "selected": 0.7228175237697507,
+        "rest": 0.8714679511021342
+      },
+      {
+        "ticker": "HBO",
+        "category": "Streaming",
+        "selected": 2.291124493867487,
+        "rest": 1.1909065801743384
+      },
+      {
+        "ticker": "El Ganso",
+        "category": "Apparel",
+        "selected": 0.35121489799988814,
+        "rest": 0.5108984335398277
+      },
+      {
+        "ticker": "Steam",
+        "category": "Gaming",
+        "selected": 9.598184028586045,
+        "rest": 0.0016537194925990775
+      },
+      {
+        "ticker": "Vitaldent",
+        "category": "Healthcare",
+        "selected": 0.11524006432345897,
+        "rest": 0.13425500390388906
+      },
+      {
+        "ticker": "Nautalia",
+        "category": "Travel",
+        "selected": 0.39922170421905445,
+        "rest": 0.44402933721102467
+      },
+      {
+        "ticker": "Perfumeria If",
+        "category": "Beauty",
+        "selected": 0.02192314942666416,
+        "rest": 0.03163165250268763
+      },
+      {
+        "ticker": "PETuluku",
+        "category": "Pet Supplies",
+        "selected": 0.20398486687702164,
+        "rest": 0.12637063504516413
+      },
+      {
+        "ticker": "Top Recambios",
+        "category": "Automotive",
+        "selected": 0.1615029634755575,
+        "rest": 0.1688369781386646
+      },
+      {
+        "ticker": "Peggy Sue's",
+        "category": "Restaurant",
+        "selected": 0.0504208386204582,
+        "rest": 0.03124217647258198
+      },
+      {
+        "ticker": "Bricoking",
+        "category": "Home Improvement",
+        "selected": 0.03867182200265518,
+        "rest": 0.04680312086792501
+      },
+      {
+        "ticker": "Esquiades.com",
+        "category": "Travel",
+        "selected": 0.6679989357374778,
+        "rest": 0.45691764374495925
+      },
+      {
+        "ticker": "Paco Martinez",
+        "category": "Restaurant",
+        "selected": 0.19433543277167986,
+        "rest": 0.23781884376427795
+      },
+      {
+        "ticker": "Centauro",
+        "category": "Sports",
+        "selected": 0.1122993686421467,
+        "rest": 0.11000432472460407
+      },
+      {
+        "ticker": "Blizzard",
+        "category": "Gaming",
+        "selected": 1.6349742199805417,
+        "rest": 0.07337073174383556
+      },
+      {
+        "ticker": "Scalpers",
+        "category": "Apparel",
+        "selected": 0.8953596670641116,
+        "rest": 1.2030546662513248
+      },
+      {
+        "ticker": "Ubisoft",
+        "category": "Gaming",
+        "selected": 0.2137948209232294,
+        "rest": 0.016185801833993887
+      },
+      {
+        "ticker": "MasMovil",
+        "category": "Telecom",
+        "selected": 3.5511972571715207,
+        "rest": 3.507067120079238
+      },
+      {
+        "ticker": "Dia Market",
+        "category": "Grocery",
+        "selected": 0.3302973406009418,
+        "rest": 0.20855852063294827
+      },
+      {
+        "ticker": "Calvin Klein",
+        "category": "Apparel",
+        "selected": 0.26276711330719393,
+        "rest": 0.2832120716260736
+      },
+      {
+        "ticker": "Plus Fresc",
+        "category": "Grocery",
+        "selected": 0.9104031392127071,
+        "rest": 0.759564595514083
+      },
+      {
+        "ticker": "Game",
+        "category": "Gaming",
+        "selected": 11.666566302915887,
+        "rest": 3.7470412523003396
+      },
+      {
+        "ticker": "Ulabox",
+        "category": "Grocery Delivery",
+        "selected": 0.7009710696725769,
+        "rest": 0.5187006479504703
+      },
+      {
+        "ticker": "Euromaster",
+        "category": "Automotive",
+        "selected": 0.12986429115010592,
+        "rest": 0.17113645066550368
+      },
+      {
+        "ticker": "Tryp",
+        "category": "Travel",
+        "selected": 0.22661711247121952,
+        "rest": 0.1921233484685215
+      },
+      {
+        "ticker": "Paga+tarde",
+        "category": "Financial Services",
+        "selected": 1.0950033388881404,
+        "rest": 0.6464537400165005
+      },
+      {
+        "ticker": "Wizink",
+        "category": "Financial Services",
+        "selected": 14.406484056632767,
+        "rest": 18.17595721812209
+      },
+      {
+        "ticker": "Guissona",
+        "category": "Grocery",
+        "selected": 0.1304050238424905,
+        "rest": 0.09227635257705281
+      },
+      {
+        "ticker": "Privalia",
+        "category": "E-commerce",
+        "selected": 2.3916351857765967,
+        "rest": 3.8759636771956343
+      },
+      {
+        "ticker": "Cinepolis",
+        "category": "Movies",
+        "selected": 0.07889754196297048,
+        "rest": 0.03501042138003325
+      },
+      {
+        "ticker": "NBQ Fund One",
+        "category": "Financial Services",
+        "selected": 0.8384537052023511,
+        "rest": 0.6876785115328923
+      },
+      {
+        "ticker": "Autema",
+        "category": "Automotive",
+        "selected": 0.028938713755340455,
+        "rest": 0.02526177800238606
+      },
+      {
+        "ticker": "Accesos de Madrid",
+        "category": "Transportation",
+        "selected": 0.09520731860979076,
+        "rest": 0.09038215708876583
+      },
+      {
+        "ticker": "Servicios Financieros Carrefour",
+        "category": "Financial Services",
+        "selected": 16.203050412826222,
+        "rest": 19.776925237437084
+      },
+      {
+        "ticker": "Perfumarte",
+        "category": "Beauty",
+        "selected": 0.019031488744661734,
+        "rest": 0.04099382455990498
+      },
+      {
+        "ticker": "Dreambeach",
+        "category": "Festivals",
+        "selected": 0.18521855646261293,
+        "rest": 0.08002931436014002
+      },
+      {
+        "ticker": "Brownie",
+        "category": "Food",
+        "selected": 0.08419749603643106,
+        "rest": 0.15702903900698661
+      },
+      {
+        "ticker": "Verti",
+        "category": "Insurance",
+        "selected": 2.4410989796927685,
+        "rest": 2.3393650011544223
+      },
+      {
+        "ticker": "Lefties",
+        "category": "Apparel",
+        "selected": 1.5522891946163084,
+        "rest": 2.0229551265870844
+      },
+      {
+        "ticker": "Cines Lys",
+        "category": "Movies",
+        "selected": 0.04092005868514461,
+        "rest": 0.023113509324699095
+      },
+      {
+        "ticker": "Tradicionarius",
+        "category": "Food",
+        "selected": 0.01504665879179604,
+        "rest": 0.009847619670281856
+      },
+      {
+        "ticker": "Restaurante Ikea",
+        "category": "Restaurant",
+        "selected": 0.49763389878698017,
+        "rest": 0.45716258230805473
+      },
+      {
+        "ticker": "MarcaApuestas",
+        "category": "Gambling",
+        "selected": 0.12032358654122507,
+        "rest": 0.18525021764477892
+      },
+      {
+        "ticker": "Tesco",
+        "category": "Grocery",
+        "selected": 0.2999734415270732,
+        "rest": 0.20643787655176318
+      },
+      {
+        "ticker": "GM Oil",
+        "category": "Automotive",
+        "selected": 0.574487353402513,
+        "rest": 0.40637493631904353
+      },
+      {
+        "ticker": "Basic Fit",
+        "category": "Fitness",
+        "selected": 1.0455922818578463,
+        "rest": 0.8514169648739788
+      },
+      {
+        "ticker": "Papizza",
+        "category": "Restaurant",
+        "selected": 0.059042761375560686,
+        "rest": 0.03934096932060486
+      },
+      {
+        "ticker": "Simply",
+        "category": "Grocery",
+        "selected": 6.694361610296654,
+        "rest": 6.453379604556566
+      },
+      {
+        "ticker": "Max Colchon",
+        "category": "Home Goods",
+        "selected": 0.30162294642337867,
+        "rest": 0.27322997076546257
+      },
+      {
+        "ticker": "Eurest",
+        "category": "Restaurant",
+        "selected": 0.43874296689333253,
+        "rest": 0.3501452206107927
+      },
+      {
+        "ticker": "Aegon",
+        "category": "Insurance",
+        "selected": 1.4269449725013226,
+        "rest": 1.5969784514497747
+      },
+      {
+        "ticker": "Metro Ligero Oeste",
+        "category": "Transportation",
+        "selected": 0.07270117305291222,
+        "rest": 0.041156604014466996
+      },
+      {
+        "ticker": "Neocine",
+        "category": "Movies",
+        "selected": 0.09368627801006366,
+        "rest": 0.05394713658270809
+      },
+      {
+        "ticker": "CPP",
+        "category": "Financial Services",
+        "selected": 0.0424462599405988,
+        "rest": 0.03556747117437787
+      },
+      {
+        "ticker": "Tommy Hilfiger",
+        "category": "Apparel",
+        "selected": 0.5452275537526535,
+        "rest": 0.44062607114327546
+      },
+      {
+        "ticker": "Promod",
+        "category": "Apparel",
+        "selected": 0.088065774379805,
+        "rest": 0.13340024231195463
+      },
+      {
+        "ticker": "El Corte Ingles Seguros",
+        "category": "Insurance",
+        "selected": 0.5328236055364726,
+        "rest": 0.7969471083607421
+      },
+      {
+        "ticker": "Deliveroo",
+        "category": "Delivery",
+        "selected": 6.19335166047147,
+        "rest": 2.83667422622815
+      },
+      {
+        "ticker": "Fnac",
+        "category": "Retail Stores",
+        "selected": 11.761557725790652,
+        "rest": 6.382094334418573
+      },
+      {
+        "ticker": "Lufthansa",
+        "category": "Airlines",
+        "selected": 1.07679815609431,
+        "rest": 0.8450006519079997
+      },
+      {
+        "ticker": "Lupa",
+        "category": "Financial Services",
+        "selected": 1.589165668145297,
+        "rest": 2.281089830423259
+      },
+      {
+        "ticker": "Deporticket",
+        "category": "Tickets",
+        "selected": 0.10063454454154198,
+        "rest": 0.10986617465417065
+      },
+      {
+        "ticker": "Filmin",
+        "category": "Streaming",
+        "selected": 0.09442407194974652,
+        "rest": 0.05699670093956624
+      },
+      {
+        "ticker": "Electro Depot",
+        "category": "Electronics",
+        "selected": 0.1369727059158924,
+        "rest": 0.14855722725727494
+      },
+      {
+        "ticker": "BBVA Consumer Finance",
+        "category": "Financial Services",
+        "selected": 2.984485320888382,
+        "rest": 2.6600143508035807
+      },
+      {
+        "ticker": "Sephora",
+        "category": "Beauty",
+        "selected": 1.3071666133102788,
+        "rest": 1.5934671429680352
+      },
+      {
+        "ticker": "Amoma.com",
+        "category": "Travel",
+        "selected": 0.29301615341789217,
+        "rest": 0.27628875095134486
+      },
+      {
+        "ticker": "AC Hotels",
+        "category": "Travel",
+        "selected": 0.07744736787016102,
+        "rest": 0.05983437135414405
+      },
+      {
+        "ticker": "Babelia",
+        "category": "Books",
+        "selected": 0.043552323191382206,
+        "rest": 0.051310613366192095
+      },
+      {
+        "ticker": "Kaspersky",
+        "category": "Cybersecurity",
+        "selected": 0.08100358361553771,
+        "rest": 0.04462800275385105
+      },
+      {
+        "ticker": "Paco perfumerias",
+        "category": "Beauty",
+        "selected": 0.12292591171510044,
+        "rest": 0.15781603509427988
+      },
+      {
+        "ticker": "Sport Zone",
+        "category": "Retail Stores",
+        "selected": 0.33151058073579265,
+        "rest": 0.27605107477128443
+      },
+      {
+        "ticker": "Sagardi",
+        "category": "Restaurant",
+        "selected": 0.047693719355735936,
+        "rest": 0.03588154990268099
+      },
+      {
+        "ticker": "Caja Rural",
+        "category": "Banking",
+        "selected": 0.6760497604133923,
+        "rest": 0.9722909119664567
+      },
+      {
+        "ticker": "Pedro del Hierro",
+        "category": "Apparel",
+        "selected": 0.15232706035864288,
+        "rest": 0.18918059708540316
+      },
+      {
+        "ticker": "Autopista Madrid Levante",
+        "category": "Transportation",
+        "selected": 0.0425308662837659,
+        "rest": 0.04497976782638609
+      },
+      {
+        "ticker": "Meroil",
+        "category": "Fuel",
+        "selected": 0.739499974308505,
+        "rest": 0.5366382956702253
+      },
+      {
+        "ticker": "Okeysi",
+        "category": "Financial Services",
+        "selected": 0.03180357328471862,
+        "rest": 0.06712515607317454
+      },
+      {
+        "ticker": "Segurcaixa",
+        "category": "Insurance",
+        "selected": 5.751422681782784,
+        "rest": 7.771411136742135
+      },
+      {
+        "ticker": "Lebara",
+        "category": "Telecom",
+        "selected": 0.02469782876906269,
+        "rest": 0.05286839918453791
+      },
+      {
+        "ticker": "Legalitas",
+        "category": "Legal Services",
+        "selected": 0.3559445514190397,
+        "rest": 0.35784994114055096
+      },
+      {
+        "ticker": "La Casa de la Carcasa",
+        "category": "Electronics",
+        "selected": 0.19064692737857244,
+        "rest": 0.1899248608290422
+      },
+      {
+        "ticker": "Zara Home",
+        "category": "Home Goods",
+        "selected": 1.8924699841632642,
+        "rest": 3.0217524021112014
+      },
+      {
+        "ticker": "El Arbol",
+        "category": "Restaurant",
+        "selected": 1.8059531438560001,
+        "rest": 1.6412870166230575
+      },
+      {
+        "ticker": "Groupalia",
+        "category": "Discounts",
+        "selected": 0.13455999084649206,
+        "rest": 0.12867632008572719
+      },
+      {
+        "ticker": "Ibis Hotels",
+        "category": "Travel",
+        "selected": 0.49889321109978496,
+        "rest": 0.4186890795196752
+      },
+      {
+        "ticker": "Showroomprive",
+        "category": "E-commerce",
+        "selected": 0.19307765094146587,
+        "rest": 0.24074761828320906
+      },
+      {
+        "ticker": "Perfumeria Julia",
+        "category": "Beauty",
+        "selected": 0.07866829637594083,
+        "rest": 0.09323446165197098
+      },
+      {
+        "ticker": "La Sirena",
+        "category": "Restaurant",
+        "selected": 1.1640209020807233,
+        "rest": 0.9572605063773794
+      },
+      {
+        "ticker": "Abercrombie",
+        "category": "Apparel",
+        "selected": 0.35854850058969145,
+        "rest": 0.2547235328942252
+      },
+      {
+        "ticker": "Amazon Prime Now",
+        "category": "Delivery",
+        "selected": 3.6094813223783175,
+        "rest": 1.7485520033889463
+      },
+      {
+        "ticker": "Massimo Dutti",
+        "category": "Apparel",
+        "selected": 4.610534717659866,
+        "rest": 5.627361166059658
+      },
+      {
+        "ticker": "Virgin Active",
+        "category": "Fitness",
+        "selected": 0.34998623617152824,
+        "rest": 0.27774701242882427
+      },
+      {
+        "ticker": "Udon",
+        "category": "Restaurant",
+        "selected": 0.855227809023028,
+        "rest": 0.43964695425302946
+      },
+      {
+        "ticker": "MM Globalis",
+        "category": "Travel",
+        "selected": 0.4851334730100204,
+        "rest": 0.5016622706245801
+      },
+      {
+        "ticker": "BodyBell",
+        "category": "Fitness",
+        "selected": 0.5607957822575652,
+        "rest": 0.7325526368913918
+      },
+      {
+        "ticker": "Mad Cool Festival",
+        "category": "Events",
+        "selected": 0.17268097486999445,
+        "rest": 0.12053233070968782
+      },
+      {
+        "ticker": "Booking.com",
+        "category": "Travel",
+        "selected": 5.923849973635889,
+        "rest": 5.315310027700292
+      },
+      {
+        "ticker": "Aristocrazy",
+        "category": "Apparel",
+        "selected": 0.16023856599993327,
+        "rest": 0.20289994367821357
+      },
+      {
+        "ticker": "Purificacion Garcia",
+        "category": "Fashion",
+        "selected": 0.08723643841184876,
+        "rest": 0.1621110285520649
+      },
+      {
+        "ticker": "Tarjeta Inditex",
+        "category": "Retail Loyalty Program",
+        "selected": 1.2805108389046478,
+        "rest": 2.5066446019539623
+      },
+      {
+        "ticker": "Dropbox",
+        "category": "Cloud Storage",
+        "selected": 0.2724994289283244,
+        "rest": 0.2196355454869086
+      },
+      {
+        "ticker": "Rodilla",
+        "category": "Retail Stores",
+        "selected": 0.4206971551189054,
+        "rest": 0.3626858198948272
+      },
+      {
+        "ticker": "Tous",
+        "category": "Jewelry",
+        "selected": 0.87720950583268,
+        "rest": 1.0176289855200569
+      },
+      {
+        "ticker": "La Maquina de Chamberi",
+        "category": "Restaurant",
+        "selected": 0.057733261675779156,
+        "rest": 0.0660445875021843
+      },
+      {
+        "ticker": "Expedia.es",
+        "category": "Travel",
+        "selected": 1.035256526469659,
+        "rest": 0.8240058173059637
+      },
+      {
+        "ticker": "Oney Servicios Financieros",
+        "category": "Financial Services",
+        "selected": 7.244903312884367,
+        "rest": 9.51248065505659
+      },
+      {
+        "ticker": "Pc Box",
+        "category": "Electronics",
+        "selected": 0.3735058408284081,
+        "rest": 0.13435378464731942
+      },
+      {
+        "ticker": "Worten",
+        "category": "Electronics",
+        "selected": 2.3683555285168656,
+        "rest": 1.9280283345159284
+      },
+      {
+        "ticker": "NH Collection",
+        "category": "Travel",
+        "selected": 0.12274490387952545,
+        "rest": 0.16241457547323923
+      },
+      {
+        "ticker": "Sabadell Consumer Finance",
+        "category": "Financial Services",
+        "selected": 6.176533011726322,
+        "rest": 6.125819812159256
+      },
+      {
+        "ticker": "Fifty Factory",
+        "category": "Apparel",
+        "selected": 0.6816145119350863,
+        "rest": 0.7681716852194025
+      },
+      {
+        "ticker": "Canal Isabel II",
+        "category": "Utilities",
+        "selected": 4.798513934612988,
+        "rest": 5.775856514485586
+      },
+      {
+        "ticker": "Amazon Prime",
+        "category": "Subscription Services",
+        "selected": 4.3772796833071,
+        "rest": 2.8927235031496394
+      },
+      {
+        "ticker": "Costco",
+        "category": "Grocery",
+        "selected": 3.356426156835522,
+        "rest": 3.124747828535315
+      },
+      {
+        "ticker": "Cash Lepe",
+        "category": "Financial Services",
+        "selected": 0.3887847118304397,
+        "rest": 0.5648868744718852
+      },
+      {
+        "ticker": "Amichi",
+        "category": "Apparel",
+        "selected": 0.08779740870616624,
+        "rest": 0.1499230832746245
+      },
+      {
+        "ticker": "Esclat",
+        "category": "Grocery",
+        "selected": 2.758174572912494,
+        "rest": 2.155150321375761
+      },
+      {
+        "ticker": "JCA Cinemes",
+        "category": "Movies",
+        "selected": 0.05572942508345519,
+        "rest": 0.027333313336507483
+      },
+      {
+        "ticker": "Sufi Hixienes",
+        "category": "Cleaning Supplies",
+        "selected": 0.007533740511311816,
+        "rest": 0.005114184280278952
+      },
+      {
+        "ticker": "Ausol",
+        "category": "Transportation",
+        "selected": 0.2895860526891806,
+        "rest": 0.33726423552561374
+      },
+      {
+        "ticker": "Dia",
+        "category": "Grocery",
+        "selected": 17.56731855373514,
+        "rest": 18.10540489089469
+      },
+      {
+        "ticker": "Uber Eats",
+        "category": "Delivery",
+        "selected": 0.6855652742243618,
+        "rest": 0.3539741586764577
+      },
+      {
+        "ticker": "Gambrinus",
+        "category": "Restaurant",
+        "selected": 0.1597851384166491,
+        "rest": 0.15265419865729163
+      },
+      {
+        "ticker": "Lola Rey",
+        "category": "Apparel",
+        "selected": 0.09478564556739184,
+        "rest": 0.10987136469038325
+      },
+      {
+        "ticker": "Bijou Brigitte",
+        "category": "Jewelry",
+        "selected": 0.19360756722308087,
+        "rest": 0.2367034492138457
+      },
+      {
+        "ticker": "Mega Calzado",
+        "category": "Apparel",
+        "selected": 0.1747087483790152,
+        "rest": 0.16253549689676156
+      },
+      {
+        "ticker": "C&amp;A",
+        "category": "Apparel",
+        "selected": 2.27885052598265,
+        "rest": 1.9542572639422648
+      },
+      {
+        "ticker": "La Cantina",
+        "category": "Restaurant",
+        "selected": 0.07384460472962341,
+        "rest": 0.08881981391977943
+      },
+      {
+        "ticker": "Atmosfera Sport",
+        "category": "Sports",
+        "selected": 0.06652909371174769,
+        "rest": 0.048347004644099356
+      },
+      {
+        "ticker": "Audasa",
+        "category": "Transportation",
+        "selected": 0.18284176680511657,
+        "rest": 0.1660368848584475
+      },
+      {
+        "ticker": "Toyota (SO)",
+        "category": "Automotive",
+        "selected": 0.44443367982052145,
+        "rest": 0.4448192556938518
+      },
+      {
+        "ticker": "Cajamar Caja Rural",
+        "category": "Banking",
+        "selected": 0.46588467361391417,
+        "rest": 0.5529661196886972
+      },
+      {
+        "ticker": "Tezenis",
+        "category": "Apparel",
+        "selected": 0.5019238018324318,
+        "rest": 0.794018182718835
+      },
+      {
+        "ticker": "Cottet Online",
+        "category": "Apparel",
+        "selected": 0.13322969559438327,
+        "rest": 0.13030952627039247
+      },
+      {
+        "ticker": "Mustang",
+        "category": "Apparel",
+        "selected": 0.0664205001535329,
+        "rest": 0.0909085244419156
+      },
+      {
+        "ticker": "Rakuten",
+        "category": "E-commerce",
+        "selected": 0.12385333727207593,
+        "rest": 0.07897395812270916
+      },
+      {
+        "ticker": "Duty Free Dubai",
+        "category": "Retail Stores",
+        "selected": 0.0405347805484617,
+        "rest": 0.02821007010105163
+      },
+      {
+        "ticker": "Nails Factory",
+        "category": "Beauty",
+        "selected": 0.06820233413873633,
+        "rest": 0.20377772795846905
+      },
+      {
+        "ticker": "Top Queens",
+        "category": "Nightlife",
+        "selected": 0.026274989018421433,
+        "rest": 0.04003356214479618
+      },
+      {
+        "ticker": "Sky",
+        "category": "Streaming",
+        "selected": 0.04744333147694652,
+        "rest": 0.03232762017714661
+      },
+      {
+        "ticker": "DKV",
+        "category": "Healthcare",
+        "selected": 2.412542905997523,
+        "rest": 2.7901834739838995
+      },
+      {
+        "ticker": "Facebook",
+        "category": "Social Media",
+        "selected": 0.7190718210729906,
+        "rest": 0.39510758994589296
+      },
+      {
+        "ticker": "Abanca",
+        "category": "Financial Services",
+        "selected": 1.9685935860567043,
+        "rest": 1.9651647625666784
+      },
+      {
+        "ticker": "La Fonda",
+        "category": "Restaurant",
+        "selected": 0.058412472923295954,
+        "rest": 0.08430625589387558
+      },
+      {
+        "ticker": "Kreditech",
+        "category": "Financial Services",
+        "selected": 0.441011692707653,
+        "rest": 0.4640075788132507
+      },
+      {
+        "ticker": "Orange",
+        "category": "Telecom",
+        "selected": 33.941174847446064,
+        "rest": 38.78130161922994
+      },
+      {
+        "ticker": "Vip Smart",
+        "category": "Financial Services",
+        "selected": 0.3505365964177499,
+        "rest": 0.19779275590739256
+      },
+      {
+        "ticker": "Aguas de Alicante",
+        "category": "Utilities",
+        "selected": 0.2764230556310622,
+        "rest": 0.28075897750021317
+      },
+      {
+        "ticker": "Melia",
+        "category": "Travel",
+        "selected": 0.5365898268665212,
+        "rest": 0.7075614459409001
+      },
+      {
+        "ticker": "Ocaso",
+        "category": "Insurance",
+        "selected": 3.5028106745690657,
+        "rest": 4.568274208010679
+      },
+      {
+        "ticker": "Toyota Kreditbank",
+        "category": "Financial Services",
+        "selected": 5.429028454095776,
+        "rest": 5.025768786987609
+      },
+      {
+        "ticker": "BMW Financial Services",
+        "category": "Financial Services",
+        "selected": 5.326859056677248,
+        "rest": 5.832517846150947
+      },
+      {
+        "ticker": "Ryanair",
+        "category": "Travel",
+        "selected": 12.740388827931957,
+        "rest": 11.009048426460684
+      },
+      {
+        "ticker": "Aguas de Barcelona",
+        "category": "Utilities",
+        "selected": 2.804063721354692,
+        "rest": 2.6274942078694017
+      },
+      {
+        "ticker": "Cooltra",
+        "category": "Transportation",
+        "selected": 0.13864497094727726,
+        "rest": 0.10621326660656644
+      },
+      {
+        "ticker": "BBVA Seguros",
+        "category": "Insurance",
+        "selected": 4.244592597227277,
+        "rest": 6.2043142587232065
+      },
+      {
+        "ticker": "Netflix",
+        "category": "Streaming",
+        "selected": 13.98398344537273,
+        "rest": 7.639665561541243
+      },
+      {
+        "ticker": "Pilar Prieto",
+        "category": "Beauty",
+        "selected": 0.04655828545285683,
+        "rest": 0.07732165015063903
+      },
+      {
+        "ticker": "Opticalia",
+        "category": "Eyewear",
+        "selected": 0.41565885101587546,
+        "rest": 0.4154636017282492
+      },
+      {
+        "ticker": "La Chalana",
+        "category": "Restaurant",
+        "selected": 0.04112133955360592,
+        "rest": 0.04300581277397832
+      },
+      {
+        "ticker": "Lime",
+        "category": "Transportation",
+        "selected": 0.05005198915235453,
+        "rest": 0.04068412218956976
+      },
+      {
+        "ticker": "Kinepolis",
+        "category": "Entertainment",
+        "selected": 1.2464109656538205,
+        "rest": 0.6686823630206722
+      },
+      {
+        "ticker": "Costco Estacion de Servicio",
+        "category": "Fuel",
+        "selected": 1.2027925581248182,
+        "rest": 1.0247256546016277
+      },
+      {
+        "ticker": "Rip Curl",
+        "category": "Apparel",
+        "selected": 0.055345530800404226,
+        "rest": 0.06010053522059382
+      },
+      {
+        "ticker": "Pepe Energy",
+        "category": "Energy",
+        "selected": 1.1937779840434204,
+        "rest": 0.9042748690071828
+      },
+      {
+        "ticker": "Charanga",
+        "category": "Restaurant",
+        "selected": 0.020979877913590007,
+        "rest": 0.041119601842040956
+      },
+      {
+        "ticker": "Tuc tuc",
+        "category": "Children",
+        "selected": 0.05389935648057446,
+        "rest": 0.10883082457243554
+      },
+      {
+        "ticker": "Iberdrola",
+        "category": "Fuel",
+        "selected": 44.83719170394355,
+        "rest": 53.891736446349924
+      },
+      {
+        "ticker": "Eroski City",
+        "category": "Grocery",
+        "selected": 0.9563452934956596,
+        "rest": 0.9377309542494128
+      },
+      {
+        "ticker": "Veritas",
+        "category": "Healthcare",
+        "selected": 0.7209346033180136,
+        "rest": 0.7461211695083041
+      },
+      {
+        "ticker": "Eje Aeropuerto",
+        "category": "Transportation",
+        "selected": 0.015514338164326463,
+        "rest": 0.014620975770313512
+      },
+      {
+        "ticker": "Acnur",
+        "category": "Non-Profit",
+        "selected": 2.046388639934635,
+        "rest": 1.7302178698644768
+      },
+      {
+        "ticker": "Cines El Punt",
+        "category": "Movies",
+        "selected": 0.026530379113732547,
+        "rest": 0.020783119269972616
+      },
+      {
+        "ticker": "Apple Store",
+        "category": "Electronics",
+        "selected": 6.966767085437534,
+        "rest": 5.447024411061014
+      },
+      {
+        "ticker": "Drivy",
+        "category": "Rental Cars",
+        "selected": 0.12078592271306812,
+        "rest": 0.1007582701083838
+      },
+      {
+        "ticker": "Mulaya",
+        "category": "Restaurant",
+        "selected": 0.0730484595902261,
+        "rest": 0.15313956902487663
+      },
+      {
+        "ticker": "Lucera Energia Colectiva",
+        "category": "Energy",
+        "selected": 0.5917325767965884,
+        "rest": 0.5294868825530482
+      },
+      {
+        "ticker": "Eurekakids",
+        "category": "Retail Stores",
+        "selected": 0.12235766591811253,
+        "rest": 0.16813764705891135
+      },
+      {
+        "ticker": "Aumar",
+        "category": "Grocery",
+        "selected": 1.8679855105790673,
+        "rest": 1.717298527209429
+      },
+      {
+        "ticker": "Ginos",
+        "category": "Restaurant",
+        "selected": 1.2615523972740585,
+        "rest": 0.9268298874575802
+      },
+      {
+        "ticker": "Sorea",
+        "category": "Travel",
+        "selected": 1.386125025380334,
+        "rest": 1.4171097178655163
+      },
+      {
+        "ticker": "Petit Palace",
+        "category": "Travel",
+        "selected": 0.09992936241426484,
+        "rest": 0.07981710270893262
+      },
+      {
+        "ticker": "Nanos",
+        "category": "Food",
+        "selected": 0.08992655630704108,
+        "rest": 0.12477705541413583
+      },
+      {
+        "ticker": "La Nevera Roja",
+        "category": "Restaurant",
+        "selected": 0.19964057151436262,
+        "rest": 0.08322385792801293
+      },
+      {
+        "ticker": "IMQ",
+        "category": "Healthcare",
+        "selected": 0.7406452300100277,
+        "rest": 1.322087446370532
+      },
+      {
+        "ticker": "La Balear",
+        "category": "Travel",
+        "selected": 0.02046381094141846,
+        "rest": 0.022428835594757023
+      },
+      {
+        "ticker": "Converse",
+        "category": "Apparel",
+        "selected": 0.11187736501912354,
+        "rest": 0.11600743760501905
+      },
+      {
+        "ticker": "Yelmo Cines",
+        "category": "Entertainment",
+        "selected": 2.065583361894986,
+        "rest": 1.225312443127732
+      },
+      {
+        "ticker": "Arepa Ole",
+        "category": "Restaurant",
+        "selected": 0.013308670778989342,
+        "rest": 0.015916539748601417
+      },
+      {
+        "ticker": "Pepephone",
+        "category": "Telecom",
+        "selected": 6.966382506883529,
+        "rest": 4.345988578466921
+      },
+      {
+        "ticker": "MK2 Palacio de Hielo",
+        "category": "Movies",
+        "selected": 0.03724469338914519,
+        "rest": 0.032037584091596696
+      },
+      {
+        "ticker": "Dideco",
+        "category": "Retail Stores",
+        "selected": 0.1883631108691213,
+        "rest": 0.29925263905514426
+      },
+      {
+        "ticker": "JD Sports",
+        "category": "Sports",
+        "selected": 0.10732950347817302,
+        "rest": 0.10715442740468172
+      },
+      {
+        "ticker": "Instant Money",
+        "category": "Financial Services",
+        "selected": 1.7234418962983993,
+        "rest": 1.5126667637706526
+      },
+      {
+        "ticker": "Avis",
+        "category": "Transportation",
+        "selected": 1.5523253208520393,
+        "rest": 1.1962188783712622
+      },
+      {
+        "ticker": "4 tickets",
+        "category": "Tickets",
+        "selected": 0.10077216103281224,
+        "rest": 0.07708288801440945
+      },
+      {
+        "ticker": "Samsung",
+        "category": "Electronics",
+        "selected": 1.6504669914006629,
+        "rest": 1.1873470268929893
+      },
+      {
+        "ticker": "Intel Security (McAfee)",
+        "category": "Cybersecurity",
+        "selected": 0.24512644237782028,
+        "rest": 0.16541151570412851
+      },
+      {
+        "ticker": "Bigmat",
+        "category": "Home Improvement",
+        "selected": 0.05077164227144726,
+        "rest": 0.13229478118552068
+      },
+      {
+        "ticker": "La sureña",
+        "category": "Restaurant",
+        "selected": 0.0911601730664529,
+        "rest": 0.06387820036674066
+      },
+      {
+        "ticker": "Gocco",
+        "category": "Restaurant",
+        "selected": 0.16495661401601328,
+        "rest": 0.4385111185255176
+      },
+      {
+        "ticker": "Parkapp",
+        "category": "Parking",
+        "selected": 0.01799674871791645,
+        "rest": 0.017177552489009523
+      },
+      {
+        "ticker": "Rumbo.es",
+        "category": "Travel",
+        "selected": 2.20476639675701,
+        "rest": 2.2942959894674995
+      },
+      {
+        "ticker": "Alteza",
+        "category": "Accessories",
+        "selected": 0.07765400265450628,
+        "rest": 0.08990147116679441
+      },
+      {
+        "ticker": "Rituals",
+        "category": "Beauty",
+        "selected": 0.64235116113419,
+        "rest": 0.6735926128335519
+      },
+      {
+        "ticker": "Supercor Express",
+        "category": "Grocery",
+        "selected": 2.377393006214006,
+        "rest": 2.019816267841478
+      },
+      {
+        "ticker": "Masymas",
+        "category": "Grocery",
+        "selected": 1.7665582823607369,
+        "rest": 1.9931813073893176
+      },
+      {
+        "ticker": "Forecast",
+        "category": "Weather Services",
+        "selected": 0.12469225606466729,
+        "rest": 0.11160979681817601
+      },
+      {
+        "ticker": "Planeta Huerto",
+        "category": "Garden",
+        "selected": 0.1421090327690796,
+        "rest": 0.1329610503621962
+      },
+      {
+        "ticker": "Santagloria",
+        "category": "Restaurant",
+        "selected": 0.13160369563320418,
+        "rest": 0.14006089580400594
+      },
+      {
+        "ticker": "Pizzart",
+        "category": "Restaurant",
+        "selected": 0.022699247160172308,
+        "rest": 0.010079329487747255
+      },
+      {
+        "ticker": "Cortefiel",
+        "category": "Apparel",
+        "selected": 2.3628918178164136,
+        "rest": 3.0031663255297554
+      },
+      {
+        "ticker": "Fenix Directo",
+        "category": "Insurance",
+        "selected": 1.4024606005165667,
+        "rest": 1.5732138376805411
+      },
+      {
+        "ticker": "Juanita Cruz",
+        "category": "Apparel",
+        "selected": 0.017606293060841105,
+        "rest": 0.02403661437129715
+      },
+      {
+        "ticker": "Casa Ametller",
+        "category": "Restaurant",
+        "selected": 1.8299214983774759,
+        "rest": 1.790714196586282
+      },
+      {
+        "ticker": "Sixt",
+        "category": "Transportation",
+        "selected": 1.6559979909424,
+        "rest": 1.056124609218506
+      },
+      {
+        "ticker": "Medicos sin fronteras",
+        "category": "Non-Profit",
+        "selected": 1.2302055559972112,
+        "rest": 1.20380472884816
+      },
+      {
+        "ticker": "Vivagym",
+        "category": "Fitness",
+        "selected": 1.0204632222545973,
+        "rest": 0.7365950778473354
+      },
+      {
+        "ticker": "Electroprecio",
+        "category": "Electronics",
+        "selected": 0.21619037129567167,
+        "rest": 0.2542164057022216
+      },
+      {
+        "ticker": "Unicef",
+        "category": "Non-Profit",
+        "selected": 1.1302917622514912,
+        "rest": 1.2846261291512189
+      },
+      {
+        "ticker": "Xbox Live",
+        "category": "Gaming",
+        "selected": 0.18953357350042727,
+        "rest": 0.05799718591921066
+      },
+      {
+        "ticker": "Trucco",
+        "category": "Beauty",
+        "selected": 0.0788921445273253,
+        "rest": 0.13432097562681886
+      },
+      {
+        "ticker": "Lush",
+        "category": "Beauty",
+        "selected": 0.41873244168014,
+        "rest": 0.3560810636775014
+      },
+      {
+        "ticker": "Whitby",
+        "category": "Apparel",
+        "selected": 0.03249487507503262,
+        "rest": 0.04231989765514615
+      },
+      {
+        "ticker": "Hema",
+        "category": "Retail Stores",
+        "selected": 0.06426074106838557,
+        "rest": 0.08264220371806881
+      },
+      {
+        "ticker": "Primavera Sound",
+        "category": "Festivals",
+        "selected": 0.05193399037003768,
+        "rest": 0.04418048449746896
+      },
+      {
+        "ticker": "COS",
+        "category": "Apparel",
+        "selected": 0.14744483649248916,
+        "rest": 0.2277191800379153
+      },
+      {
+        "ticker": "Adamo Telecom",
+        "category": "Telecom",
+        "selected": 0.37597426142135826,
+        "rest": 0.2600354934253913
+      },
+      {
+        "ticker": "Balumba",
+        "category": "E-commerce",
+        "selected": 1.3967005425501946,
+        "rest": 0.9874083839710358
+      },
+      {
+        "ticker": "Alain Afflelou",
+        "category": "Eyewear",
+        "selected": 0.397871569344999,
+        "rest": 0.33773805544072083
+      },
+      {
+        "ticker": "Zalando",
+        "category": "E-commerce",
+        "selected": 3.8455121477925625,
+        "rest": 3.5300797528273837
+      },
+      {
+        "ticker": "Interzoo",
+        "category": "Pet Supplies",
+        "selected": 0.06449709561533593,
+        "rest": 0.04937248288758638
+      },
+      {
+        "ticker": "El Perro y la Galleta",
+        "category": "Restaurant",
+        "selected": 0.031193227845803143,
+        "rest": 0.027131465471776493
+      },
+      {
+        "ticker": "Dinosol",
+        "category": "Attractions",
+        "selected": 0.07252071305110508,
+        "rest": 0.08528423408274355
+      },
+      {
+        "ticker": "Ole Lola",
+        "category": "Apparel",
+        "selected": 0.01972153510940464,
+        "rest": 0.015757600713036127
+      },
+      {
+        "ticker": "Bershka",
+        "category": "Apparel",
+        "selected": 2.8827216942240574,
+        "rest": 3.7058126819758517
+      },
+      {
+        "ticker": "Pelayo",
+        "category": "Insurance",
+        "selected": 3.490693993661706,
+        "rest": 3.757873942332392
+      },
+      {
+        "ticker": "Pizzeria Carlos",
+        "category": "Fast Food",
+        "selected": 0.1978072257507454,
+        "rest": 0.12765169086557396
+      },
+      {
+        "ticker": "New Yorker",
+        "category": "Apparel",
+        "selected": 0.09884750911813726,
+        "rest": 0.07539006639439007
+      },
+      {
+        "ticker": "Primor",
+        "category": "Retail Stores",
+        "selected": 1.9173988283600685,
+        "rest": 2.749823923979322
+      },
+      {
+        "ticker": "KLM",
+        "category": "Airlines",
+        "selected": 0.9029481242360291,
+        "rest": 0.6747034742252981
+      },
+      {
+        "ticker": "Hamburguesa Nostra",
+        "category": "Restaurant",
+        "selected": 0.12919232297259806,
+        "rest": 0.07654223593685444
+      },
+      {
+        "ticker": "Unide",
+        "category": "Education",
+        "selected": 0.3955383521802366,
+        "rest": 0.4765954234289912
+      },
+      {
+        "ticker": "Dialprix",
+        "category": "Telecom",
+        "selected": 0.2823375984042012,
+        "rest": 0.27565107378073356
+      },
+      {
+        "ticker": "Transferwise",
+        "category": "Financial Services",
+        "selected": 2.343128118507257,
+        "rest": 1.9594778288849146
+      },
+      {
+        "ticker": "Equivalenza",
+        "category": "Financial Services",
+        "selected": 0.07530788755628086,
+        "rest": 0.16188783927550374
+      },
+      {
+        "ticker": "Bacoa",
+        "category": "Grocery",
+        "selected": 0.13379843019193258,
+        "rest": 0.06397631982066695
+      },
+      {
+        "ticker": "Aquona",
+        "category": "Utilities",
+        "selected": 0.1996571604557488,
+        "rest": 0.3297737049236144
+      },
+      {
+        "ticker": "AVG",
+        "category": "Cybersecurity",
+        "selected": 0.09968450819701685,
+        "rest": 0.032062169398114716
+      },
+      {
+        "ticker": "Cofidis",
+        "category": "Financial Services",
+        "selected": 9.237079371460812,
+        "rest": 9.593000533946407
+      },
+      {
+        "ticker": "Record Go",
+        "category": "Music",
+        "selected": 0.2772753522990539,
+        "rest": 0.33191953260444684
+      },
+      {
+        "ticker": "Fosters Hollywood",
+        "category": "Entertainment",
+        "selected": 4.073846001172617,
+        "rest": 2.4457617082424226
+      },
+      {
+        "ticker": "Punto Blanco",
+        "category": "Apparel",
+        "selected": 0.03949715262911629,
+        "rest": 0.029137453103977213
+      },
+      {
+        "ticker": "AMV Hispania",
+        "category": "Automotive",
+        "selected": 0.7236156248338008,
+        "rest": 0.5091017491504494
+      },
+      {
+        "ticker": "Muving",
+        "category": "Transportation",
+        "selected": 0.3088668320950469,
+        "rest": 0.19578525043582024
+      },
+      {
+        "ticker": "Desigual",
+        "category": "Apparel",
+        "selected": 0.3415970162853106,
+        "rest": 0.3587851464703189
+      },
+      {
+        "ticker": "Aucat",
+        "category": "Fuel",
+        "selected": 0.30691253792639295,
+        "rest": 0.31869461598885834
+      },
+      {
+        "ticker": "Ulanka",
+        "category": "Apparel",
+        "selected": 0.4122102607051351,
+        "rest": 0.4295906800143167
+      },
+      {
+        "ticker": "Zaplo",
+        "category": "Financial Services",
+        "selected": 1.2126185389214301,
+        "rest": 1.2443093437396995
+      },
+      {
+        "ticker": "Wible",
+        "category": "Financial Services",
+        "selected": 0.19460398722650088,
+        "rest": 0.1335732034141731
+      },
+      {
+        "ticker": "Banco Sabadell Vida",
+        "category": "Insurance",
+        "selected": 1.5204277413178044,
+        "rest": 1.866797208561065
+      },
+      {
+        "ticker": "Destinia.com",
+        "category": "Travel",
+        "selected": 0.39204869980342116,
+        "rest": 0.47104093849874246
+      },
+      {
+        "ticker": "Zara",
+        "category": "Apparel",
+        "selected": 17.960568700374743,
+        "rest": 27.760375048341512
+      },
+      {
+        "ticker": "Bankinter Vida",
+        "category": "Insurance",
+        "selected": 0.7375451523277813,
+        "rest": 0.9234706661214779
+      },
+      {
+        "ticker": "Levi's",
+        "category": "Apparel",
+        "selected": 0.7210131474065321,
+        "rest": 0.6452648288921704
+      },
+      {
+        "ticker": "NH",
+        "category": "Travel",
+        "selected": 0.8124514859336259,
+        "rest": 0.7562531069613688
+      },
+      {
+        "ticker": "Bertiz",
+        "category": "Education",
+        "selected": 0.04501120844443267,
+        "rest": 0.02313699798410684
+      },
+      {
+        "ticker": "Ocine",
+        "category": "Entertainment",
+        "selected": 0.29357025149246624,
+        "rest": 0.17413498959688464
+      },
+      {
+        "ticker": "Arabat",
+        "category": "Fashion",
+        "selected": 0.023181280314644833,
+        "rest": 0.023599056163170838
+      },
+      {
+        "ticker": "Luckia",
+        "category": "Gambling",
+        "selected": 0.6583893960824574,
+        "rest": 0.5339328443806942
+      },
+      {
+        "ticker": "Volotea",
+        "category": "Airlines",
+        "selected": 0.435680559014033,
+        "rest": 0.4405561198846549
+      },
+      {
+        "ticker": "iTunes",
+        "category": "Music",
+        "selected": 8.347434795111209,
+        "rest": 5.3512417382089765
+      },
+      {
+        "ticker": "Direct Seguros",
+        "category": "Insurance",
+        "selected": 2.717119293028035,
+        "rest": 3.1343775916385725
+      },
+      {
+        "ticker": "ese O ese",
+        "category": "Apparel",
+        "selected": 0.11792240226256619,
+        "rest": 0.26240531224162295
+      },
+      {
+        "ticker": "La Fabrica",
+        "category": "Restaurant",
+        "selected": 0.16277500470486034,
+        "rest": 0.17203805945348047
+      },
+      {
+        "ticker": "Swarovski",
+        "category": "Jewelry",
+        "selected": 0.3395819765102256,
+        "rest": 0.2207501381658055
+      },
+      {
+        "ticker": "Yoigo",
+        "category": "Telecom",
+        "selected": 16.855026010461078,
+        "rest": 15.373311649399938
+      },
+      {
+        "ticker": "Central de Reservas",
+        "category": "Travel",
+        "selected": 0.17367918036999144,
+        "rest": 0.23344031599033205
+      },
+      {
+        "ticker": "Autocine Madrid Race",
+        "category": "Movies",
+        "selected": 0.02746186654140384,
+        "rest": 0.018063497022751653
+      },
+      {
+        "ticker": "Acciona Motosharing",
+        "category": "Transportation",
+        "selected": 0.2942352351562942,
+        "rest": 0.13466719812457392
+      },
+      {
+        "ticker": "Terranova",
+        "category": "Apparel",
+        "selected": 0.16811145617621967,
+        "rest": 0.1612868197227372
+      },
+      {
+        "ticker": "Vinoselección",
+        "category": "Food",
+        "selected": 0.17744500213667094,
+        "rest": 0.3098173194597685
+      },
+      {
+        "ticker": "Spar",
+        "category": "Grocery",
+        "selected": 2.9242494050305172,
+        "rest": 2.380720455004969
+      },
+      {
+        "ticker": "Smassa",
+        "category": "Restaurant",
+        "selected": 0.08189254947007177,
+        "rest": 0.08669679854541171
+      },
+      {
+        "ticker": "Calzedonia",
+        "category": "Apparel",
+        "selected": 0.999169558789226,
+        "rest": 1.7888969206092342
+      },
+      {
+        "ticker": "Party Fiesta",
+        "category": "Retail Stores",
+        "selected": 0.10478748910412566,
+        "rest": 0.11057810914102621
+      },
+      {
+        "ticker": "Napapijri",
+        "category": "Apparel",
+        "selected": 0.0687692649131813,
+        "rest": 0.06824692580699229
+      },
+      {
+        "ticker": "Leroy Merlin",
+        "category": "Home Goods",
+        "selected": 23.04875917653585,
+        "rest": 23.343968874244084
+      },
+      {
+        "ticker": "Avia",
+        "category": "Airlines",
+        "selected": 0.29026809740454185,
+        "rest": 0.2978250729735359
+      },
+      {
+        "ticker": "Bicimad",
+        "category": "Transportation",
+        "selected": 0.26538936778292505,
+        "rest": 0.20577288088626391
+      },
+      {
+        "ticker": "entradas.com",
+        "category": "Entertainment",
+        "selected": 0.797066071266655,
+        "rest": 0.5956404405503881
+      },
+      {
+        "ticker": "Allianz Global Assistance",
+        "category": "Insurance",
+        "selected": 0.11332109266215863,
+        "rest": 0.09475006205150309
+      },
+      {
+        "ticker": "Retabet",
+        "category": "Gambling",
+        "selected": 0.16517127106781565,
+        "rest": 0.18745136036793955
+      },
+      {
+        "ticker": "Chacabuco",
+        "category": "Restaurant",
+        "selected": 0.06276151784700076,
+        "rest": 0.041616603835912695
+      },
+      {
+        "ticker": "Bosque Multicines",
+        "category": "Movies",
+        "selected": 0.018270190355293627,
+        "rest": 0.012419400208327136
+      },
+      {
+        "ticker": "Ciralsa",
+        "category": "Automotive",
+        "selected": 0.01888071158333777,
+        "rest": 0.01860159280613793
+      },
+      {
+        "ticker": "Flunch",
+        "category": "Restaurant",
+        "selected": 0.014779038883203113,
+        "rest": 0.018562149090545273
+      },
+      {
+        "ticker": "Avast",
+        "category": "Cybersecurity",
+        "selected": 0.16339503155376126,
+        "rest": 0.09716939256062729
+      },
+      {
+        "ticker": "Invicat",
+        "category": "Home Goods",
+        "selected": 1.2097277566268014,
+        "rest": 0.7949183609012568
+      },
+      {
+        "ticker": "Zurich",
+        "category": "Insurance",
+        "selected": 2.2838937314863537,
+        "rest": 2.492172201120862
+      },
+      {
+        "ticker": "El Gran Barril",
+        "category": "Restaurant",
+        "selected": 0.0369344037397037,
+        "rest": 0.051116580892814595
+      },
+      {
+        "ticker": "MasVision",
+        "category": "Eyewear",
+        "selected": 0.3488939811459731,
+        "rest": 0.26059738669078025
+      },
+      {
+        "ticker": "EasyJet",
+        "category": "Travel",
+        "selected": 2.3036401266267506,
+        "rest": 1.9028152669761809
+      },
+      {
+        "ticker": "Perfumerías Atalaya",
+        "category": "Beauty",
+        "selected": 0.0268277341112275,
+        "rest": 0.034523649966119424
+      },
+      {
+        "ticker": "RACE",
+        "category": "Automotive",
+        "selected": 0.5489869981407363,
+        "rest": 0.628924092879014
+      },
+      {
+        "ticker": "Sportium",
+        "category": "Gambling",
+        "selected": 1.1558735456981064,
+        "rest": 0.8197868818369212
+      },
+      {
+        "ticker": "Wonga",
+        "category": "Financial Services",
+        "selected": 0.5173834774591153,
+        "rest": 0.4302359889986829
+      },
+      {
+        "ticker": "Emuasa",
+        "category": "Utilities",
+        "selected": 0.5129398773934432,
+        "rest": 0.636711202545136
+      },
+      {
+        "ticker": "Juteco",
+        "category": "Restaurant",
+        "selected": 0.1593933276196443,
+        "rest": 0.2091241528035249
+      },
+      {
+        "ticker": "Poly",
+        "category": "Retail Stores",
+        "selected": 0.16523783607102951,
+        "rest": 0.1697960217189472
+      },
+      {
+        "ticker": "Gadis",
+        "category": "Grocery",
+        "selected": 1.3682985368083838,
+        "rest": 1.471613384286945
+      },
+      {
+        "ticker": "Fracciona",
+        "category": "Financial Services",
+        "selected": 3.0763645952990215,
+        "rest": 4.323797423477917
+      },
+      {
+        "ticker": "Amovens",
+        "category": "Transportation",
+        "selected": 0.11449013829423908,
+        "rest": 0.1103870479724271
+      },
+      {
+        "ticker": "L'occitane",
+        "category": "Beauty",
+        "selected": 0.10708831129600863,
+        "rest": 0.13764308391288868
+      },
+      {
+        "ticker": "Ticketmaster",
+        "category": "Entertainment",
+        "selected": 5.348143351933876,
+        "rest": 3.4251692835652974
+      },
+      {
+        "ticker": "Lateral",
+        "category": "Apparel",
+        "selected": 0.3476463359487299,
+        "rest": 0.4112884310972679
+      },
+      {
+        "ticker": "Pepper",
+        "category": "Restaurant",
+        "selected": 1.5408808425785072,
+        "rest": 1.9576847322600774
+      },
+      {
+        "ticker": "Tartalia",
+        "category": "Apparel",
+        "selected": 0.015953659248653062,
+        "rest": 0.015761440803399286
+      },
+      {
+        "ticker": "Jack&amp;Jones",
+        "category": "Apparel",
+        "selected": 1.1243048803797344,
+        "rest": 0.7121611865019409
+      },
+      {
+        "ticker": "Uvepan",
+        "category": "Food",
+        "selected": 0.007432152372503565,
+        "rest": 0.00900402227658065
+      },
+      {
+        "ticker": "Domestic &amp; General",
+        "category": "Home Services",
+        "selected": 0.16739368599569615,
+        "rest": 0.130974791745189
+      },
+      {
+        "ticker": "Iberia",
+        "category": "Travel",
+        "selected": 9.30994755791317,
+        "rest": 9.747449354768724
+      },
+      {
+        "ticker": "Volkswagen",
+        "category": "Automotive",
+        "selected": 2.9351638170103667,
+        "rest": 1.8947193459380605
+      },
+      {
+        "ticker": "Arag Seguros",
+        "category": "Insurance",
+        "selected": 0.4337010632320965,
+        "rest": 0.4042266406994373
+      },
+      {
+        "ticker": "Ojala",
+        "category": "Apparel",
+        "selected": 0.03006922011486819,
+        "rest": 0.03335052931148085
+      },
+      {
+        "ticker": "Tako Away",
+        "category": "Food Delivery",
+        "selected": 0.03403663564219506,
+        "rest": 0.017880484728248627
+      },
+      {
+        "ticker": "Betway",
+        "category": "Gambling",
+        "selected": 0.2104234330871706,
+        "rest": 0.21457666617558907
+      },
+      {
+        "ticker": "Wallapop",
+        "category": "E-commerce",
+        "selected": 2.8665570701756757,
+        "rest": 2.0156285796772244
+      },
+      {
+        "ticker": "Firefly",
+        "category": "Travel",
+        "selected": 0.10709241256441619,
+        "rest": 0.16167060979906384
+      },
+      {
+        "ticker": "E.Leclerc Estaciones de servicio",
+        "category": "Fuel",
+        "selected": 0.48071656387088724,
+        "rest": 0.419134858720486
+      },
+      {
+        "ticker": "E.Leclerc",
+        "category": "Grocery",
+        "selected": 3.9294009992682843,
+        "rest": 3.802650795977114
+      },
+      {
+        "ticker": "Druni",
+        "category": "Retail Stores",
+        "selected": 1.3793465222530283,
+        "rest": 1.8366176354543315
+      },
+      {
+        "ticker": "Avant Tarjeta",
+        "category": "Financial Services",
+        "selected": 0.2554212222488609,
+        "rest": 0.6240471220366426
+      },
+      {
+        "ticker": "La Esquina",
+        "category": "Restaurant",
+        "selected": 0.09433774116556173,
+        "rest": 0.09236981978289319
+      },
+      {
+        "ticker": "Xti Store",
+        "category": "Apparel",
+        "selected": 0.059015819870012226,
+        "rest": 0.07340669577903527
+      },
+      {
+        "ticker": "Don Dino",
+        "category": "Restaurant",
+        "selected": 0.11407822811293009,
+        "rest": 0.14306642667837505
+      },
+      {
+        "ticker": "Wertgarantie",
+        "category": "Extended Warranties",
+        "selected": 0.09154860699703543,
+        "rest": 0.06743799787231773
+      },
+      {
+        "ticker": "Ace Europe",
+        "category": "Insurance",
+        "selected": 0.12922052340105747,
+        "rest": 0.11689088014489539
+      },
+      {
+        "ticker": "Parkia",
+        "category": "Parking",
+        "selected": 0.03138431995578317,
+        "rest": 0.025140708245594962
+      },
+      {
+        "ticker": "Isla Magica",
+        "category": "Attractions",
+        "selected": 0.046429817303826795,
+        "rest": 0.05810309960447933
+      },
+      {
+        "ticker": "Telefonica Consumer Finance",
+        "category": "Financial Services",
+        "selected": 0.21431828891864663,
+        "rest": 0.21167975362829639
+      },
+      {
+        "ticker": "Emivasa",
+        "category": "Utilities",
+        "selected": 1.3217868505824801,
+        "rest": 1.1617198356448108
+      },
+      {
+        "ticker": "Dineo Credito",
+        "category": "Financial Services",
+        "selected": 0.5675128488523674,
+        "rest": 0.6145644181771845
+      },
+      {
+        "ticker": "Cassa",
+        "category": "Financial Services",
+        "selected": 0.30218133124105223,
+        "rest": 0.25207757955990046
+      },
+      {
+        "ticker": "El Horno",
+        "category": "Restaurant",
+        "selected": 0.09817009649086361,
+        "rest": 0.09481370756876469
+      },
+      {
+        "ticker": "Shell",
+        "category": "Fuel",
+        "selected": 3.4131760428910223,
+        "rest": 2.960721445289611
+      },
+      {
+        "ticker": "Diesel",
+        "category": "Apparel",
+        "selected": 0.8498726619342531,
+        "rest": 0.9330792310548159
+      },
+      {
+        "ticker": "PC Componentes",
+        "category": "Electronics",
+        "selected": 20.980808436582937,
+        "rest": 4.632228225778166
+      },
+      {
+        "ticker": "R",
+        "category": "Apparel",
+        "selected": 0.5267232380681767,
+        "rest": 0.4645179432810635
+      },
+      {
+        "ticker": "Supersol",
+        "category": "Grocery",
+        "selected": 3.232214267360114,
+        "rest": 3.129998491979033
+      },
+      {
+        "ticker": "Metro de Malaga",
+        "category": "Transportation",
+        "selected": 0.07869388024179173,
+        "rest": 0.04081130670742905
+      },
+      {
+        "ticker": "Pepe Jeans",
+        "category": "Apparel",
+        "selected": 0.3167815444147113,
+        "rest": 0.36706367262413775
+      },
+      {
+        "ticker": "Deichmann",
+        "category": "Apparel",
+        "selected": 0.563269427795999,
+        "rest": 0.5491364071892804
+      },
+      {
+        "ticker": "Marvimundo",
+        "category": "Entertainment",
+        "selected": 0.21787443705788237,
+        "rest": 0.3421940875776852
+      },
+      {
+        "ticker": "El Corte Ingles",
+        "category": "Retail Stores",
+        "selected": 62.16181442982433,
+        "rest": 67.51217649208661
+      },
+      {
+        "ticker": "El Sabroso",
+        "category": "Restaurant",
+        "selected": 0.031946325976365555,
+        "rest": 0.03196686887170188
+      },
+      {
+        "ticker": "Alcampo Estacion de Servicio",
+        "category": "Fuel",
+        "selected": 3.5814183263922224,
+        "rest": 3.0952155669430153
+      },
+      {
+        "ticker": "Iberia Express",
+        "category": "Travel",
+        "selected": 0.8341440060295767,
+        "rest": 0.7957924730869562
+      },
+      {
+        "ticker": "Generali",
+        "category": "Insurance",
+        "selected": 5.862378464350313,
+        "rest": 8.02930578555196
+      },
+      {
+        "ticker": "Norton",
+        "category": "Cybersecurity",
+        "selected": 0.18626835172942896,
+        "rest": 0.124203900972772
+      },
+      {
+        "ticker": "BQ",
+        "category": "Electronics",
+        "selected": 0.32681271255471545,
+        "rest": 0.17012088626496216
+      },
+      {
+        "ticker": "MediaMarkt",
+        "category": "Electronics",
+        "selected": 33.630795279482186,
+        "rest": 22.03212540375574
+      },
+      {
+        "ticker": "Misako",
+        "category": "Beauty",
+        "selected": 0.20972718905787244,
+        "rest": 0.27682955301670353
+      },
+      {
+        "ticker": "Telepizza",
+        "category": "Fast Food",
+        "selected": 4.1379467009840925,
+        "rest": 2.251778447417658
+      },
+      {
+        "ticker": "BMW",
+        "category": "Automotive",
+        "selected": 0.2962794162272754,
+        "rest": 0.2985777503757262
+      },
+      {
+        "ticker": "Cetelem",
+        "category": "Financial Services",
+        "selected": 32.27290419237942,
+        "rest": 27.8261757883104
+      },
+      {
+        "ticker": "Alcampo",
+        "category": "Grocery",
+        "selected": 23.865169987327956,
+        "rest": 22.98719361947946
+      },
+      {
+        "ticker": "Fiatc",
+        "category": "Automotive",
+        "selected": 1.6762127765216577,
+        "rest": 2.2414372023909888
+      },
+      {
+        "ticker": "Amnistia Internacional",
+        "category": "Non-Profit",
+        "selected": 0.24888069591681594,
+        "rest": 0.17768148675885473
+      },
+      {
+        "ticker": "Decathlon",
+        "category": "Sports",
+        "selected": 29.208052813437106,
+        "rest": 25.746206161911473
+      },
+      {
+        "ticker": "Emasesa",
+        "category": "Utilities",
+        "selected": 0.39863220623538304,
+        "rest": 0.8181161203361823
+      },
+      {
+        "ticker": "Perfumeria Avenida",
+        "category": "Beauty",
+        "selected": 0.04239473861572801,
+        "rest": 0.07262505070239611
+      },
+      {
+        "ticker": "Uterque",
+        "category": "Apparel",
+        "selected": 0.23416963206175878,
+        "rest": 0.5222696631062169
+      },
+      {
+        "ticker": "Etam",
+        "category": "Apparel",
+        "selected": 0.2461784640084503,
+        "rest": 0.36040715621208586
+      },
+      {
+        "ticker": "eDreams.com",
+        "category": "Travel",
+        "selected": 4.3314927861667245,
+        "rest": 3.9131901265554934
+      },
+      {
+        "ticker": "Tony Roma's",
+        "category": "Restaurant",
+        "selected": 0.30609463480128773,
+        "rest": 0.22499052021599605
+      },
+      {
+        "ticker": "Pans &amp; Company",
+        "category": "Bakery",
+        "selected": 0.41535838761296195,
+        "rest": 0.22909620095965177
+      },
+      {
+        "ticker": "Mercedes-Benz Financial Services",
+        "category": "Financial Services",
+        "selected": 1.5054265694182614,
+        "rest": 2.047220296150521
+      },
+      {
+        "ticker": "Telyco",
+        "category": "Telecom",
+        "selected": 0.11537278426998178,
+        "rest": 0.11423740511382247
+      },
+      {
+        "ticker": "Kutxabank",
+        "category": "Banking",
+        "selected": 2.4152212803408584,
+        "rest": 2.9574515043545397
+      },
+      {
+        "ticker": "Blablacar",
+        "category": "Transportation",
+        "selected": 1.4386395081329624,
+        "rest": 1.1236499078646793
+      },
+      {
+        "ticker": "Go Fit",
+        "category": "Fitness",
+        "selected": 1.0455489677722585,
+        "rest": 1.029622559378762
+      },
+      {
+        "ticker": "Vait",
+        "category": "Telecom",
+        "selected": 0.046541480050511536,
+        "rest": 0.04831987761197093
+      },
+      {
+        "ticker": "Mc Donalds",
+        "category": "Fast Food",
+        "selected": 12.440345777420818,
+        "rest": 8.436803218263405
+      },
+      {
+        "ticker": "Bip Bip",
+        "category": "Apparel",
+        "selected": 0.11339483112718582,
+        "rest": 0.1379335305873334
+      },
+      {
+        "ticker": "Duty Free",
+        "category": "Retail Stores",
+        "selected": 0.13086052282806154,
+        "rest": 0.139282730959399
+      },
+      {
+        "ticker": "Hidraqua",
+        "category": "Utilities",
+        "selected": 0.13578756794236488,
+        "rest": 0.21773895613188662
+      },
+      {
+        "ticker": "Renault",
+        "category": "Automotive",
+        "selected": 0.5342448092893644,
+        "rest": 0.45631114562157604
+      },
+      {
+        "ticker": "Bricorama",
+        "category": "Home Improvement",
+        "selected": 0.1342789205436877,
+        "rest": 0.1122547249735378
+      },
+      {
+        "ticker": "Betfair",
+        "category": "Entertainment",
+        "selected": 1.475955238791743,
+        "rest": 1.082274878941764
+      },
+      {
+        "ticker": "Perfumeria Prieto",
+        "category": "Beauty",
+        "selected": 0.04332165644707567,
+        "rest": 0.06094780242409532
+      },
+      {
+        "ticker": "Renatta&amp;Go",
+        "category": "Apparel",
+        "selected": 0.05476103337959123,
+        "rest": 0.10396816120162489
+      },
+      {
+        "ticker": "Ap. Est",
+        "category": "Transportation",
+        "selected": 0.0735097250678347,
+        "rest": 0.08145360615925443
+      },
+      {
+        "ticker": "Carglass",
+        "category": "Automotive",
+        "selected": 0.0957470048471765,
+        "rest": 0.0778784746823442
+      },
+      {
+        "ticker": "Springfield",
+        "category": "Apparel",
+        "selected": 5.186460173654849,
+        "rest": 4.2179217365430866
+      },
+      {
+        "ticker": "Pisamonas",
+        "category": "Restaurant",
+        "selected": 0.053609618174146646,
+        "rest": 0.15102326750741368
+      },
+      {
+        "ticker": "Preventiva",
+        "category": "Healthcare",
+        "selected": 0.18757252977697647,
+        "rest": 0.2396547668408572
+      },
+      {
+        "ticker": "Autoestradas de Galicia",
+        "category": "Transportation",
+        "selected": 0.006313197152570646,
+        "rest": 0.005335042841065724
+      },
+      {
+        "ticker": "Juguettos",
+        "category": "Retail Stores",
+        "selected": 0.8712344218656418,
+        "rest": 1.1733475794353567
+      },
+      {
+        "ticker": "Dinopolis",
+        "category": "Attractions",
+        "selected": 0.035651225389015745,
+        "rest": 0.0390599979215046
+      },
+      {
+        "ticker": "Tiger",
+        "category": "Retail Stores",
+        "selected": 0.6211672286466513,
+        "rest": 0.6900404348144069
+      },
+      {
+        "ticker": "Bingosoft",
+        "category": "Gambling",
+        "selected": 0.10725731776260504,
+        "rest": 0.17448693677402022
+      },
+      {
+        "ticker": "El Fornet",
+        "category": "Restaurant",
+        "selected": 0.26293619068671237,
+        "rest": 0.20944347218698064
+      },
+      {
+        "ticker": "HolaLuz",
+        "category": "Utilities",
+        "selected": 4.292723616929451,
+        "rest": 3.744157282752608
+      },
+      {
+        "ticker": "OK Rent a Car",
+        "category": "Rental Cars",
+        "selected": 0.07572612298465231,
+        "rest": 0.06752890216648573
+      },
+      {
+        "ticker": "Naturgy",
+        "category": "Fuel",
+        "selected": 28.877075542571582,
+        "rest": 33.663985236500395
+      },
+      {
+        "ticker": "Coviran",
+        "category": "Grocery",
+        "selected": 0.93621962947263,
+        "rest": 0.9046686023057884
+      },
+      {
+        "ticker": "Negro-Rojo",
+        "category": "Apparel",
+        "selected": 0.02725590669248516,
+        "rest": 0.03913444203588795
+      },
+      {
+        "ticker": "Zona Blava",
+        "category": "Transportation",
+        "selected": 0.23281379611630412,
+        "rest": 0.16541044095798688
+      },
+      {
+        "ticker": "Parfois",
+        "category": "Apparel",
+        "selected": 0.5039034581633114,
+        "rest": 0.7826503208892284
+      },
+      {
+        "ticker": "Repsol",
+        "category": "Fuel",
+        "selected": 31.469717973704753,
+        "rest": 28.500529625192517
+      },
+      {
+        "ticker": "EDP",
+        "category": "Fuel",
+        "selected": 9.346910192333743,
+        "rest": 10.270250649526542
+      },
+      {
+        "ticker": "Hesperia",
+        "category": "Travel",
+        "selected": 0.1663452360601568,
+        "rest": 0.18240770862593864
+      },
+      {
+        "ticker": "Viagogo",
+        "category": "Entertainment",
+        "selected": 0.7254965892056331,
+        "rest": 0.6117820631192985
+      },
+      {
+        "ticker": "Air France",
+        "category": "Airlines",
+        "selected": 0.8088499500854445,
+        "rest": 0.7137382435365301
+      },
+      {
+        "ticker": "Timberland",
+        "category": "Apparel",
+        "selected": 0.12265978512972776,
+        "rest": 0.08717292365513643
+      },
+      {
+        "ticker": "Enjoy Wellness",
+        "category": "Healthcare",
+        "selected": 0.20706869310630083,
+        "rest": 0.19676389571733272
+      },
+      {
+        "ticker": "Sonar",
+        "category": "Festivals",
+        "selected": 0.10186278290776893,
+        "rest": 0.06124009309299408
+      },
+      {
+        "ticker": "Idealista",
+        "category": "Real Estate",
+        "selected": 0.1716187009379613,
+        "rest": 0.25886508506269373
+      },
+      {
+        "ticker": "Nostrum",
+        "category": "Healthcare",
+        "selected": 0.27134578228384454,
+        "rest": 0.15724224884988755
+      },
+      {
+        "ticker": "Holiday Inn",
+        "category": "Travel",
+        "selected": 0.553530021121959,
+        "rest": 0.4439856842952843
+      },
+      {
+        "ticker": "Caixabank Consumer Finance",
+        "category": "Financial Services",
+        "selected": 14.976317295104932,
+        "rest": 13.693522422718923
+      },
+      {
+        "ticker": "Brasa y Leña",
+        "category": "Restaurant",
+        "selected": 0.16675024096577196,
+        "rest": 0.11436495056247278
+      },
+      {
+        "ticker": "Mapfre",
+        "category": "Insurance",
+        "selected": 32.33219004570018,
+        "rest": 36.720759786639185
+      },
+      {
+        "ticker": "Deportes Moya",
+        "category": "Sports",
+        "selected": 0.07632285125580228,
+        "rest": 0.06266273597122066
+      },
+      {
+        "ticker": "RACC",
+        "category": "Automotive",
+        "selected": 1.423666189739973,
+        "rest": 1.5457082888168163
+      },
+      {
+        "ticker": "Sundara",
+        "category": "Beauty",
+        "selected": 0.021155087716551044,
+        "rest": 0.05979337947613606
+      },
+      {
+        "ticker": "Amorino",
+        "category": "Food",
+        "selected": 0.02399590083737278,
+        "rest": 0.020425392844452436
+      },
+      {
+        "ticker": "Segurcaixa Adeslas",
+        "category": "Insurance",
+        "selected": 6.605312747205386,
+        "rest": 9.235100325589393
+      },
+      {
+        "ticker": "Pimkie",
+        "category": "Apparel",
+        "selected": 0.3056028237377196,
+        "rest": 0.5263341047455632
+      },
+      {
+        "ticker": "Cepsa Comercial",
+        "category": "Fuel",
+        "selected": 0.6322807271950371,
+        "rest": 0.718808153257976
+      },
+      {
+        "ticker": "Ilunion",
+        "category": "Non-Profit",
+        "selected": 0.3565104343868858,
+        "rest": 0.3672411342604623
+      },
+      {
+        "ticker": "Pandora",
+        "category": "Jewelry",
+        "selected": 0.6151612178478791,
+        "rest": 0.4775820502187633
+      },
+      {
+        "ticker": "Vips",
+        "category": "Restaurant",
+        "selected": 1.5845152409249255,
+        "rest": 1.1837362933922038
+      },
+      {
+        "ticker": "FCA Capital",
+        "category": "Financial Services",
+        "selected": 2.0949981197765446,
+        "rest": 2.091254674219228
+      },
+      {
+        "ticker": "Reino Asador",
+        "category": "Restaurant",
+        "selected": 0.0779661914363386,
+        "rest": 0.06321565542910983
+      },
+      {
+        "ticker": "Amazon",
+        "category": "E-commerce",
+        "selected": 240.43873735532856,
+        "rest": 139.87018998067506
+      },
+      {
+        "ticker": "Coaliment",
+        "category": "Grocery",
+        "selected": 0.3633324097906854,
+        "rest": 0.3879143974389824
+      },
+      {
+        "ticker": "Boboli",
+        "category": "Garden",
+        "selected": 0.09196552105783673,
+        "rest": 0.12538917708837272
+      },
+      {
+        "ticker": "Neck &amp; Neck",
+        "category": "Apparel",
+        "selected": 0.05177476686976369,
+        "rest": 0.14368496852988963
+      },
+      {
+        "ticker": "Intersport",
+        "category": "Retail Stores",
+        "selected": 0.5172797294553055,
+        "rest": 0.517559840203349
+      },
+      {
+        "ticker": "MGS",
+        "category": "Gaming",
+        "selected": 1.0747801656124758,
+        "rest": 1.2881282020901368
+      },
+      {
+        "ticker": "akf bank",
+        "category": "Banking",
+        "selected": 0.7998229169130614,
+        "rest": 0.9377709744456524
+      },
+      {
+        "ticker": "Servientradas",
+        "category": "Tickets",
+        "selected": 0.06596546213762332,
+        "rest": 0.05780997847081566
+      },
+      {
+        "ticker": "Venca",
+        "category": "Apparel",
+        "selected": 0.08804072083234907,
+        "rest": 0.11824073234593584
+      },
+      {
+        "ticker": "Smooy",
+        "category": "Cosmetics",
+        "selected": 0.015422055744808011,
+        "rest": 0.01053026403491478
+      },
+      {
+        "ticker": "Audenasa",
+        "category": "Automotive",
+        "selected": 0.03289717610789777,
+        "rest": 0.03067650522893475
+      },
+      {
+        "ticker": "Asisa",
+        "category": "Insurance",
+        "selected": 3.7504100629129633,
+        "rest": 5.680394448270254
+      },
+      {
+        "ticker": "Alliance Vending",
+        "category": "Vending",
+        "selected": 0.08820049088639452,
+        "rest": 0.03945854082025051
+      },
+      {
+        "ticker": "Tyco",
+        "category": "Security Services",
+        "selected": 0.2559486335919878,
+        "rest": 0.33290662638536117
+      },
+      {
+        "ticker": "William Hill",
+        "category": "Gambling",
+        "selected": 0.7455899127287476,
+        "rest": 0.7536118398858712
+      },
+      {
+        "ticker": "Cabify",
+        "category": "Transportation",
+        "selected": 5.478360462207986,
+        "rest": 4.472615850621497
+      },
+      {
+        "ticker": "Llongueras",
+        "category": "Food",
+        "selected": 0.07757876222964194,
+        "rest": 0.1258910859187987
+      },
+      {
+        "ticker": "Tripadvisor",
+        "category": "Travel",
+        "selected": 0.3408810109505595,
+        "rest": 0.34281005441576345
+      },
+      {
+        "ticker": "Fundacion Wikimedia",
+        "category": "Non-Profit",
+        "selected": 0.028481112963864897,
+        "rest": 0.0097964390162036
+      },
+      {
+        "ticker": "Sushi Shop",
+        "category": "Restaurant",
+        "selected": 0.12582985723174228,
+        "rest": 0.12106079417994174
+      },
+      {
+        "ticker": "Iradier Club Mujer",
+        "category": "Apparel",
+        "selected": 0.043885218306543745,
+        "rest": 0.04401068323802845
+      },
+      {
+        "ticker": "Popular Servicios Fiancieros",
+        "category": "Financial Services",
+        "selected": 0.6655527897315185,
+        "rest": 0.8757860633031708
+      },
+      {
+        "ticker": "Dentix",
+        "category": "Healthcare",
+        "selected": 0.20033915630502044,
+        "rest": 0.17638099754661474
+      },
+      {
+        "ticker": "Viena",
+        "category": "Restaurant",
+        "selected": 0.8109878192113015,
+        "rest": 0.6122586019969534
+      },
+      {
+        "ticker": "Deporvillage",
+        "category": "Sports",
+        "selected": 0.38187117224069583,
+        "rest": 0.39886932079493
+      },
+      {
+        "ticker": "Seguros Bilbao",
+        "category": "Insurance",
+        "selected": 1.7206183651364462,
+        "rest": 2.154053252119262
+      },
+      {
+        "ticker": "Goiko grill",
+        "category": "Restaurant",
+        "selected": 0.7211969536384228,
+        "rest": 0.3982600010411787
+      },
+      {
+        "ticker": "voyage-prive.es",
+        "category": "Travel",
+        "selected": 0.3656686331853045,
+        "rest": 0.4691863591092403
+      },
+      {
+        "ticker": "Tento",
+        "category": "Retail Stores",
+        "selected": 0.22959808562177783,
+        "rest": 0.1193692329518804
+      },
+      {
+        "ticker": "AECC",
+        "category": "Non-Profit",
+        "selected": 0.3851119367470905,
+        "rest": 0.5115919795474133
+      },
+      {
+        "ticker": "Servei Catala",
+        "category": "Transportation",
+        "selected": 0.525141664010294,
+        "rest": 0.40024986387499983
+      },
+      {
+        "ticker": "Terra Mitica",
+        "category": "Attractions",
+        "selected": 0.027552915532468213,
+        "rest": 0.02798456160078351
+      },
+      {
+        "ticker": "Soloptical",
+        "category": "Healthcare",
+        "selected": 0.796514373283009,
+        "rest": 0.7096383027416441
+      },
+      {
+        "ticker": "Flormar",
+        "category": "Beauty",
+        "selected": 0.02809346235878768,
+        "rest": 0.05514063800645179
+      },
+      {
+        "ticker": "Visionlab",
+        "category": "Healthcare",
+        "selected": 0.685974129066503,
+        "rest": 0.5948494366085
+      },
+      {
+        "ticker": "Tuneles de Artxanda",
+        "category": "Transportation",
+        "selected": 0.004361099804562859,
+        "rest": 0.004762351952724556
+      },
+      {
+        "ticker": "Mascoteros",
+        "category": "Pet Supplies",
+        "selected": 0.15197780842136308,
+        "rest": 0.12681315903908158
+      },
+      {
+        "ticker": "Aucosta",
+        "category": "Food",
+        "selected": 0.01106691501755255,
+        "rest": 0.015083729836519868
+      },
+      {
+        "ticker": "Hotels.com",
+        "category": "Travel",
+        "selected": 0.6954335317292413,
+        "rest": 0.6325876535972804
+      },
+      {
+        "ticker": "Aliexpress",
+        "category": "E-commerce",
+        "selected": 12.104215888681676,
+        "rest": 8.084352689914962
+      },
+      {
+        "ticker": "Hiperber",
+        "category": "Grocery",
+        "selected": 0.6561905658277309,
+        "rest": 0.6210589075215125
+      },
+      {
+        "ticker": "Save the Children",
+        "category": "Non-Profit",
+        "selected": 0.4441639762810669,
+        "rest": 0.3752495809104171
+      },
+      {
+        "ticker": "Polinesia",
+        "category": "Restaurant",
+        "selected": 0.14591313047385485,
+        "rest": 0.11902655134429654
+      },
+      {
+        "ticker": "Maisons du Monde",
+        "category": "Home Goods",
+        "selected": 1.007455867886032,
+        "rest": 1.2053328888653405
+      },
+      {
+        "ticker": "Fundacion Vicente Ferrer",
+        "category": "Non-Profit",
+        "selected": 0.23950062597609173,
+        "rest": 0.3641708260455686
+      },
+      {
+        "ticker": "Nationale Nederlanden",
+        "category": "Insurance",
+        "selected": 2.9301843292350056,
+        "rest": 3.4329455250145324
+      },
+      {
+        "ticker": "Zurich Vida",
+        "category": "Insurance",
+        "selected": 0.4789312359792737,
+        "rest": 0.7289474450791191
+      },
+      {
+        "ticker": "Carhatt",
+        "category": "Apparel",
+        "selected": 0.10057691368174947,
+        "rest": 0.07513654999774583
+      },
+      {
+        "ticker": "Decimas",
+        "category": "Retail Stores",
+        "selected": 1.1785803996453685,
+        "rest": 1.2431099810703845
+      },
+      {
+        "ticker": "Carhire",
+        "category": "Rental Cars",
+        "selected": 0.23460295756666125,
+        "rest": 0.21408791037868055
+      },
+      {
+        "ticker": "New York Burger",
+        "category": "Restaurant",
+        "selected": 0.2870353107474285,
+        "rest": 0.1659562895477521
+      },
+      {
+        "ticker": "Cañas y Tapas",
+        "category": "Restaurant",
+        "selected": 0.0458296253524143,
+        "rest": 0.03255138140348257
+      },
+      {
+        "ticker": "Mercadona",
+        "category": "Grocery",
+        "selected": 181.51524188340426,
+        "rest": 192.07595593217687
+      },
+      {
+        "ticker": "Stradivarius",
+        "category": "Apparel",
+        "selected": 2.752856190630365,
+        "rest": 5.612387829289976
+      },
+      {
+        "ticker": "Mientrada.net",
+        "category": "Tickets",
+        "selected": 0.029006970039687118,
+        "rest": 0.029146149578400296
+      },
+      {
+        "ticker": "Drim",
+        "category": "Retail Stores",
+        "selected": 0.5903217190793414,
+        "rest": 0.5733144189827807
+      },
+      {
+        "ticker": "Aparcamientos Europeos",
+        "category": "Parking",
+        "selected": 0.006156524992314325,
+        "rest": 0.006686562685018
+      },
+      {
+        "ticker": "Celio",
+        "category": "Apparel",
+        "selected": 0.7305363606428278,
+        "rest": 0.4591004902427539
+      },
+      {
+        "ticker": "United Colors of Benetton",
+        "category": "Apparel",
+        "selected": 0.6386839764546721,
+        "rest": 1.0774288915317145
+      },
+      {
+        "ticker": "Coinbase",
+        "category": "Financial Services",
+        "selected": 2.0982609167503816,
+        "rest": 0.8477740785112057
+      },
+      {
+        "ticker": "Viesgo",
+        "category": "Fuel",
+        "selected": 1.946815872154698,
+        "rest": 2.7230255065968336
+      },
+      {
+        "ticker": "Banak",
+        "category": "Accessories",
+        "selected": 0.12441189666847935,
+        "rest": 0.14175111948459782
+      },
+      {
+        "ticker": "Entradas a tu alcance",
+        "category": "Tickets",
+        "selected": 0.1735358705163489,
+        "rest": 0.13310629997320114
+      },
+      {
+        "ticker": "Car2go",
+        "category": "Transportation",
+        "selected": 0.532552591766774,
+        "rest": 0.4622738393177848
+      },
+      {
+        "ticker": "Sfera",
+        "category": "Apparel",
+        "selected": 0.8132883306287125,
+        "rest": 1.3128483390296501
+      },
+      {
+        "ticker": "Textura",
+        "category": "Home Goods",
+        "selected": 0.0582671398677916,
+        "rest": 0.059049098413008
+      },
+      {
+        "ticker": "Amazon Prime Now Marketplace",
+        "category": "E-commerce",
+        "selected": 0.859152585241423,
+        "rest": 0.5020891456530419
+      },
+      {
+        "ticker": "Centros Unico",
+        "category": "Education",
+        "selected": 0.26481739268517795,
+        "rest": 0.4703811972751954
+      },
+      {
+        "ticker": "Eroski Center",
+        "category": "Grocery",
+        "selected": 8.523582969548672,
+        "rest": 7.835477329632432
+      },
+      {
+        "ticker": "FCC Aqualia",
+        "category": "Utilities",
+        "selected": 2.0421318134387136,
+        "rest": 3.149381987964072
+      },
+      {
+        "ticker": "Interbiak",
+        "category": "Transportation",
+        "selected": 0.21960924834326587,
+        "rest": 0.20112295319073495
+      },
+      {
+        "ticker": "Norte Hispana",
+        "category": "Transportation",
+        "selected": 0.493821312126339,
+        "rest": 0.6022569213751976
+      },
+      {
+        "ticker": "CCLoan",
+        "category": "Financial Services",
+        "selected": 0.1319083381889143,
+        "rest": 0.19877442578327673
+      },
+      {
+        "ticker": "Caprabo",
+        "category": "Grocery",
+        "selected": 8.618378034577146,
+        "rest": 6.672591342092843
+      },
+      {
+        "ticker": "Mercure",
+        "category": "Travel",
+        "selected": 0.14848296507461842,
+        "rest": 0.12842642484755543
+      },
+      {
+        "ticker": "Hugo Boss",
+        "category": "Apparel",
+        "selected": 0.09455405315760412,
+        "rest": 0.08837823766460562
+      },
+      {
+        "ticker": "Muerde la Pasta",
+        "category": "Restaurant",
+        "selected": 0.13596242222410188,
+        "rest": 0.12397469475685845
+      },
+      {
+        "ticker": "Exe",
+        "category": "Travel",
+        "selected": 0.3946207195705445,
+        "rest": 0.350573131484804
+      },
+      {
+        "ticker": "Friking",
+        "category": "Apparel",
+        "selected": 0.0829599293755328,
+        "rest": 0.03972727322004698
+      },
+      {
+        "ticker": "Alsa",
+        "category": "Transportation",
+        "selected": 3.4730476353858792,
+        "rest": 2.4282677581515677
+      },
+      {
+        "ticker": "Hidrogea",
+        "category": "Utilities",
+        "selected": 0.3599926031870335,
+        "rest": 0.44032611098206226
+      },
+      {
+        "ticker": "Kiddy's Class",
+        "category": "Education",
+        "selected": 0.38440393907960807,
+        "rest": 0.7643940555724876
+      },
+      {
+        "ticker": "Vivus Finance",
+        "category": "Financial Services",
+        "selected": 3.882948796784314,
+        "rest": 3.244361647596549
+      },
+      {
+        "ticker": "Amazon Premium",
+        "category": "Subscription Services",
+        "selected": 1.0067853155764557,
+        "rest": 0.6260873341270724
+      },
+      {
+        "ticker": "Nyx",
+        "category": "Beauty",
+        "selected": 0.4367654418246447,
+        "rest": 0.3940523509330969
+      },
+      {
+        "ticker": "Valecuatro",
+        "category": "Tickets",
+        "selected": 0.030985410322698973,
+        "rest": 0.039814543861150443
+      },
+      {
+        "ticker": "Forum Sport",
+        "category": "Retail Stores",
+        "selected": 1.2990298215045466,
+        "rest": 1.4795271367353489
+      },
+      {
+        "ticker": "Hiber",
+        "category": "Telecom",
+        "selected": 0.9354551706022121,
+        "rest": 0.6924859895330415
+      },
+      {
+        "ticker": "Bwin",
+        "category": "Entertainment",
+        "selected": 1.0902061194303798,
+        "rest": 0.9417716325295042
+      },
+      {
+        "ticker": "Vida Caixa",
+        "category": "Insurance",
+        "selected": 1.797637904231904,
+        "rest": 2.3662267489273905
+      },
+      {
+        "ticker": "Chocolateria Valor",
+        "category": "Food",
+        "selected": 0.013169127290207867,
+        "rest": 0.010699667125830273
+      },
+      {
+        "ticker": "Aena",
+        "category": "Transportation",
+        "selected": 0.4729871010395538,
+        "rest": 0.43209749565012257
+      },
+      {
+        "ticker": "Qwertee",
+        "category": "Apparel",
+        "selected": 0.3480300127231374,
+        "rest": 0.03841441703797771
+      },
+      {
+        "ticker": "Conforama",
+        "category": "Home Goods",
+        "selected": 3.4303343977788363,
+        "rest": 3.076445415032472
+      },
+      {
+        "ticker": "Quebueno",
+        "category": "Food",
+        "selected": 0.9112077032954404,
+        "rest": 0.7541752835742411
+      },
+      {
+        "ticker": "Aparcamientos Espolon",
+        "category": "Parking",
+        "selected": 0.008488924027060842,
+        "rest": 0.007195257752589961
+      },
+      {
+        "ticker": "Holiday Gym",
+        "category": "Fitness",
+        "selected": 0.3260076076928124,
+        "rest": 0.2876057969894752
+      },
+      {
+        "ticker": "Lidl",
+        "category": "Grocery",
+        "selected": 32.99494494453382,
+        "rest": 36.63141713132114
+      },
+      {
+        "ticker": "Rakuten TV",
+        "category": "Streaming",
+        "selected": 0.16665260553643457,
+        "rest": 0.10994212323338884
+      },
+      {
+        "ticker": "Novotel",
+        "category": "Travel",
+        "selected": 0.4398501262783994,
+        "rest": 0.4064232383401157
+      },
+      {
+        "ticker": "Bet365",
+        "category": "Entertainment",
+        "selected": 9.523417046244063,
+        "rest": 7.4560146867181505
+      },
+      {
+        "ticker": "H&amp;M",
+        "category": "Apparel",
+        "selected": 8.224202454952353,
+        "rest": 10.029116801367575
+      },
+      {
+        "ticker": "Atresplayer",
+        "category": "Streaming",
+        "selected": 0.03936278978805028,
+        "rest": 0.03251240396238736
+      },
+      {
+        "ticker": "Pull &amp; Bear",
+        "category": "Apparel",
+        "selected": 5.744051844861548,
+        "rest": 5.602744906584684
+      },
+      {
+        "ticker": "Taxi",
+        "category": "Transportation",
+        "selected": 0.15025963057975247,
+        "rest": 0.13564923055431302
+      },
+      {
+        "ticker": "Codere",
+        "category": "Gambling",
+        "selected": 0.5246256611592862,
+        "rest": 0.7501263352872961
+      },
+      {
+        "ticker": "Movelia",
+        "category": "Travel",
+        "selected": 0.23638296111213652,
+        "rest": 0.16154649492592402
+      },
+      {
+        "ticker": "Tienda Animal",
+        "category": "Pet Supplies",
+        "selected": 2.546215610603152,
+        "rest": 1.7971962457045594
+      },
+      {
+        "ticker": "Empark",
+        "category": "Parking",
+        "selected": 0.10378029906103642,
+        "rest": 0.13386855983536858
+      },
+      {
+        "ticker": "App Informatica",
+        "category": "IT Services",
+        "selected": 0.3959697546743062,
+        "rest": 0.1189364560806454
+      },
+      {
+        "ticker": "100 Montaditos",
+        "category": "Restaurant",
+        "selected": 0.8394421034299676,
+        "rest": 0.5557698924068938
+      },
+      {
+        "ticker": "Miss Sushi",
+        "category": "Restaurant",
+        "selected": 0.15869305435850853,
+        "rest": 0.11302930662468501
+      },
+      {
+        "ticker": "BNP Paribas Cardif",
+        "category": "Insurance",
+        "selected": 0.2693002733915818,
+        "rest": 0.2249827322444826
+      },
+      {
+        "ticker": "Okaidi",
+        "category": "Apparel",
+        "selected": 0.17706583320596492,
+        "rest": 0.22010020625003487
+      },
+      {
+        "ticker": "Thomann",
+        "category": "Music",
+        "selected": 1.8991549982820022,
+        "rest": 0.6078339536525643
+      },
+      {
+        "ticker": "Port Aventura",
+        "category": "Entertainment",
+        "selected": 1.395327550242815,
+        "rest": 0.8713414426096306
+      },
+      {
+        "ticker": "Pizza Hut",
+        "category": "Fast Food",
+        "selected": 0.14703769590326313,
+        "rest": 0.08057040864280035
+      },
+      {
+        "ticker": "Condis",
+        "category": "Grocery",
+        "selected": 8.746349636190663,
+        "rest": 5.939477882076605
+      },
+      {
+        "ticker": "Five guys",
+        "category": "Fast Food",
+        "selected": 0.7252885450022866,
+        "rest": 0.40471065921407445
+      },
+      {
+        "ticker": "Accessorize",
+        "category": "Accessories",
+        "selected": 0.031157477070854797,
+        "rest": 0.03570621550184716
+      },
+      {
+        "ticker": "Sergio &amp; Cano",
+        "category": "Apparel",
+        "selected": 0.02037823754012256,
+        "rest": 0.03120933106119039
+      },
+      {
+        "ticker": "Solgade Online",
+        "category": "Apparel",
+        "selected": 0.04518892732532761,
+        "rest": 0.04053207395649274
+      },
+      {
+        "ticker": "BSM Aparcaments",
+        "category": "Parking",
+        "selected": 0.024881923459747123,
+        "rest": 0.01952217713106926
+      },
+      {
+        "ticker": "Esclatoil",
+        "category": "Fuel",
+        "selected": 4.0389014784991355,
+        "rest": 3.029491035569981
+      },
+      {
+        "ticker": "Sprinter",
+        "category": "Retail Stores",
+        "selected": 1.2943117846334526,
+        "rest": 1.3406656496880642
+      },
+      {
+        "ticker": "Lowi",
+        "category": "Retail Stores",
+        "selected": 4.10226839236461,
+        "rest": 3.036107448335979
+      },
+      {
+        "ticker": "Juan Fornes Fornes",
+        "category": "Food",
+        "selected": 0.17891840135052553,
+        "rest": 0.17607333550009763
+      },
+      {
+        "ticker": "Altafit",
+        "category": "Fitness",
+        "selected": 0.3674767846747333,
+        "rest": 0.2788163278279187
+      },
+      {
+        "ticker": "Tinder",
+        "category": "Dating App",
+        "selected": 0.13988434707355898,
+        "rest": 0.058205377009619724
+      },
+      {
+        "ticker": "Aldi",
+        "category": "Grocery",
+        "selected": 12.042574949113499,
+        "rest": 12.33089481953094
+      },
+      {
+        "ticker": "Mango",
+        "category": "Apparel",
+        "selected": 4.417310097844456,
+        "rest": 6.504514031132583
+      },
+      {
+        "ticker": "Petrocat",
+        "category": "Fuel",
+        "selected": 0.3215263670025006,
+        "rest": 0.3315756910329034
+      },
+      {
+        "ticker": "British Airways",
+        "category": "Airlines",
+        "selected": 0.06678451649210815,
+        "rest": 0.06866892022024886
+      },
+      {
+        "ticker": "WWF",
+        "category": "Non-Profit",
+        "selected": 0.12131238884230547,
+        "rest": 0.08083669420316812
+      },
+      {
+        "ticker": "Movistar +",
+        "category": "Streaming",
+        "selected": 0.10270577423275871,
+        "rest": 0.07557910906603155
+      },
+      {
+        "ticker": "Movistar",
+        "category": "Telecom",
+        "selected": 54.25390831909938,
+        "rest": 57.17901888811056
+      },
+      {
+        "ticker": "Zoo Aquarium Madrid",
+        "category": "Attractions",
+        "selected": 0.09961035087317154,
+        "rest": 0.12388147912615928
+      },
+      {
+        "ticker": "Juguetilandia",
+        "category": "Retail Stores",
+        "selected": 0.1527122969462511,
+        "rest": 0.23619676193912403
+      },
+      {
+        "ticker": "Western Union",
+        "category": "Financial Services",
+        "selected": 0.3493521729798069,
+        "rest": 0.27931525486166
+      },
+      {
+        "ticker": "Eroski",
+        "category": "Grocery",
+        "selected": 11.543755593380697,
+        "rest": 14.100693503479489
+      },
+      {
+        "ticker": "Balthazar",
+        "category": "Restaurant",
+        "selected": 0.04118935912341355,
+        "rest": 0.031744272350623284
+      },
+      {
+        "ticker": "Womensecret",
+        "category": "Apparel",
+        "selected": 1.4350495233690552,
+        "rest": 2.3357979987981046
+      },
+      {
+        "ticker": "Brico Depot",
+        "category": "Home Goods",
+        "selected": 1.6333095109433942,
+        "rest": 1.8638086312916782
+      },
+      {
+        "ticker": "B the travel brand",
+        "category": "Travel",
+        "selected": 0.2399554701633666,
+        "rest": 0.533249920223365
+      },
+      {
+        "ticker": "Imaginarium",
+        "category": "Retail Stores",
+        "selected": 0.28683235008196006,
+        "rest": 0.4212532047959264
+      },
+      {
+        "ticker": "Marypaz",
+        "category": "Apparel",
+        "selected": 0.20474866691220536,
+        "rest": 0.3442248160644157
+      },
+      {
+        "ticker": "Deza Calidad",
+        "category": "Grocery",
+        "selected": 0.4497106055203114,
+        "rest": 0.6510111473868082
+      },
+      {
+        "ticker": "Fenie Energia",
+        "category": "Energy",
+        "selected": 1.4554354222630022,
+        "rest": 2.1473316112270107
+      },
+      {
+        "ticker": "Tamoil",
+        "category": "Fuel",
+        "selected": 0.29475968340038483,
+        "rest": 0.20219925050005205
+      },
+      {
+        "ticker": "Amazon MarketPlace",
+        "category": "E-commerce",
+        "selected": 10.097802757069148,
+        "rest": 6.073593702274842
+      },
+      {
+        "ticker": "FLAP",
+        "category": "Gambling",
+        "selected": 0.032923754750440314,
+        "rest": 0.06104809228427445
+      },
+      {
+        "ticker": "The Good Burguer",
+        "category": "Fast Food",
+        "selected": 0.6796361734931573,
+        "rest": 0.3653986824102709
+      },
+      {
+        "ticker": "W",
+        "category": "Travel",
+        "selected": 0.12271354596260177,
+        "rest": 0.15007312247914667
+      },
+      {
+        "ticker": "Indalo",
+        "category": "Travel",
+        "selected": 0.06504030723701326,
+        "rest": 0.03773930754910286
+      },
+      {
+        "ticker": "Jean Louis David",
+        "category": "Beauty",
+        "selected": 0.0898326195511755,
+        "rest": 0.1586351867782894
+      },
+      {
+        "ticker": "Buffalo grill",
+        "category": "Restaurant",
+        "selected": 0.05831379998351697,
+        "rest": 0.038515069761275354
+      },
+      {
+        "ticker": "Autopista Madrid Toledo",
+        "category": "Transportation",
+        "selected": 0.011244457220158184,
+        "rest": 0.008590919214839638
+      },
+      {
+        "ticker": "AXA",
+        "category": "Insurance",
+        "selected": 9.680107700182473,
+        "rest": 11.684375691861778
+      },
+      {
+        "ticker": "Metro Bilbao",
+        "category": "Transportation",
+        "selected": 0.8688086577317196,
+        "rest": 0.6786203659619451
+      },
+      {
+        "ticker": "Asos",
+        "category": "E-commerce",
+        "selected": 2.6618862944886534,
+        "rest": 2.4248075006522294
+      },
+      {
+        "ticker": "Europcar",
+        "category": "Transportation",
+        "selected": 1.7359669009118723,
+        "rest": 1.427935821582661
+      },
+      {
+        "ticker": "Groupon",
+        "category": "E-commerce",
+        "selected": 1.761364757562509,
+        "rest": 1.8010981626252909
+      },
+      {
+        "ticker": "eBay",
+        "category": "E-commerce",
+        "selected": 0.6928513849688033,
+        "rest": 0.3923624990435037
+      },
+      {
+        "ticker": "Simply Gasolinera",
+        "category": "Fuel",
+        "selected": 0.13368870977280187,
+        "rest": 0.10387073041454668
+      },
+      {
+        "ticker": "Amazon Buyvip",
+        "category": "E-commerce",
+        "selected": 0.3448616635646909,
+        "rest": 0.3686205902213255
+      },
+      {
+        "ticker": "Kiwoko",
+        "category": "Grocery",
+        "selected": 2.829034623981287,
+        "rest": 1.9494937719024616
+      },
+      {
+        "ticker": "Multiopticas",
+        "category": "Healthcare",
+        "selected": 0.9206742957197253,
+        "rest": 1.0190321659087707
+      },
+      {
+        "ticker": "PlayStation Network",
+        "category": "Gaming",
+        "selected": 9.996905622883459,
+        "rest": 2.9071960662105787
+      },
+      {
+        "ticker": "Vueling",
+        "category": "Transportation",
+        "selected": 9.575415342093612,
+        "rest": 8.784893996330126
+      },
+      {
+        "ticker": "Axa Assistance",
+        "category": "Insurance",
+        "selected": 0.16183223015595405,
+        "rest": 0.17711167573369366
+      },
+      {
+        "ticker": "Halcon Viajes",
+        "category": "Travel",
+        "selected": 0.3649293508500757,
+        "rest": 0.5584655558441268
+      },
+      {
+        "ticker": "Tunels de Barcelona-Cadi",
+        "category": "Transportation",
+        "selected": 0.010721905277774843,
+        "rest": 0.008756710793891266
+      },
+      {
+        "ticker": "Udemy",
+        "category": "Education",
+        "selected": 0.4471426973955341,
+        "rest": 0.1027407114896801
+      },
+      {
+        "ticker": "Hailo",
+        "category": "Transportation",
+        "selected": 0.12940915325415522,
+        "rest": 0.12106117064222198
+      },
+      {
+        "ticker": "Traventia",
+        "category": "Travel",
+        "selected": 0.24239280556126738,
+        "rest": 0.22322944876685527
+      },
+      {
+        "ticker": "Instant Gaming",
+        "category": "Entertainment",
+        "selected": 2.186353257253349,
+        "rest": 0.12118141725673454
+      },
+      {
+        "ticker": "BP",
+        "category": "Fuel",
+        "selected": 7.09316174459714,
+        "rest": 6.476263241427364
+      },
+      {
+        "ticker": "Telecable",
+        "category": "Telecom",
+        "selected": 1.4398769492743948,
+        "rest": 1.2471149872726224
+      },
+      {
+        "ticker": "Telepiensos",
+        "category": "Pet Supplies",
+        "selected": 0.10322129317245601,
+        "rest": 0.08600318853298115
+      },
+      {
+        "ticker": "Santander Seguros",
+        "category": "Insurance",
+        "selected": 2.644353100509436,
+        "rest": 3.7088954433995616
+      },
+      {
+        "ticker": "Ticketea",
+        "category": "Entertainment",
+        "selected": 2.040773478890265,
+        "rest": 1.471559095075041
+      },
+      {
+        "ticker": "Parque de Atracciones de Madrid",
+        "category": "Entertainment",
+        "selected": 0.5017284264094315,
+        "rest": 0.4635838096005455
+      },
+      {
+        "ticker": "Beep",
+        "category": "Transportation",
+        "selected": 0.18786602528192262,
+        "rest": 0.08840115938922784
+      },
+      {
+        "ticker": "Multicines Pedrosa",
+        "category": "Movies",
+        "selected": 0.041371638049374104,
+        "rest": 0.0201070000254183
+      },
+      {
+        "ticker": "Autopista Madrid Sur",
+        "category": "Transportation",
+        "selected": 0.07674406436016384,
+        "rest": 0.07240517784320087
+      },
+      {
+        "ticker": "Rentalcars",
+        "category": "Transportation",
+        "selected": 1.2790076568865054,
+        "rest": 1.1037616386001134
+      },
+      {
+        "ticker": "Via Lactea",
+        "category": "Attractions",
+        "selected": 0.023502555983253192,
+        "rest": 0.01949982823040497
+      },
+      {
+        "ticker": "Divina Pastora",
+        "category": "Restaurant",
+        "selected": 0.33821727375036487,
+        "rest": 0.5666747628777626
+      },
+      {
+        "ticker": "TGI Fridays",
+        "category": "Restaurant",
+        "selected": 0.9025068680915389,
+        "rest": 0.5331000601180036
+      },
+      {
+        "ticker": "FCE Bank",
+        "category": "Financial Services",
+        "selected": 4.1498414700814905,
+        "rest": 2.724989959986534
+      },
+      {
+        "ticker": "CHC Energia",
+        "category": "Energy",
+        "selected": 0.43393107851027213,
+        "rest": 0.7387777147246499
+      },
+      {
+        "ticker": "Enterprise",
+        "category": "Transportation",
+        "selected": 1.3277965889159693,
+        "rest": 1.0144956605219093
+      },
+      {
+        "ticker": "Bauhaus",
+        "category": "Home Improvement",
+        "selected": 1.598861255304638,
+        "rest": 1.5289640805153728
+      },
+      {
+        "ticker": "Shana",
+        "category": "Apparel",
+        "selected": 0.055787355909024165,
+        "rest": 0.09075173627423436
+      },
+      {
+        "ticker": "AP-1 Europistas",
+        "category": "Transportation",
+        "selected": 0.2189395333210113,
+        "rest": 0.20549801927199754
+      },
+      {
+        "ticker": "Letsbonus",
+        "category": "Loyalty",
+        "selected": 0.10166653403987212,
+        "rest": 0.09968594449341302
+      },
+      {
+        "ticker": "Hilton",
+        "category": "Travel",
+        "selected": 0.31160802248861613,
+        "rest": 0.24223846373494007
+      },
+      {
+        "ticker": "Accion contra el hambre",
+        "category": "Non-Profit",
+        "selected": 0.28779321668285074,
+        "rest": 0.21751255470059266
+      },
+      {
+        "ticker": "Raro Rare",
+        "category": "Apparel",
+        "selected": 0.017291786751996507,
+        "rest": 0.019676401175571408
+      },
+      {
+        "ticker": "Amgen seguros",
+        "category": "Insurance",
+        "selected": 0.26006175286784394,
+        "rest": 0.28167494469404936
+      },
+      {
+        "ticker": "Maskom",
+        "category": "Cosmetics",
+        "selected": 0.10168304319361031,
+        "rest": 0.06342196462104381
+      },
+      {
+        "ticker": "Flip Energia",
+        "category": "Energy",
+        "selected": 0.25737750132976334,
+        "rest": 0.2530866066066809
+      },
+      {
+        "ticker": "Bonarea",
+        "category": "Retail Stores",
+        "selected": 4.814697755361655,
+        "rest": 3.8145429196991367
+      },
+      {
+        "ticker": "RIU",
+        "category": "Resorts",
+        "selected": 0.128101233238105,
+        "rest": 0.11345957485631118
+      },
+      {
+        "ticker": "Iberpistas",
+        "category": "Transportation",
+        "selected": 0.16321413408079424,
+        "rest": 0.13495805991436238
+      },
+      {
+        "ticker": "Aqualandia",
+        "category": "Waterparks",
+        "selected": 0.06490452386768183,
+        "rest": 0.031219507343731523
+      },
+      {
+        "ticker": "Pokerstars",
+        "category": "Gambling",
+        "selected": 0.6278171208316752,
+        "rest": 0.3788253540653944
+      },
+      {
+        "ticker": "Glorias Multicines",
+        "category": "Movies",
+        "selected": 0.024481640155702544,
+        "rest": 0.01032744451398736
+      },
+      {
+        "ticker": "Blood Brothers",
+        "category": "Entertainment",
+        "selected": 0.05729909981732942,
+        "rest": 0.0382902795952484
+      },
+      {
+        "ticker": "Carl's Jr",
+        "category": "Fast Food",
+        "selected": 0.12992853272088695,
+        "rest": 0.06287031584662728
+      },
+      {
+        "ticker": "Loops&amp;Coffee",
+        "category": "Coffee Shop",
+        "selected": 0.01060118570162183,
+        "rest": 0.0061311364871776885
+      },
+      {
+        "ticker": "Westwing",
+        "category": "Home Goods",
+        "selected": 0.2499066591806281,
+        "rest": 0.3466227362247184
+      },
+      {
+        "ticker": "Electrodomesticos Miro",
+        "category": "Electronics",
+        "selected": 0.15358947618892807,
+        "rest": 0.15175271329649392
+      },
+      {
+        "ticker": "Spejo's",
+        "category": "Restaurant",
+        "selected": 0.034127988129957314,
+        "rest": 0.04800960703576408
+      },
+      {
+        "ticker": "LAE (Loterias y Apuestas del Estado)",
+        "category": "Entertainment",
+        "selected": 4.151104937168811,
+        "rest": 3.9662588305194206
+      },
+      {
+        "ticker": "FK Donna Uomo",
+        "category": "Apparel",
+        "selected": 0.017038642269503104,
+        "rest": 0.02254010492087405
+      },
+      {
+        "ticker": "Peyote",
+        "category": "Restaurant",
+        "selected": 0.028608929331656322,
+        "rest": 0.04595032601569788
+      },
+      {
+        "ticker": "Zity",
+        "category": "Transportation",
+        "selected": 0.5595479882403609,
+        "rest": 0.3138554969676007
+      },
+      {
+        "ticker": "Aucalsa",
+        "category": "Fuel",
+        "selected": 0.40287063162008013,
+        "rest": 0.34554481907511014
+      },
+      {
+        "ticker": "Tuenti Movil",
+        "category": "Telecom",
+        "selected": 0.5270150265530934,
+        "rest": 0.3255037943943956
+      },
+      {
+        "ticker": "Microsoft Xbox",
+        "category": "Gaming",
+        "selected": 0.5842097402881742,
+        "rest": 0.1706471655366045
+      },
+      {
+        "ticker": "Pipa&amp;Co",
+        "category": "Pet Supplies",
+        "selected": 0.04140222032047709,
+        "rest": 0.040125143466645696
+      },
+      {
+        "ticker": "Consum",
+        "category": "Grocery",
+        "selected": 19.83283748017644,
+        "rest": 16.645923719563534
+      },
+      {
+        "ticker": "Hipercor",
+        "category": "Grocery",
+        "selected": 3.5913556513270524,
+        "rest": 3.9178143117322226
+      },
+      {
+        "ticker": "Marieta",
+        "category": "Jewelry",
+        "selected": 0.02599574055639537,
+        "rest": 0.03226614904710299
+      },
+      {
+        "ticker": "Supeco",
+        "category": "Grocery",
+        "selected": 0.5399215920533664,
+        "rest": 0.7293320751754848
+      },
+      {
+        "ticker": "Burger King",
+        "category": "Fast Food",
+        "selected": 7.043049737674541,
+        "rest": 4.516189174140507
+      },
+      {
+        "ticker": "888",
+        "category": "Gambling",
+        "selected": 0.9319976439236315,
+        "rest": 1.0759603143440828
+      },
+      {
+        "ticker": "Serviapuestas",
+        "category": "Gambling",
+        "selected": 0.09296428344725721,
+        "rest": 0.11195675395661212
+      },
+      {
+        "ticker": "Crocantickets",
+        "category": "Entertainment",
+        "selected": 0.4211442724885005,
+        "rest": 0.2617189918651462
+      },
+      {
+        "ticker": "Glovo",
+        "category": "Delivery",
+        "selected": 15.680110888014255,
+        "rest": 8.559292486158094
+      },
+      {
+        "ticker": "beIN Sports",
+        "category": "Entertainment",
+        "selected": 0.35575408308096096,
+        "rest": 0.1945728047395417
+      },
+      {
+        "ticker": "Dominos Pizza",
+        "category": "Fast Food",
+        "selected": 5.052406606790332,
+        "rest": 2.2912531405999603
+      },
+      {
+        "ticker": "The Body Shop",
+        "category": "Beauty",
+        "selected": 0.24934400794114212,
+        "rest": 0.2998493292928148
+      },
+      {
+        "ticker": "Oro Vivo",
+        "category": "Jewelry",
+        "selected": 0.14495798907901108,
+        "rest": 0.12467936764499053
+      },
+      {
+        "ticker": "Wowble",
+        "category": "Travel",
+        "selected": 0.014424606160553024,
+        "rest": 0.007191629340848698
+      },
+      {
+        "ticker": "Cruz Blanca",
+        "category": "Healthcare",
+        "selected": 0.07060200501288433,
+        "rest": 0.07292572785131961
+      },
+      {
+        "ticker": "Goldcar",
+        "category": "Transportation",
+        "selected": 1.4891095901659925,
+        "rest": 1.2883267952991286
+      },
+      {
+        "ticker": "TradeInn",
+        "category": "Financial Services",
+        "selected": 0.11070451150906649,
+        "rest": 0.13315186894112302
+      },
+      {
+        "ticker": "Metlife",
+        "category": "Insurance",
+        "selected": 0.6873980935198548,
+        "rest": 0.7617477196502296
+      },
+      {
+        "ticker": "La Oca",
+        "category": "Restaurant",
+        "selected": 0.03471676766323428,
+        "rest": 0.04828257368973788
+      },
+      {
+        "ticker": "Medicos del Mundo",
+        "category": "Non-Profit",
+        "selected": 0.221969267067014,
+        "rest": 0.18577359563179743
+      },
+      {
+        "ticker": "McFit",
+        "category": "Fitness",
+        "selected": 1.4795529859342917,
+        "rest": 0.9744611335913238
+      },
+      {
+        "ticker": "Helvetia",
+        "category": "Insurance",
+        "selected": 1.1814099392001132,
+        "rest": 1.695785613960846
+      },
+      {
+        "ticker": "Moneyman",
+        "category": "Financial Services",
+        "selected": 1.5113080351758417,
+        "rest": 1.1951243123912778
+      },
+      {
+        "ticker": "Transavia",
+        "category": "Airlines",
+        "selected": 0.37944327893857316,
+        "rest": 0.29624280081646676
+      },
+      {
+        "ticker": "Redentradas",
+        "category": "Tickets",
+        "selected": 0.0576622689516633,
+        "rest": 0.060563459275833814
+      },
+      {
+        "ticker": "The Phone House",
+        "category": "Electronics",
+        "selected": 1.211517373989837,
+        "rest": 1.0781154033596652
+      },
+      {
+        "ticker": "Jazztel",
+        "category": "Telecom",
+        "selected": 13.366463745720282,
+        "rest": 13.28911543953998
+      },
+      {
+        "ticker": "Aparcamientos Sama",
+        "category": "Parking",
+        "selected": 0.03451986849076905,
+        "rest": 0.029813001954035818
+      },
+      {
+        "ticker": "Google Play",
+        "category": "Subscription Services",
+        "selected": 1.868646938533603,
+        "rest": 0.7449143518004523
+      },
+      {
+        "ticker": "Super BM",
+        "category": "Grocery",
+        "selected": 5.026358134817879,
+        "rest": 5.155992771737462
+      },
+      {
+        "ticker": "The Irish Rover",
+        "category": "Restaurant",
+        "selected": 0.10595629350252815,
+        "rest": 0.049288529219518755
+      },
+      {
+        "ticker": "Oh my cut",
+        "category": "Beauty",
+        "selected": 0.07133057576587816,
+        "rest": 0.11083168023733694
+      },
+      {
+        "ticker": "Bonpreu",
+        "category": "Grocery",
+        "selected": 7.189370229632914,
+        "rest": 5.454971664435331
+      },
+      {
+        "ticker": "New Balance",
+        "category": "Apparel",
+        "selected": 0.2568649298637149,
+        "rest": 0.27829837746548897
+      },
+      {
+        "ticker": "Nike",
+        "category": "Apparel",
+        "selected": 3.6261114568168913,
+        "rest": 3.5100568662167735
+      },
+      {
+        "ticker": "Pannus",
+        "category": "Apparel",
+        "selected": 0.016787122736276475,
+        "rest": 0.008953175438196771
+      },
+      {
+        "ticker": "Hawkers",
+        "category": "Apparel",
+        "selected": 0.6325478508660053,
+        "rest": 0.4771709143307702
+      },
+      {
+        "ticker": "Banco Sabadell Seguros Generales",
+        "category": "Insurance",
+        "selected": 1.4114724782736299,
+        "rest": 1.6489608903953288
+      },
+      {
+        "ticker": "Bluemove",
+        "category": "Transportation",
+        "selected": 0.10607259252154635,
+        "rest": 0.10863597595965185
+      },
+      {
+        "ticker": "Simyo",
+        "category": "Telecom",
+        "selected": 2.6808545961557875,
+        "rest": 2.1815152986453494
+      },
+      {
+        "ticker": "Verdecora",
+        "category": "Home Goods",
+        "selected": 0.702257865578124,
+        "rest": 0.6873692095353559
+      },
+      {
+        "ticker": "Banque PSA Finance",
+        "category": "Financial Services",
+        "selected": 9.254367273742005,
+        "rest": 9.131834054061102
+      },
+      {
+        "ticker": "Alterna",
+        "category": "Beauty",
+        "selected": 0.36886335961208333,
+        "rest": 0.3229384293211654
+      },
+      {
+        "ticker": "Krunch",
+        "category": "Restaurant",
+        "selected": 0.06107372108550508,
+        "rest": 0.05132359757520779
+      },
+      {
+        "ticker": "Botticelli",
+        "category": "Restaurant",
+        "selected": 0.08575691773362026,
+        "rest": 0.11546400158532769
+      },
+      {
+        "ticker": "Plus Ultra Seguros",
+        "category": "Insurance",
+        "selected": 2.8083687864974856,
+        "rest": 3.788385685418366
+      },
+      {
+        "ticker": "Sanitas",
+        "category": "Healthcare",
+        "selected": 7.72696359568653,
+        "rest": 10.779347637449758
+      },
+      {
+        "ticker": "Bricor",
+        "category": "Home Goods",
+        "selected": 0.4148194867673897,
+        "rest": 0.46440682334650396
+      },
+      {
+        "ticker": "Atrapalo.com",
+        "category": "Travel",
+        "selected": 1.6657487460975928,
+        "rest": 1.7468655682721068
+      },
+      {
+        "ticker": "A loja do gato preto",
+        "category": "Pet Supplies",
+        "selected": 0.2905963452661789,
+        "rest": 0.28687216176365044
+      },
+      {
+        "ticker": "Mequedouno",
+        "category": "E-commerce",
+        "selected": 0.2873479888463218,
+        "rest": 0.20209313558972478
+      },
+      {
+        "ticker": "Loro Parque",
+        "category": "Attractions",
+        "selected": 0.05382981951408907,
+        "rest": 0.03619966366327376
+      },
+      {
+        "ticker": "Carrefour Market",
+        "category": "Grocery",
+        "selected": 2.138972757193683,
+        "rest": 1.9057123824163642
+      },
+      {
+        "ticker": "Disa",
+        "category": "Fuel",
+        "selected": 0.5034168849401323,
+        "rest": 0.4001490545594455
+      },
+      {
+        "ticker": "Acesa",
+        "category": "Transportation",
+        "selected": 2.4557493710279044,
+        "rest": 2.1273977621325795
+      },
+      {
+        "ticker": "Somnium",
+        "category": "Home Goods",
+        "selected": 0.09693685706617486,
+        "rest": 0.06076881295007409
+      },
+      {
+        "ticker": "E-Park",
+        "category": "Transportation",
+        "selected": 0.29387821243499507,
+        "rest": 0.33035897781920154
+      },
+      {
+        "ticker": "San Remo Perfumeries",
+        "category": "Beauty",
+        "selected": 0.054176716390336464,
+        "rest": 0.06492920467787967
+      },
+      {
+        "ticker": "Pompei",
+        "category": "Restaurant",
+        "selected": 0.16259986088467662,
+        "rest": 0.15989443741168782
+      },
+      {
+        "ticker": "Nicoli",
+        "category": "Accessories",
+        "selected": 0.04839618754573512,
+        "rest": 0.14329363124204686
+      },
+      {
+        "ticker": "Muy Mucho",
+        "category": "Retail Stores",
+        "selected": 0.16108191028258445,
+        "rest": 0.1984016082549956
+      },
+      {
+        "ticker": "Bankinter Consumer Finance",
+        "category": "Financial Services",
+        "selected": 1.7586440589459473,
+        "rest": 2.384481293813178
+      },
+      {
+        "ticker": "Puma",
+        "category": "Apparel",
+        "selected": 0.16521135046863777,
+        "rest": 0.14758432743936095
+      },
+      {
+        "ticker": "casa del libro",
+        "category": "Retail Stores",
+        "selected": 1.0447763729842148,
+        "rest": 0.8657027128546059
+      },
+      {
+        "ticker": "Binter Canarias",
+        "category": "Airlines",
+        "selected": 0.36774793532533656,
+        "rest": 0.286811370520245
+      },
+      {
+        "ticker": "Cines IMF",
+        "category": "Movies",
+        "selected": 0.041108791952186446,
+        "rest": 0.0258275124373821
+      },
+      {
+        "ticker": "Creditea",
+        "category": "Financial Services",
+        "selected": 0.38112568658070056,
+        "rest": 0.5713072206146969
+      },
+      {
+        "ticker": "Zooplus",
+        "category": "Pet Supplies",
+        "selected": 2.69672577657344,
+        "rest": 1.5358295087562308
+      },
+      {
+        "ticker": "Saras Energia",
+        "category": "Energy",
+        "selected": 0.16518442225482002,
+        "rest": 0.156483795603799
+      },
+      {
+        "ticker": "Vidal Tiendas",
+        "category": "Retail Stores",
+        "selected": 3.2856833283941342,
+        "rest": 3.008877871184056
+      },
+      {
+        "ticker": "Norwegian",
+        "category": "Transportation",
+        "selected": 1.7275014209432822,
+        "rest": 1.460237178848437
+      },
+      {
+        "ticker": "Pavapark",
+        "category": "Parking",
+        "selected": 0.031617227265359545,
+        "rest": 0.02500867543837418
+      },
+      {
+        "ticker": "Galp",
+        "category": "Fuel",
+        "selected": 3.3910265405091984,
+        "rest": 3.263621330205003
+      },
+      {
+        "ticker": "UNED",
+        "category": "Education",
+        "selected": 1.4021711858171855,
+        "rest": 1.061955956915881
+      },
+      {
+        "ticker": "Movo",
+        "category": "Transportation",
+        "selected": 0.08553445007647932,
+        "rest": 0.05205452843324303
+      },
+      {
+        "ticker": "Cines ABC",
+        "category": "Entertainment",
+        "selected": 0.15041770223789547,
+        "rest": 0.08821617962448468
+      },
+      {
+        "ticker": "Grupo ATB",
+        "category": "Construction",
+        "selected": 0.06631790658812278,
+        "rest": 0.10052080787845838
+      },
+      {
+        "ticker": "Caritas",
+        "category": "Non-Profit",
+        "selected": 0.2236327839425416,
+        "rest": 0.34270181804543226
+      },
+      {
+        "ticker": "Dockers",
+        "category": "Apparel",
+        "selected": 0.07217327350147427,
+        "rest": 0.0794089157307481
+      },
+      {
+        "ticker": "Emirates",
+        "category": "Airlines",
+        "selected": 0.3346822142148289,
+        "rest": 0.4271073145296964
+      },
+      {
+        "ticker": "Ventura24",
+        "category": "Financial Services",
+        "selected": 0.05307438962386865,
+        "rest": 0.054145239046214357
+      },
+      {
+        "ticker": "Seguros Santa Lucia",
+        "category": "Insurance",
+        "selected": 3.819956172335794,
+        "rest": 5.699184133968347
+      },
+      {
+        "ticker": "Greenpeace",
+        "category": "Non-Profit",
+        "selected": 0.36722992817232225,
+        "rest": 0.2968940028231529
+      },
+      {
+        "ticker": "Makro",
+        "category": "Grocery",
+        "selected": 3.6541478320970615,
+        "rest": 4.06879111562736
+      },
+      {
+        "ticker": "General Optica",
+        "category": "Healthcare",
+        "selected": 1.3962601100195506,
+        "rest": 1.3608992496602395
+      },
+      {
+        "ticker": "Telepeaje Via T",
+        "category": "Transportation",
+        "selected": 1.5181085340158176,
+        "rest": 1.4749576735689887
+      },
+      {
+        "ticker": "Champion",
+        "category": "Apparel",
+        "selected": 0.1570988472002927,
+        "rest": 0.1427011775151272
+      },
+      {
+        "ticker": "Carrefour Express",
+        "category": "Grocery",
+        "selected": 1.427462000991596,
+        "rest": 1.2819956742383876
+      },
+      {
+        "ticker": "Cruz Roja",
+        "category": "Non-Profit",
+        "selected": 1.8180830868553268,
+        "rest": 1.8581410046862352
+      },
+      {
+        "ticker": "Parc de la Mar",
+        "category": "Attractions",
+        "selected": 0.010862615783244598,
+        "rest": 0.009528084412533111
+      },
+      {
+        "ticker": "Tulotero",
+        "category": "Entertainment",
+        "selected": 2.5778408025887978,
+        "rest": 2.3256008094252194
+      },
+      {
+        "ticker": "Taco Bell",
+        "category": "Fast Food",
+        "selected": 0.7798122077450754,
+        "rest": 0.3633456493826695
+      },
+      {
+        "ticker": "Sorli",
+        "category": "Grocery",
+        "selected": 2.0441288192023435,
+        "rest": 1.3393747394325168
+      },
+      {
+        "ticker": "Papa John's",
+        "category": "Fast Food",
+        "selected": 0.4981283893070424,
+        "rest": 0.2707571878691271
+      },
+      {
+        "ticker": "Asics",
+        "category": "Apparel",
+        "selected": 0.41384366124681005,
+        "rest": 0.44609240460249644
+      },
+      {
+        "ticker": "Ballenoil",
+        "category": "Fuel",
+        "selected": 3.6766737686394326,
+        "rest": 3.350195216563902
+      },
+      {
+        "ticker": "Viena capellanes",
+        "category": "Restaurant",
+        "selected": 0.25145515339385616,
+        "rest": 0.17738685497294981
+      },
+      {
+        "ticker": "Tommy Mel's",
+        "category": "Restaurant",
+        "selected": 0.41437511215870915,
+        "rest": 0.24226643484946664
+      },
+      {
+        "ticker": "Hackett",
+        "category": "Apparel",
+        "selected": 0.1216994341097706,
+        "rest": 0.17606824969231338
+      },
+      {
+        "ticker": "Badoo",
+        "category": "Dating App",
+        "selected": 0.0987506379988855,
+        "rest": 0.0407597015637277
+      },
+      {
+        "ticker": "Cines Renoir",
+        "category": "Movies",
+        "selected": 0.06433077438036744,
+        "rest": 0.03973034371047406
+      },
+      {
+        "ticker": "Liberty Seguros",
+        "category": "Insurance",
+        "selected": 7.796150576474478,
+        "rest": 9.609290781523208
+      },
+      {
+        "ticker": "Delticom",
+        "category": "Automotive",
+        "selected": 0.15976795931077828,
+        "rest": 0.10973448426259874
+      },
+      {
+        "ticker": "Qualitas Auto",
+        "category": "Automotive",
+        "selected": 3.261324555390322,
+        "rest": 2.1415127700615115
+      },
+      {
+        "ticker": "Aldro Energia",
+        "category": "Energy",
+        "selected": 0.48244310143221425,
+        "rest": 0.6905493815485569
+      },
+      {
+        "ticker": "Endesa",
+        "category": "Fuel",
+        "selected": 29.718307798089036,
+        "rest": 35.81535803819421
+      },
+      {
+        "ticker": "Metro Madrid",
+        "category": "Transportation",
+        "selected": 12.179803021241572,
+        "rest": 9.007540439864458
+      },
+      {
+        "ticker": "Avanza Bus",
+        "category": "Travel",
+        "selected": 0.14562706214224932,
+        "rest": 0.05333471935092728
+      },
+      {
+        "ticker": "Primark",
+        "category": "Apparel",
+        "selected": 9.972227931514873,
+        "rest": 11.92400610199644
+      },
+      {
+        "ticker": "Disney Store",
+        "category": "Retail Stores",
+        "selected": 0.7551648096082919,
+        "rest": 0.5601137393912833
+      },
+      {
+        "ticker": "Iati Seguros",
+        "category": "Insurance",
+        "selected": 0.35561101473573964,
+        "rest": 0.29529113560731307
+      },
+      {
+        "ticker": "Aquopolis",
+        "category": "Attractions",
+        "selected": 0.12627530761113936,
+        "rest": 0.10880401403421494
+      },
+      {
+        "ticker": "Maxcoop",
+        "category": "Grocery",
+        "selected": 0.06242718531235751,
+        "rest": 0.052586403211660186
+      },
+      {
+        "ticker": "Wok",
+        "category": "Restaurant",
+        "selected": 0.6230379341096741,
+        "rest": 0.43289186885228254
+      },
+      {
+        "ticker": "Yves Rocher",
+        "category": "Beauty",
+        "selected": 0.3439803789314681,
+        "rest": 0.4111425586625997
+      },
+      {
+        "ticker": "Grupo Santander Consumer Finance",
+        "category": "Financial Services",
+        "selected": 24.27617796445996,
+        "rest": 25.177843290560062
+      },
+      {
+        "ticker": "Europ Assistance",
+        "category": "Insurance",
+        "selected": 0.04513005234022799,
+        "rest": 0.05077045747493667
+      },
+      {
+        "ticker": "Air Europa",
+        "category": "Travel",
+        "selected": 2.3589773090109922,
+        "rest": 2.333455260343194
+      }
+    ]
+  },
+  "title": "Steam",
+  "hconcat": [
+    {
+      "transform": [
+        {
+          "aggregate": [
+            {"op": "sum", "field": "selected", "as": "selected"},
+            {"op": "sum", "field": "rest", "as": "rest"}
+          ],
+          "groupby": ["category"]
+        },
+        {
+          "calculate": "100.0 * (datum.selected-datum.rest) / (datum.rest)",
+          "as": "change"
+        },
+        {
+          "window": [{"op": "rank", "as": "rank_desc"}],
+          "sort": [{"field": "change", "order": "descending"}]
+        },
+        {
+          "window": [{"op": "rank", "as": "rank_asc"}],
+          "sort": [{"field": "change", "order": "ascending"}]
+        },
+        {"filter": "datum.rank_desc &lt;= 10 || datum.rank_asc &lt;= 10"}
+      ],
+      "mark": "bar",
+      "params": [
+        {"name": "pts", "select": {"type": "point", "encodings": ["y"]}}
+      ],
+      "encoding": {
+        "x": {"field": "change", "type": "quantitative", "title": "Percentage"},
+        "y": {
+          "field": "category",
+          "type": "nominal",
+          "title": "Category",
+          "sort": "-x",
+          "axis": {
+            "offset": 5,
+            "ticks": false,
+            "minExtent": 60,
+            "domain": false
+          }
+        },
+        "color": {
+          "condition": {"param": "pts", "value": "red", "empty": false},
+          "field": "change",
+          "type": "quantitative",
+          "scale": {"domainMid": 0, "range": "diverging"}
+        }
+      }
+    },
+    {
+      "transform": [
+        {"filter": {"param": "pts"}},
+        {"filter": "datum.ticker !== 'Steam'"},
+        {
+          "calculate": "100.0 * (datum.selected-datum.rest) / (datum.rest)",
+          "as": "change"
+        },
+        {
+          "window": [{"op": "rank", "as": "rank_desc"}],
+          "sort": [{"field": "change", "order": "descending"}]
+        },
+        {
+          "window": [{"op": "rank", "as": "rank_asc"}],
+          "sort": [{"field": "change", "order": "ascending"}]
+        },
+        {"filter": "datum.rank_desc &lt;= 10 || datum.rank_asc &lt;= 10"}
+      ],
+      "mark": "bar",
+      "encoding": {
+        "x": {"field": "change", "type": "quantitative", "title": "Percentage"},
+        "y": {
+          "field": "ticker",
+          "type": "nominal",
+          "title": "Companies",
+          "sort": "-x",
+          "axis": {
+            "offset": 5,
+            "ticks": false,
+            "minExtent": 60,
+            "domain": false
+          }
+        },
+        "color": {
+          "field": "change",
+          "type": "quantitative",
+          "scale": {"domainMid": 0, "range": "diverging"}
+        }
+      }
+    }
+  ]
+}
