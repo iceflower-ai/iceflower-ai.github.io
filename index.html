@@ -1,1 +1,338 @@
-Hello World
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Streaming Service Marketshares 2017 - 2021 | Iceflower Demo</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-cotton,alt.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-cotton,alt.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<link rel="modulepreload" href="./_import/components/consumer.4443e282.js">
+<link rel="modulepreload" href="./_import/components/apiHeatmap.a0ecffdf.js">
+<link rel="modulepreload" href="./_npm/vega-embed@6.24.0/_esm.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.14/_esm.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/_esm.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/vega-lite.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-lite-api@5.6.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-lite@5.17.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega@5.28.0/_esm.js">
+<link rel="modulepreload" href="./_npm/fast-json-patch@3.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/json-stringify-pretty-compact@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-interpreter@1.0.5/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-schema-url-parser@2.2.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-themes@2.14.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-tooltip@0.34.0/_esm.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-util@1.17.2/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-event-selector@3.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-expression@5.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-dataflow@5.7.5/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-transforms@4.11.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-view-transforms@4.5.9/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-encode@4.9.2/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-geo@4.4.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-force@4.2.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-hierarchy@4.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-label@1.2.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-regression@1.2.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-voronoi@4.2.2/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-wordcloud@4.1.4/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-crossfilter@4.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-statistics@1.9.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-time@2.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-loader@4.5.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-scenegraph@4.11.2/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-scale@7.3.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-projection@1.6.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-view@5.12.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-format@1.1.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-functions@5.14.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-parser@6.3.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-runtime@6.1.4/_esm.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/_esm.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/_esm.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-canvas@1.2.7/_esm.js">
+<link rel="modulepreload" href="./_npm/topojson-client@3.1.0/_esm.js">
+<link rel="modulepreload" href="./_npm/d3-geo-projection@4.0.0/_esm.js">
+<link rel="modulepreload" href="./_npm/vega-selections@5.4.2/_esm.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/_esm.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.js";
+import {registerFile} from "./_observablehq/stdlib.js";
+
+registerFile("./data/hbo.csv", {"name":"./data/hbo.csv","mimeType":"text/csv","path":"./_file/data/hbo.4d3d955d.csv","lastModified":1712000956432});
+registerFile("./data/heatmap.csv", {"name":"./data/heatmap.csv","mimeType":"text/csv","path":"./_file/data/heatmap.4738a94a.csv","lastModified":1712012021991});
+registerFile("./data/steam.csv", {"name":"./data/steam.csv","mimeType":"text/csv","path":"./_file/data/steam.780b009a.csv","lastModified":1711990348147});
+registerFile("./data/zara.csv", {"name":"./data/zara.csv","mimeType":"text/csv","path":"./_file/data/zara.802380c4.csv","lastModified":1711922643372});
+
+define({id: "b7e0f54b", inputs: ["vl"], outputs: ["companyChart"], body: (vl) => {
+function companyChart(data, company) {
+  return vl.render({spec: {
+    resize: true,
+    padding: {top: 25, left: 10, right:100, bottom: 10},
+    background: null,
+    data: {values: data},
+    description: "click on the categories to zoom in",
+
+    hconcat: [
+      {
+        width: 300,
+        transform: [
+          {
+            aggregate: [
+              {op: "sum", field: "selected", as: "selected"},
+              {op: "sum", field: "rest", as: "rest"}
+            ],
+            groupby: ["category"]
+          },
+          {
+            calculate: "100.0 * (datum.selected-datum.rest) / (datum.rest)",
+            as: "change"
+          },
+          {
+            window: [{op: "rank", as: "rank_desc"}],
+            sort: [{field: "change", order: "descending"}]
+          },
+          {
+            window: [{op: "rank", as: "rank_asc"}],
+            sort: [{field: "change", order: "ascending"}]
+          },
+          {filter: "datum.rank_desc <= 10 || datum.rank_asc <= 10"}
+        ],
+        mark: "bar",
+        params: [
+          {name: "pts", select: {type: "point", encodings: ["y"]}}
+        ],
+        encoding: {
+          x: {field: "change", type: "quantitative", title: "Percentage"},
+          y: {
+            field: "category",
+            type: "nominal",
+            title: "Category",
+            sort: "-x",
+            axis: {
+              offset: 5,
+              ticks: false,
+              minExtent: 60,
+              domain: false
+            }
+          },
+          color: {
+            condition: {param: "pts", value: "red", empty: false},
+            field: "change",
+            type: "quantitative",
+            scale: {domainMid: 0, range: "diverging", domainMax: 300}
+          }
+        }
+      },
+      {
+        width: 300,
+        transform: [
+          {filter: {param: "pts"}},
+          {filter: "datum.ticker !== '" + company + "'"},
+          {
+            calculate: "100.0 * (datum.selected-datum.rest) / (datum.rest)",
+            as: "change"
+          },
+          {
+            window: [{op: "rank", as: "rank_desc"}],
+            sort: [{field: "change", order: "descending"}]
+          },
+          {
+            window: [{op: "rank", as: "rank_asc"}],
+            sort: [{field: "change", order: "ascending"}]
+          },
+          {filter: "datum.rank_desc <= 10 || datum.rank_asc <= 10"}
+        ],
+        mark: "bar",
+        encoding: {
+          x: {field: "change", type: "quantitative", title: "Percentage"},
+          y: {
+            field: "ticker",
+            type: "nominal",
+            title: "Companies",
+            sort: "-x",
+            axis: {
+              offset: 5,
+              ticks: false,
+              minExtent: 60,
+              domain: false
+            }
+          },
+          color: {
+            field: "change",
+            type: "quantitative",
+            scale: {domainMid: 0, range: "diverging", domainMax: 300, clamp:true}
+          }
+        }
+      }
+    ]
+  }
+})}
+return {companyChart};
+}});
+
+define({id: "9e13f697", inputs: ["FileAttachment"], outputs: ["streamingChart","ApiHeatmap","zara","steam","hbo"], body: async (FileAttachment) => {
+const [{streamingChart}, {ApiHeatmap}] = await Promise.all([import("./_import/components/consumer.4443e282.js"), import("./_import/components/apiHeatmap.a0ecffdf.js")]);
+
+const zara = FileAttachment("./data/zara.csv").csv({typed: true});
+const steam = FileAttachment("./data/steam.csv").csv({typed: true});
+const hbo = FileAttachment("./data/hbo.csv").csv({typed: true});
+return {streamingChart,ApiHeatmap,zara,steam,hbo};
+}});
+
+define({id: "709226d4", inputs: ["streamingChart","display"], body: async (streamingChart,display) => {
+display(await(
+streamingChart()
+))
+}});
+
+define({id: "9b9213dd", inputs: ["zara","steam","hbo","view","Inputs"], outputs: ["companies","company"], body: (zara,steam,hbo,view,Inputs) => {
+const companies = [{name: "Zara", data: zara}, {name: "Steam", data: steam}, {name: "HBO", data: hbo}]
+const company = view(Inputs.select(companies, {label: "Company", format: x => x.name, value: companies.find(t => t.name === "Zara")}));
+return {companies,company};
+}});
+
+define({id: "e0d72a66", inline: true, inputs: ["companyChart","company","display"], body: async (companyChart,company,display) => {
+display(await(
+companyChart(company.data, company.name)
+))
+}});
+
+define({id: "dc3e551d", inputs: ["FileAttachment"], outputs: ["latencyHeatmap","latencyByRouteCanvas"], body: (FileAttachment) => {
+const latencyHeatmap = FileAttachment("./data/heatmap.csv").csv({typed: true});
+const latencyByRouteCanvas = document.createElement("canvas");
+return {latencyHeatmap,latencyByRouteCanvas};
+}});
+
+define({id: "c23c87cb", inputs: ["resize","ApiHeatmap","counts","categories","latencyByRouteCanvas","categoryColor","display"], body: async (resize,ApiHeatmap,counts,categories,latencyByRouteCanvas,categoryColor,display) => {
+display(await(
+resize((width) => ApiHeatmap(counts, categories, {y1: 0.5, y2: 1_000, canvas: latencyByRouteCanvas, color: categoryColor, width, label: "Basket (€)"}))
+))
+}});
+
+define({id: "b5329048", inputs: ["latencyHeatmap","d3","Plot","html"], outputs: ["categories","counts","topRoutesPixel","categoryColor","categorySwatch"], body: (latencyHeatmap,d3,Plot,html) => {
+const categories = latencyHeatmap.map(row => row.category);
+const counts = latencyHeatmap.map(row => row.count);
+const topRoutesPixel = d3.sort(d3.rollups(categories, (D) => D.length, (d) => d).filter(([d]) => d), ([, d]) => -d).map(([category, count]) => ({category, count}));
+const categoryColor = Object.assign(Plot.scale({color: {domain: topRoutesPixel.map((d) => d.category)}}), {label: "category"});
+const categorySwatch = (category) => html`<span style="white-space: nowrap;"><svg width=10 height=10 fill=${categoryColor.apply(category)}><rect width=10 height=10></rect></svg> <span class="small">${category}</span></span>`;
+return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
+}});
+
+</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<style>
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: var(--sans-serif);
+  margin: 4rem 0 8rem;
+  text-wrap: balance;
+  text-align: center;
+}
+
+.hero h1 {
+  margin: 2rem 0;
+  max-width: none;
+  font-size: 14vw;
+  font-weight: 900;
+  line-height: 1;
+  background: linear-gradient(30deg, var(--theme-foreground-focus), currentColor);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero h2 {
+  margin: 0;
+  max-width: 34em;
+  font-size: 20px;
+  font-style: initial;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--theme-foreground-muted);
+}
+
+@media (min-width: 640px) {
+  .hero h1 {
+    font-size: 90px;
+  }
+}
+
+</style>
+<div id="cell-b7e0f54b" class="observablehq observablehq--block"></div>
+<div id="cell-9e13f697" class="observablehq observablehq--block"></div>
+<div class="hero">
+  <h1>Iceflower</h1>
+  <h2>Crystalize your data!</h2>
+</div>
+<div class="card">
+<h1 id="streaming-service-marketshares-2017---2021" tabindex="-1"><a class="observablehq-header-anchor" href="#streaming-service-marketshares-2017---2021">Streaming Service Marketshares 2017 - 2021</a></h1>
+<p>Consumer movement between streaming services based on a stable cohort of viewers. In case a viewer pays for more than one service, this chart assumes equal split of marketshare.</p>
+<div id="cell-709226d4" class="observablehq observablehq--block observablehq--loading"></div>
+</div>
+<div class="card">
+<h1 id="customer-segmentation" tabindex="-1"><a class="observablehq-header-anchor" href="#customer-segmentation">Customer Segmentation</a></h1>
+<div id="cell-9b9213dd" class="observablehq observablehq--block"></div>
+<p>All values compare share of wallet between customers of the company and those that aren't. E.g. Zara customers spend almost 200% more of their income on child related items then the rest of the population.</p>
+<p><span id="cell-e0d72a66" class="observablehq--loading"></span></p>
+<h3 id="click-on-the-categories-to-see-the-corrosponding-companies" tabindex="-1"><a class="observablehq-header-anchor" href="#click-on-the-categories-to-see-the-corrosponding-companies">Click on the categories to see the corrosponding companies</a></h3>
+</div>
+<div id="cell-dc3e551d" class="observablehq observablehq--block"></div>
+<div class="card">
+<h1 id="64m-transactions-in-one-picture" tabindex="-1"><a class="observablehq-header-anchor" href="#64m-transactions-in-one-picture">64M transactions in one picture</a></h1>
+<div id="cell-c23c87cb" class="observablehq observablehq--block observablehq--loading"></div>
+<h3 id="purchase-price-in-euro%2C-color-by-category" tabindex="-1"><a class="observablehq-header-anchor" href="#purchase-price-in-euro%2C-color-by-category">Purchase price in Euro, color by category</a></h3>
+</div>
+<div id="cell-b5329048" class="observablehq observablehq--block"></div>
+<h2 id="next-steps" tabindex="-1"><a class="observablehq-header-anchor" href="#next-steps">Next steps</a></h2>
+<p>Fund us…</p>
+</main>
+<footer id="observablehq-footer">
+<div>© Iceflower 2024</div>
+</footer>
+</div>

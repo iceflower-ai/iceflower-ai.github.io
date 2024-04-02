@@ -1,0 +1,997 @@
+ticker,category,selected,rest
+Wanna,Events,0.10153,0.11152
+Ayuda en accion,Non-Profit,0.01080,0.01388
+Hiper Usera,Grocery,0.00479,0.00805
+American Express,Financial Services,0.03820,0.05807
+Wizz Air,Airlines,0.02204,0.02379
+Loops&Coffee,Food,0.00022,0.00026
+Llao llao,Restaurant,0.00215,0.00220
+Bitiba,Fashion,0.00789,0.00739
+Oysho,Apparel,0.03212,0.09788
+Ale-Hop,Restaurant,0.00591,0.00898
+Vincci,Travel,0.00522,0.00439
+Panaria,Restaurant,0.00289,0.00277
+Financiera El Corte Ingles,Financial Services,0.36435,0.51670
+Banggood,E-commerce,0.07405,0.02352
+Froiz,Retail Stores,0.06156,0.06505
+Aldeas infantiles,Non-Profit,0.02026,0.02583
+Opencor,Financial Services,0.00594,0.00320
+Sfam,Retail Stores,0.04220,0.02303
+Cines Verdi,Movies,0.00217,0.00154
+Zippy,Children,0.00108,0.00294
+Petromiralles,Fuel,0.01788,0.00645
+Bioparc,Attractions,0.00271,0.00299
+Kiabi,Apparel,0.08152,0.10185
+Prosegur,Security Services,0.00929,0.03112
+Curenergia,Energy,0.02965,0.04118
+Rib's,Restaurant,0.03539,0.02210
+Norauto,Automotive,0.12082,0.12514
+Seat,Automotive,0.00974,0.00843
+UAB,Education,0.00941,0.00968
+Jysk,Home Goods,0.00730,0.01169
+Fismuler,Healthcare,0.00150,0.00378
+Pomodoro,Restaurant,0.00959,0.00857
+RKS Footwear,Apparel,0.00214,0.00635
+Dunkin' Donuts,Restaurant,0.00062,0.00041
+Aurgi,Retail Stores,0.02629,0.02667
+La Pausa,Restaurant,0.00058,0.00118
+Punt Roma,Restaurant,0.00534,0.01187
+Neumaticos Soledad,Automotive,0.01645,0.01196
+La Musa Latina,Restaurant,0.00065,0.00093
+Rodi Motor,Automotive,0.02284,0.01519
+SEUR,Logistics,0.00432,0.00230
+Spotify,Music,0.46352,0.21217
+GES Seguros,Insurance,0.01696,0.02277
+Emasa,Utilities,0.00675,0.00655
+Seguros Lagun Aro,Insurance,0.03930,0.06426
+Amazon Digital,E-commerce,0.00867,0.00489
+Vente Privee,E-commerce,0.01243,0.03113
+Paf,Gambling,0.00237,0.00661
+Bidegi,Transportation,0.06243,0.04979
+RCI Banque and Services,Financial Services,0.42469,0.41130
+Clarel,Beauty,0.01155,0.02144
+Odeon,Entertainment,0.00945,0.00625
+Energia XXI,Fuel,0.23724,0.32806
+Wiggle,Sports,0.00340,0.00642
+App Informatica,Electronics,0.04220,0.00554
+Ticketsport.es,Sports,0.00052,0.00082
+Ikea,Home Goods,1.14255,1.12035
+Granier,Apparel,0.00753,0.00628
+Terra Natura,Attractions,0.00102,0.00187
+Facsa,Utilities,0.00875,0.01732
+Llamaya,Telecom,0.00105,0.00116
+Double Agent,Apparel,0.00068,0.00129
+Linea Directa,Insurance,0.59103,0.82742
+Emov,Transportation,0.01713,0.01441
+Foot Locker,Apparel,0.02902,0.02836
+Maquillalia,Beauty,0.00242,0.00346
+La Plaza de Dia,Grocery,0.08361,0.08284
+Parque Warner,Entertainment,0.01831,0.00857
+BudgetAir,Travel,0.01410,0.02149
+Wagamama,Restaurant,0.00370,0.00267
+Amazon Kindle,E-commerce,0.05611,0.02940
+Eurostars,Travel,0.02245,0.02114
+Cinesur,Movies,0.00302,0.00352
+Gasolineras Blancas/Libres/Otras,Fuel,0.41693,0.42775
+Notikumi,Events,0.00840,0.00475
+Douglas,Beauty,0.01350,0.02229
+Aqualandia,Attractions,0.00105,0.00138
+Metro de Sevilla,Transportation,0.00476,0.00411
+Carrefour,Grocery,2.57495,3.03719
+Viajes El Corte Ingles,Travel,0.03891,0.04057
+Deportes Halcon,Sports,0.00194,0.00275
+Chubb european,Insurance,0.00748,0.00844
+Bricomart,Home Goods,0.05538,0.11804
+Renfe,Transportation,0.95611,0.78443
+Aromas,Restaurant,0.00334,0.00587
+Geox,Apparel,0.01216,0.01553
+Just Eat,Fast Food,1.17114,0.31529
+KFC,Fast Food,0.07746,0.05010
+El Mordisco,Restaurant,0.00152,0.00094
+Aplazame,Financial Services,0.12214,0.03893
+Pikolin,Home Goods,0.00555,0.00631
+Perrachica,Restaurant,0.00202,0.00421
+Camper,Apparel,0.00361,0.00500
+Oculus,Gaming,0.03832,0.00287
+Carrefour Estaciones de Servicio,Fuel,0.09194,0.20725
+Mac Cosmetics,Beauty,0.00096,0.00184
+Telpark,Transportation,0.03471,0.03724
+Don Canino,Pet Supplies,0.00400,0.00223
+Financiera Española de Credito a Distancia,Financial Services,0.11129,0.05336
+Autogrill,Restaurant,0.00715,0.00603
+Kiko Milano,Beauty,0.00280,0.00952
+La Chelinda,Restaurant,0.00301,0.00297
+Sonorama,Festivals,0.00246,0.00477
+Wesmartpark,Parking,0.00478,0.00154
+atresmedia,Media,0.00154,0.00077
+Allianz,Insurance,0.35464,0.58737
+Hiperdino,Grocery,0.06627,0.08275
+Supercor,Grocery,0.13741,0.14875
+Lizarran,Restaurant,0.01755,0.01291
+Republica Movil,Telecom,0.00552,0.00755
+Hollister,Apparel,0.03629,0.03293
+Homeaway,Travel,0.00807,0.01168
+Guess,Apparel,0.00936,0.01750
+Super Perfumerias,Beauty,0.00157,0.00353
+Meetic,Dating App,0.00954,0.00503
+Lacoste,Apparel,0.00138,0.00243
+Tussam,Transportation,0.00266,0.00118
+Silken,Travel,0.00617,0.00565
+Autoeurope,Rental Cars,0.00461,0.00762
+Emasagra,Utilities,0.02097,0.02238
+Compralaentrada.com,Tickets,0.00167,0.00114
+Mercado Provenzal,Grocery,0.00017,0.00043
+Botemania,Nightlife,0.04132,0.03624
+Feuvert,Retail Stores,0.07818,0.06808
+Catalana Occidente,Insurance,0.15202,0.20614
+Kiehl's,Beauty,0.00328,0.00869
+Marionnaud,Beauty,0.00431,0.00492
+Intermarche,Grocery,0.01466,0.00706
+Lycamobile,Telecom,0.00149,0.00194
+Travelgenio.es,Travel,0.04510,0.04374
+Midas,Automotive,0.02440,0.02728
+Chicco,Children,0.00128,0.00256
+Esso,Fuel,0.00559,0.00783
+Mutua Madrileña,Insurance,0.80232,0.95782
+Room Mate Hotels,Travel,0.00275,0.00282
+Gros Mercat,Grocery,0.02958,0.01985
+Adolfo Dominguez,Apparel,0.00583,0.01257
+Mytaxi,Transportation,0.07110,0.04201
+Deezer,Music,0.00423,0.00162
+Cinesa,Entertainment,0.15259,0.09400
+Clarks,Apparel,0.00495,0.00676
+Shein,E-commerce,0.02482,0.03948
+Oferplan,Discounts,0.00520,0.00666
+Macson,Apparel,0.00963,0.00588
+Uniqlo,Apparel,0.02655,0.03117
+Universitat Oberta Catalunya,Education,0.10737,0.04293
+Repsol Energia,Energy,0.00819,0.01304
+Fundacion Teaming,Non-Profit,0.00418,0.00559
+Mercedes Benz,Automotive,0.02903,0.03756
+Marco Aldany,Apparel,0.01515,0.01834
+Som Energia,Energy,0.04959,0.04779
+SMAP,Parking,0.00060,0.00105
+K-Tuin,Retail Stores,0.05280,0.06140
+La Redoute,E-commerce,0.00908,0.01398
+Cepsa,Fuel,0.89930,0.89955
+Eroski Estaciones de Sercvicio,Fuel,0.02441,0.02539
+Toys R Us,Retail Stores,0.03536,0.05065
+Ubereats.com,Delivery,0.14543,0.08040
+Mamma Mia,Restaurant,0.00176,0.00254
+Blanco,Home Goods,0.00044,0.00155
+Vodafone,Telecom,1.81441,2.18883
+Habanera,Restaurant,0.00140,0.00349
+Ahorramas,Grocery,0.41499,0.56128
+Santander Generales,Insurance,0.04197,0.07807
+Twins,Retail Stores,0.03151,0.04569
+Northweek,Apparel,0.00583,0.00310
+G Star,Apparel,0.00313,0.00571
+La Mafia,Restaurant,0.00887,0.00912
+Volkswagen Financial Services,Financial Services,0.90697,0.86385
+Udaco,Education,0.00206,0.00226
+Tino Gonzalez,Restaurant,0.00289,0.00530
+Cashper,Financial Services,0.01701,0.03106
+Intimissimi,Apparel,0.01595,0.03366
+Ecooltra,Transportation,0.02537,0.01804
+Guadalcesa,Utilities,0.00054,0.00111
+Merkal,Grocery,0.03080,0.04504
+Reparalia,Home Improvement,0.00292,0.00446
+Euskaltel,Telecom,0.10510,0.10064
+Logitravel.com,Travel,0.03588,0.03643
+Saba Aparcamientos,Transportation,0.00809,0.00973
+Agoda.com,Travel,0.00231,0.00439
+Toy Planet,Retail Stores,0.00269,0.00721
+Airbnb.com,Travel,0.63153,0.57161
+Oxfam Interman,Non-Profit,0.02721,0.02231
+La Tagliatella,Restaurant,0.14495,0.11088
+Perfumerias Laguna,Beauty,0.00100,0.00145
+Claire's,Apparel,0.00449,0.00687
+Only You Hotels,Travel,0.00078,0.00202
+Metro Barcelona,Transportation,0.24220,0.13049
+Caser,Insurance,0.16176,0.27594
+Auto Res,Insurance,0.00773,0.00634
+Faunia,Attractions,0.00376,0.00487
+Hertz,Transportation,0.04511,0.04033
+AMA Seguros,Insurance,0.05014,0.06267
+Amazonico,Restaurant,0.00152,0.00283
+Spagnolo,Restaurant,0.00035,0.00151
+PSN,Gaming,0.01061,0.02629
+Alimerka,Grocery,0.10963,0.13629
+Reale,Insurance,0.09754,0.19082
+Aviva,Insurance,0.01422,0.00972
+Honda Bank,Financial Services,0.10118,0.06503
+Starbucks,Restaurant,0.05221,0.03681
+Ibis Budget,Travel,0.00588,0.00613
+Starlite,Events,0.00121,0.00408
+Petit Bateau,Children,0.00060,0.00182
+Balearia,Transportation,0.02059,0.02296
+Budget,Rental Cars,0.00207,0.00367
+Adidas,Apparel,0.07623,0.08699
+Querol,Grocery,0.00318,0.00464
+Condis Express,Grocery,0.00750,0.00509
+La Vaca Argentina,Restaurant,0.00190,0.00143
+Wish,E-commerce,0.04696,0.04287
+Super Amara,Grocery,0.02484,0.02662
+Chicfy,E-commerce,0.00166,0.00786
+Bimba y Lola,Apparel,0.01453,0.03564
+Uber,Transportation,0.21818,0.15354
+Subway,Fast Food,0.00763,0.00424
+Dormity,Home Goods,0.00573,0.00743
+EDP HC Energia,Energy,0.02145,0.03679
+HBO,Streaming,0.11365,0.05033
+El Ganso,Apparel,0.01024,0.01907
+Steam,Gaming,1.22495,0.01124
+Vitaldent,Healthcare,0.00857,0.00577
+Nautalia,Travel,0.01026,0.01844
+Perfumeria If,Beauty,0.00072,0.00127
+PETuluku,Pet Supplies,0.00683,0.00490
+Top Recambios,Automotive,0.00196,0.00725
+Peggy Sue's,Restaurant,0.00141,0.00129
+Bricoking,Home Improvement,0.00111,0.00210
+Esquiades.com,Travel,0.01312,0.01942
+Paco Martinez,Restaurant,0.00598,0.00966
+Centauro,Sports,0.00632,0.00437
+Blizzard,Gaming,0.14780,0.00659
+Scalpers,Apparel,0.02619,0.04483
+Ubisoft,Gaming,0.02166,0.00111
+MasMovil,Telecom,0.15636,0.15491
+Dia Market,Grocery,0.01252,0.00890
+Calvin Klein,Apparel,0.00891,0.01090
+Plus Fresc,Grocery,0.02801,0.03235
+Game,Gaming,0.64382,0.18352
+Euromaster,Automotive,0.00481,0.00665
+Tryp,Travel,0.00918,0.00751
+Paga+tarde,Financial Services,0.06355,0.02794
+Wizink,Financial Services,0.44212,0.78629
+Guissona,Grocery,0.00261,0.00411
+Privalia,E-commerce,0.07234,0.15086
+Cinepolis,Movies,0.00302,0.00161
+NBQ Fund One,Financial Services,0.02898,0.03078
+Autema,Automotive,0.00124,0.00099
+Accesos de Madrid,Transportation,0.00306,0.00343
+Servicios Financieros Carrefour,Financial Services,0.47396,0.86988
+Perfumarte,Beauty,0.00079,0.00161
+Domestic & General,Insurance,0.00520,0.00524
+Dreambeach,Festivals,0.01025,0.00396
+Brownie,Food,0.00255,0.00546
+Verti,Insurance,0.08365,0.09730
+Lefties,Apparel,0.04542,0.08437
+Cines Lys,Movies,0.00145,0.00101
+Tradicionarius,Food,0.00074,0.00039
+Restaurante Ikea,Restaurant,0.01802,0.01750
+MarcaApuestas,Gambling,0.00658,0.00760
+Tesco,Grocery,0.01495,0.00897
+GM Oil,Automotive,0.01594,0.01707
+Basic Fit,Fitness,0.05149,0.03441
+Papizza,Restaurant,0.00206,0.00161
+Simply,Grocery,0.25682,0.26398
+Max Colchon,Home Goods,0.00942,0.01106
+Eurest,Restaurant,0.01663,0.01378
+Aegon,Insurance,0.06106,0.06510
+Metro Ligero Oeste,Transportation,0.00173,0.00187
+Neocine,Movies,0.00289,0.00231
+CPP,Financial Services,0.00150,0.00149
+Tommy Hilfiger,Apparel,0.02190,0.01757
+Promod,Apparel,0.00139,0.00512
+El Corte Ingles Seguros,Insurance,0.02171,0.03176
+Deliveroo,Delivery,0.29756,0.11579
+Fnac,Retail Stores,0.58418,0.27088
+Lufthansa,Airlines,0.04177,0.03371
+Lupa,Financial Services,0.05006,0.09642
+Deporticket,Tickets,0.00329,0.00416
+Filmin,Streaming,0.00479,0.00235
+Electro Depot,Electronics,0.00444,0.00606
+BBVA Consumer Finance,Financial Services,0.09455,0.11421
+Sephora,Beauty,0.03964,0.06281
+Amoma.com,Travel,0.01066,0.01132
+AC Hotels,Travel,0.00277,0.00232
+Kaspersky,Cybersecurity,0.00444,0.00191
+Paco perfumerias,Beauty,0.00407,0.00628
+Sport Zone,Retail Stores,0.00952,0.01177
+Sagardi,Restaurant,0.00300,0.00135
+Caja Rural,Banking,0.01935,0.04226
+Pedro del Hierro,Apparel,0.00490,0.00724
+Autopista Madrid Levante,Transportation,0.00163,0.00165
+Meroil,Fuel,0.02639,0.02187
+Okeysi,Financial Services,0.00060,0.00258
+Segurcaixa,Insurance,0.20035,0.34111
+Lebara,Telecom,0.00065,0.00247
+Legalitas,Legal Services,0.01180,0.01497
+La Casa de la Carcasa,Electronics,0.00573,0.00754
+Zara Home,Home Goods,0.05779,0.10978
+El Arbol,Restaurant,0.06853,0.07176
+Groupalia,Discounts,0.00401,0.00518
+Ibis Hotels,Travel,0.02385,0.01691
+Showroomprive,E-commerce,0.00567,0.00945
+Perfumeria Julia,Beauty,0.00245,0.00361
+La Sirena,Restaurant,0.04566,0.03744
+Abercrombie,Apparel,0.01860,0.00978
+Amazon Prime Now,Delivery,0.16810,0.06697
+Massimo Dutti,Apparel,0.15221,0.21415
+Virgin Active,Fitness,0.01740,0.01051
+Udon,Restaurant,0.03669,0.01807
+MM Globalis,Travel,0.01659,0.02038
+BodyBell,Fitness,0.01727,0.02865
+Mad Cool Festival,Events,0.00580,0.00461
+Museo Guggenheim,Attractions,0.00159,0.00156
+Booking.com,Travel,0.20501,0.21821
+Aristocrazy,Apparel,0.00434,0.00764
+Purificacion Garcia,Fashion,0.00221,0.00581
+Rodilla,Retail Stores,0.01360,0.01378
+Tous,Jewelry,0.03144,0.03956
+La Maquina de Chamberi,Restaurant,0.00165,0.00238
+Expedia.es,Travel,0.03116,0.03369
+Oney Servicios Financieros,Financial Services,0.17979,0.39780
+Pc Box,Electronics,0.02692,0.00630
+Worten,Electronics,0.08918,0.08202
+NH Collection,Travel,0.00385,0.00601
+Sabadell Consumer Finance,Financial Services,0.18722,0.25492
+Fifty Factory,Apparel,0.01899,0.03096
+Canal Isabel II,Utilities,0.14250,0.21606
+Amazon Prime,Subscription Services,0.20961,0.12727
+Costco,Grocery,0.09448,0.11723
+Cash Lepe,Financial Services,0.01673,0.02427
+Amichi,Apparel,0.00213,0.00574
+Esclat,Grocery,0.09817,0.08723
+JCA Cinemes,Movies,0.00326,0.00116
+Ausol,Transportation,0.00866,0.01331
+Dia,Grocery,0.63323,0.76544
+Uber Eats,Delivery,0.02925,0.01589
+Gambrinus,Restaurant,0.00568,0.00614
+Tarjeta Inditex,Loyalty,0.01585,0.09376
+Lola Rey,Apparel,0.00319,0.00415
+Bijou Brigitte,Jewelry,0.00545,0.00930
+Mega Calzado,Apparel,0.00768,0.00679
+C&A,Apparel,0.08530,0.08196
+La Cantina,Restaurant,0.00274,0.00334
+Atmosfera Sport,Sports,0.00380,0.00206
+Audasa,Transportation,0.00697,0.00709
+Toyota (SO),Automotive,0.01294,0.01778
+Cajamar Caja Rural,Banking,0.01907,0.02458
+Tezenis,Apparel,0.01330,0.03078
+Cottet Online,Apparel,0.00503,0.00489
+Mustang,Apparel,0.00211,0.00361
+Rakuten,E-commerce,0.00519,0.00334
+Duty Free Dubai,Retail Stores,0.00082,0.00114
+Nails Factory,Beauty,0.00128,0.00718
+Top Queens,Nightlife,0.00057,0.00154
+Sky,Streaming,0.00276,0.00137
+DKV,Healthcare,0.07142,0.11327
+Abanca,Financial Services,0.09978,0.08400
+La Fonda,Restaurant,0.00170,0.00318
+Kreditech,Financial Services,0.01708,0.02052
+Orange,Telecom,1.21493,1.69572
+Vip Smart,Financial Services,0.01190,0.00810
+Aguas de Alicante,Utilities,0.00987,0.01177
+Melia,Travel,0.01547,0.02639
+Ocaso,Insurance,0.10665,0.21156
+Totto,Travel,0.00082,0.00094
+Toyota Kreditbank,Financial Services,0.22198,0.19785
+BMW Financial Services,Financial Services,0.14942,0.22558
+Ryanair,Travel,0.41393,0.45842
+Aguas de Barcelona,Utilities,0.10283,0.09959
+Cooltra,Transportation,0.00614,0.00427
+BBVA Seguros,Insurance,0.15952,0.27015
+Netflix,Streaming,0.68956,0.33118
+Pilar Prieto,Beauty,0.00087,0.00320
+Opticalia,Eyewear,0.01546,0.01702
+La Chalana,Restaurant,0.00150,0.00167
+Lime,Transportation,0.00246,0.00168
+Kinepolis,Entertainment,0.05347,0.02770
+Costco Estacion de Servicio,Fuel,0.02389,0.04017
+Rip Curl,Apparel,0.00139,0.00247
+Pepe Energy,Energy,0.03719,0.03726
+Charanga,Restaurant,0.00038,0.00163
+Tuc tuc,Children,0.00110,0.00381
+Iberdrola,Fuel,1.66009,2.28149
+Eroski City,Grocery,0.04618,0.04004
+Veritas,Healthcare,0.01823,0.02875
+Eje Aeropuerto,Transportation,0.00056,0.00053
+Acnur,Non-Profit,0.09507,0.06929
+Cines El Punt,Movies,0.00161,0.00083
+Apple Store,Electronics,0.27635,0.21979
+Drivy,Rental Cars,0.00361,0.00397
+Mulaya,Restaurant,0.00220,0.00568
+Lucera Energia Colectiva,Energy,0.02259,0.02122
+Eurekakids,Retail Stores,0.00408,0.00614
+Aumar,Grocery,0.05522,0.06898
+Ginos,Restaurant,0.04441,0.03676
+Sorea,Travel,0.04433,0.05772
+Petit Palace,Travel,0.00417,0.00309
+Nanos,Food,0.00096,0.00455
+La Nevera Roja,Restaurant,0.00995,0.00346
+IMQ,Healthcare,0.02911,0.05561
+La Balear,Travel,0.00092,0.00084
+Converse,Apparel,0.00296,0.00449
+Yelmo Cines,Entertainment,0.08494,0.05146
+Arepa Ole,Restaurant,0.00049,0.00058
+Pepephone,Telecom,0.31777,0.19638
+MK2 Palacio de Hielo,Movies,0.00116,0.00117
+Dideco,Retail Stores,0.00370,0.01039
+JD Sports,Sports,0.00305,0.00479
+Instant Money,Financial Services,0.07082,0.06171
+Avis,Transportation,0.06082,0.04763
+4 tickets,Tickets,0.00394,0.00300
+Samsung,Electronics,0.05955,0.04946
+Intel Security (McAfee),Cybersecurity,0.01082,0.00708
+Bigmat,Home Improvement,0.00182,0.00593
+La sureña,Restaurant,0.00297,0.00270
+Gocco,Restaurant,0.00446,0.01476
+Parkapp,Parking,0.00070,0.00069
+Rumbo.es,Travel,0.08033,0.09124
+Alteza,Accessories,0.00144,0.00414
+Rituals,Beauty,0.02137,0.02595
+Supercor Express,Grocery,0.07653,0.07569
+Masymas,Grocery,0.06464,0.08408
+Planeta Huerto,Garden,0.00354,0.00522
+Santagloria,Restaurant,0.00384,0.00523
+Pizzart,Restaurant,0.00056,0.00046
+Cortefiel,Apparel,0.07382,0.11769
+Fenix Directo,Insurance,0.04902,0.06693
+Juanita Cruz,Apparel,0.00030,0.00088
+Casa Ametller,Restaurant,0.06825,0.06617
+Sixt,Transportation,0.06170,0.04338
+Medicos sin fronteras,Non-Profit,0.05385,0.04924
+Vivagym,Fitness,0.03051,0.03046
+Electroprecio,Electronics,0.00676,0.01046
+Unicef,Non-Profit,0.03963,0.05106
+Xbox Live,Gaming,0.01155,0.00287
+Trucco,Beauty,0.00280,0.00471
+Lush,Beauty,0.01478,0.01418
+Whitby,Apparel,0.00071,0.00154
+Tako Away,Delivery,0.00176,0.00073
+Hema,Retail Stores,0.00230,0.00293
+Primavera Sound,Festivals,0.00177,0.00164
+COS,Apparel,0.00309,0.00832
+Adamo Telecom,Telecom,0.01838,0.01098
+Balumba,E-commerce,0.08384,0.04242
+Alain Afflelou,Eyewear,0.01575,0.01368
+Zalando,E-commerce,0.14687,0.15040
+Interzoo,Pet Supplies,0.00301,0.00191
+El Perro y la Galleta,Restaurant,0.00126,0.00100
+Dinosol,Attractions,0.00133,0.00346
+Ole Lola,Apparel,0.00048,0.00061
+Bershka,Apparel,0.08201,0.15376
+Pelayo,Insurance,0.13992,0.16514
+Pizzeria Carlos,Fast Food,0.00831,0.00539
+New Yorker,Apparel,0.00330,0.00329
+Primor,Retail Stores,0.05663,0.10670
+KLM,Airlines,0.02964,0.02745
+Hamburguesa Nostra,Restaurant,0.00424,0.00301
+Unide,Education,0.01082,0.01806
+Dialprix,Telecom,0.00625,0.01193
+Transferwise,Financial Services,0.09887,0.08187
+Equivalenza,Financial Services,0.00227,0.00611
+Bacoa,Grocery,0.00537,0.00273
+Aquona,Utilities,0.00404,0.01519
+AVG,Cybersecurity,0.00326,0.00169
+Cofidis,Financial Services,0.31254,0.42199
+Record Go,Music,0.00596,0.01310
+Fosters Hollywood,Entertainment,0.17249,0.10226
+Punto Blanco,Apparel,0.00224,0.00113
+AMV Hispania,Automotive,0.02454,0.02152
+Muving,Transportation,0.00884,0.00862
+Desigual,Apparel,0.01223,0.01473
+Aucat,Fuel,0.01087,0.01213
+Ulanka,Apparel,0.01249,0.01753
+Zaplo,Financial Services,0.04676,0.05319
+Wible,Financial Services,0.00480,0.00530
+Banco Sabadell Vida,Insurance,0.05674,0.07627
+Destinia.com,Travel,0.01013,0.01931
+Zara,Apparel,0.52873,1.07930
+Bankinter Vida,Insurance,0.02687,0.03685
+Levi's,Apparel,0.02864,0.02661
+NH,Travel,0.03802,0.02920
+Bertiz,Education,0.00186,0.00101
+Ocine,Entertainment,0.01426,0.00731
+Arabat,Fashion,0.00089,0.00092
+Luckia,Gambling,0.03339,0.02395
+Volotea,Airlines,0.01263,0.01791
+iTunes,Music,0.41346,0.22137
+Direct Seguros,Insurance,0.09005,0.13084
+ese O ese,Apparel,0.00282,0.00960
+La Fabrica,Restaurant,0.00719,0.00686
+Swarovski,Jewelry,0.01415,0.00872
+Yoigo,Telecom,0.67123,0.67760
+Central de Reservas,Travel,0.00329,0.00990
+Autocine Madrid Race,Movies,0.00071,0.00071
+Acciona Motosharing,Transportation,0.00731,0.00582
+Terranova,Apparel,0.00859,0.00617
+Vinoselección,Food,0.00588,0.01177
+Spar,Grocery,0.09629,0.10354
+Smassa,Restaurant,0.00240,0.00335
+Calzedonia,Apparel,0.02667,0.06736
+Party Fiesta,Retail Stores,0.00297,0.00432
+Napapijri,Apparel,0.00188,0.00270
+Leroy Merlin,Home Goods,0.76220,0.93433
+Alliance Vending,Grocery,0.00282,0.00169
+Avia,Airlines,0.01934,0.01290
+Bicimad,Transportation,0.00866,0.00812
+entradas.com,Entertainment,0.02768,0.02475
+Allianz Global Assistance,Insurance,0.00464,0.00370
+Retabet,Gambling,0.00152,0.00942
+Chacabuco,Restaurant,0.00343,0.00160
+Bosque Multicines,Movies,0.00105,0.00045
+Ciralsa,Automotive,0.00051,0.00074
+Bicing,Transportation,0.00901,0.00538
+Flunch,Restaurant,0.00053,0.00070
+Avast,Cybersecurity,0.00914,0.00441
+Invicat,Home Goods,0.04845,0.03262
+Zurich,Insurance,0.08067,0.10833
+El Gran Barril,Restaurant,0.00087,0.00189
+MasVision,Eyewear,0.01504,0.01031
+EasyJet,Travel,0.07831,0.07752
+Perfumerías Atalaya,Beauty,0.00060,0.00133
+RACE,Automotive,0.01527,0.02518
+Sportium,Gambling,0.05728,0.03815
+Wonga,Financial Services,0.02183,0.01912
+Emuasa,Utilities,0.01377,0.02651
+Juteco,Restaurant,0.00494,0.00773
+Poly,Retail Stores,0.00597,0.00628
+Gadis,Grocery,0.07020,0.06558
+Fracciona,Financial Services,0.11554,0.17936
+Amovens,Transportation,0.00473,0.00491
+L'occitane,Beauty,0.00395,0.00519
+Ticketmaster,Entertainment,0.22304,0.14143
+Lateral,Apparel,0.00905,0.01533
+Pepper,Restaurant,0.04647,0.08361
+Tartalia,Apparel,0.00034,0.00061
+Jack&Jones,Apparel,0.04600,0.03099
+Uvepan,Food,0.00030,0.00031
+Iberia,Travel,0.33648,0.38101
+Volkswagen,Automotive,0.12419,0.07936
+Arag Seguros,Insurance,0.01103,0.01737
+Ojala,Apparel,0.00107,0.00130
+Betway,Gambling,0.01238,0.00936
+Wallapop,E-commerce,0.11712,0.09320
+Firefly,Travel,0.00269,0.00637
+E.Leclerc Estaciones de servicio,Fuel,0.01054,0.01813
+E.Leclerc,Grocery,0.13787,0.15811
+Druni,Retail Stores,0.04018,0.07389
+Avant Tarjeta,Financial Services,0.00695,0.02714
+La Esquina,Restaurant,0.00289,0.00362
+Xti Store,Apparel,0.00162,0.00295
+Don Dino,Restaurant,0.00276,0.00574
+Ace Europe,Insurance,0.00353,0.00507
+Parkia,Parking,0.00158,0.00096
+Isla Magica,Attractions,0.00172,0.00217
+Telefonica Consumer Finance,Financial Services,0.01172,0.00862
+Emivasa,Utilities,0.04905,0.04846
+Dineo Credito,Financial Services,0.01693,0.02809
+Cassa,Financial Services,0.02643,0.01000
+El Horno,Restaurant,0.00332,0.00381
+Shell,Fuel,0.12615,0.12329
+Diesel,Apparel,0.02312,0.03987
+Pans & Company,Fast Food,0.01769,0.00939
+PC Componentes,Electronics,1.35554,0.25349
+R,Apparel,0.03058,0.02279
+Supersol,Grocery,0.12290,0.12834
+Metro de Malaga,Transportation,0.00562,0.00182
+Pepe Jeans,Apparel,0.00886,0.01446
+Deichmann,Apparel,0.02331,0.02301
+Marvimundo,Entertainment,0.00546,0.01366
+El Corte Ingles,Retail Stores,2.27620,2.67752
+El Sabroso,Restaurant,0.00125,0.00125
+Alcampo Estacion de Servicio,Fuel,0.11538,0.12906
+Iberia Express,Travel,0.02491,0.03133
+Generali,Insurance,0.22031,0.35026
+Norton,Cybersecurity,0.01091,0.00511
+BQ,Electronics,0.01247,0.00750
+MediaMarkt,Electronics,1.43078,0.94512
+Misako,Beauty,0.00634,0.01105
+Telepizza,Fast Food,0.21045,0.09826
+BMW,Automotive,0.01224,0.01124
+Cetelem,Financial Services,1.28843,1.15513
+Alcampo,Grocery,0.81749,0.92482
+Fiatc,Automotive,0.04000,0.09056
+Amnistia Internacional,Non-Profit,0.01549,0.00735
+Decathlon,Sports,1.06876,1.05884
+Emasesa,Utilities,0.01351,0.03340
+Perfumeria Avenida,Beauty,0.00147,0.00292
+Uterque,Apparel,0.00452,0.01878
+Etam,Apparel,0.00671,0.01382
+eDreams.com,Travel,0.18063,0.16050
+Tony Roma's,Restaurant,0.01364,0.00884
+Mercedes-Benz Financial Services,Financial Services,0.04499,0.07705
+Telyco,Telecom,0.00785,0.00453
+Kutxabank,Banking,0.07616,0.12147
+Facebook,Media,0.02803,0.01715
+Blablacar,Transportation,0.05130,0.05021
+Go Fit,Fitness,0.04859,0.04228
+Vait,Telecom,0.00137,0.00169
+Mc Donalds,Fast Food,0.52016,0.35695
+Bip Bip,Apparel,0.00137,0.00571
+Duty Free,Retail Stores,0.00555,0.00523
+Hidraqua,Utilities,0.00429,0.00912
+Renault,Automotive,0.01544,0.01987
+Bricorama,Home Improvement,0.00339,0.00467
+Betfair,Entertainment,0.05495,0.05007
+Perfumeria Prieto,Beauty,0.00154,0.00234
+Renatta&Go,Apparel,0.00130,0.00355
+Ap. Est,Transportation,0.00303,0.00287
+Carglass,Automotive,0.00259,0.00319
+Springfield,Apparel,0.19258,0.17969
+Pisamonas,Restaurant,0.00119,0.00511
+Preventiva,Healthcare,0.00435,0.01219
+Autoestradas de Galicia,Transportation,0.00010,0.00023
+Juguettos,Retail Stores,0.03047,0.04579
+Dinopolis,Attractions,0.00122,0.00143
+Tiger,Retail Stores,0.01836,0.02669
+Bingosoft,Gambling,0.00287,0.00830
+El Fornet,Restaurant,0.00861,0.00806
+HolaLuz,Utilities,0.14966,0.15414
+OK Rent a Car,Rental Cars,0.00140,0.00264
+Naturgy,Fuel,1.05064,1.39366
+Coviran,Grocery,0.02965,0.03872
+Negro-Rojo,Apparel,0.00164,0.00142
+Zona Blava,Transportation,0.00956,0.00642
+Parfois,Apparel,0.01334,0.03093
+Repsol,Fuel,1.13479,1.17528
+EDP,Fuel,0.35766,0.44970
+Hesperia,Travel,0.00717,0.00694
+Viagogo,Entertainment,0.03394,0.02414
+Air France,Airlines,0.02339,0.02767
+Timberland,Apparel,0.00375,0.00356
+Enjoy Wellness,Healthcare,0.00768,0.00781
+Sonar,Festivals,0.00372,0.00240
+Idealista,Real Estate,0.01029,0.00904
+Nostrum,Healthcare,0.01058,0.00633
+Holiday Inn,Travel,0.03336,0.01689
+Caixabank Consumer Finance,Financial Services,0.46168,0.56650
+Brasa y Leña,Restaurant,0.00602,0.00464
+Mapfre,Insurance,1.19518,1.56595
+Deportes Moya,Sports,0.00213,0.00265
+RACC,Automotive,0.05616,0.06212
+Sundara,Beauty,0.00055,0.00205
+Amorino,Food,0.00066,0.00079
+Segurcaixa Adeslas,Insurance,0.21428,0.36756
+Pimkie,Apparel,0.00637,0.02108
+Cepsa Comercial,Fuel,0.01251,0.02920
+Ilunion,Non-Profit,0.01251,0.01428
+Pandora,Jewelry,0.02165,0.01924
+Vips,Restaurant,0.05754,0.04651
+FCA Capital,Financial Services,0.07486,0.08217
+Reino Asador,Restaurant,0.00202,0.00257
+Amazon,E-commerce,11.33058,6.08571
+Coaliment,Grocery,0.01804,0.01584
+Boboli,Garden,0.00270,0.00447
+Neck & Neck,Apparel,0.00240,0.00484
+Intersport,Retail Stores,0.01518,0.02167
+MGS,Gaming,0.03642,0.05661
+akf bank,Banking,0.02252,0.03618
+Servientradas,Tickets,0.00223,0.00231
+Venca,Apparel,0.00189,0.00526
+Smooy,Cosmetics,0.00052,0.00043
+Audenasa,Automotive,0.00137,0.00129
+Asisa,Insurance,0.09893,0.22862
+Tyco,Security Services,0.00736,0.01294
+William Hill,Gambling,0.03222,0.03295
+Cabify,Transportation,0.21311,0.17202
+Llongueras,Food,0.00348,0.00477
+Tripadvisor,Travel,0.01564,0.01354
+Fundacion Wikimedia,Non-Profit,0.00177,0.00042
+Sushi Shop,Restaurant,0.00338,0.00446
+Iradier Club Mujer,Apparel,0.00250,0.00164
+Popular Servicios Fiancieros,Financial Services,0.01671,0.03866
+Dentix,Healthcare,0.00813,0.00739
+Viena,Restaurant,0.03129,0.02428
+Deporvillage,Sports,0.01689,0.01697
+Seguros Bilbao,Insurance,0.05038,0.09433
+Goiko grill,Restaurant,0.02723,0.01720
+voyage-prive.es,Travel,0.01188,0.01792
+Tento,Retail Stores,0.01023,0.00491
+AECC,Non-Profit,0.01266,0.02019
+Servei Catala,Transportation,0.02017,0.01657
+Terra Mitica,Attractions,0.00127,0.00106
+Soloptical,Healthcare,0.03196,0.02879
+Flormar,Beauty,0.00027,0.00213
+Visionlab,Healthcare,0.02504,0.02366
+Tuneles de Artxanda,Transportation,0.00024,0.00020
+Mascoteros,Pet Supplies,0.00562,0.00529
+Aucosta,Food,0.00024,0.00057
+Hotels.com,Travel,0.01951,0.02503
+Wertgarantie,Insurance,0.00204,0.00270
+Aliexpress,E-commerce,0.44217,0.38025
+Hiperber,Grocery,0.01386,0.02736
+Save the Children,Non-Profit,0.02113,0.01517
+Polinesia,Restaurant,0.00363,0.00497
+Maisons du Monde,Home Goods,0.03004,0.04418
+Fundacion Vicente Ferrer,Non-Profit,0.00695,0.01421
+Nationale Nederlanden,Insurance,0.07997,0.13824
+Zurich Vida,Insurance,0.01536,0.02814
+Carhatt,Apparel,0.00281,0.00320
+Decimas,Retail Stores,0.03743,0.05127
+Carhire,Rental Cars,0.00778,0.00802
+New York Burger,Restaurant,0.01059,0.00675
+Cañas y Tapas,Restaurant,0.00132,0.00126
+Mercadona,Grocery,6.09590,7.89166
+Stradivarius,Apparel,0.06208,0.22281
+Mientrada.net,Tickets,0.00085,0.00123
+Drim,Retail Stores,0.01848,0.02190
+Aparcamientos Europeos,Parking,0.00020,0.00024
+Celio,Apparel,0.03237,0.01935
+United Colors of Benetton,Apparel,0.01493,0.03988
+Coinbase,Financial Services,0.07787,0.04026
+Viesgo,Fuel,0.06170,0.11833
+Banak,Accessories,0.00367,0.00529
+Entradas a tu alcance,Tickets,0.00537,0.00570
+Car2go,Transportation,0.01616,0.01756
+Sfera,Apparel,0.02352,0.05078
+Textura,Home Goods,0.00174,0.00223
+Amazon Prime Now Marketplace,E-commerce,0.03624,0.01872
+Centros Unico,Education,0.01047,0.01790
+Eroski Center,Grocery,0.33234,0.34555
+FCC Aqualia,Utilities,0.06300,0.13999
+Interbiak,Transportation,0.00944,0.00874
+Norte Hispana,Transportation,0.02099,0.02774
+CCLoan,Financial Services,0.00561,0.00876
+Caprabo,Grocery,0.32464,0.26503
+Mercure,Travel,0.00293,0.00505
+Hugo Boss,Apparel,0.00413,0.00363
+Muerde la Pasta,Restaurant,0.00589,0.00500
+Exe,Travel,0.01492,0.01463
+Friking,Apparel,0.00323,0.00175
+Alsa,Transportation,0.13856,0.11222
+Hidrogea,Utilities,0.01747,0.01861
+Kiddy's Class,Education,0.01052,0.02896
+Vivus Finance,Financial Services,0.17813,0.14481
+Amazon Premium,Subscription Services,0.04684,0.02724
+Nyx,Beauty,0.01735,0.01597
+Valecuatro,Tickets,0.00043,0.00147
+Forum Sport,Retail Stores,0.05490,0.06320
+Hiber,Telecom,0.02110,0.02690
+Bwin,Entertainment,0.03708,0.04303
+Vida Caixa,Insurance,0.06461,0.09888
+Chocolateria Valor,Food,0.00037,0.00042
+Aena,Transportation,0.01662,0.01654
+Qwertee,Apparel,0.02826,0.00239
+Conforama,Home Goods,0.12119,0.12797
+Quebueno,Food,0.04001,0.03294
+Aparcamientos Espolon,Parking,0.00029,0.00028
+Holiday Gym,Fitness,0.00899,0.01132
+Lidl,Grocery,1.06326,1.52275
+Rakuten TV,Streaming,0.00753,0.00468
+Novotel,Travel,0.01639,0.01551
+Bet365,Entertainment,0.41075,0.33635
+H&M,Apparel,0.25366,0.38949
+Atresplayer,Streaming,0.00223,0.00151
+Pull & Bear,Apparel,0.17782,0.23844
+Taxi,Transportation,0.00560,0.00525
+Codere,Gambling,0.01366,0.03290
+Movelia,Travel,0.01244,0.00740
+Tienda Animal,Pet Supplies,0.11503,0.07323
+Empark,Parking,0.00596,0.00526
+100 Montaditos,Restaurant,0.02942,0.02441
+Miss Sushi,Restaurant,0.00587,0.00459
+BNP Paribas Cardif,Insurance,0.01300,0.00981
+Dropbox,Subscription Services,0.01305,0.00843
+Okaidi,Apparel,0.00478,0.00805
+Thomann,Music,0.09815,0.03034
+Port Aventura,Entertainment,0.06057,0.03560
+Pizza Hut,Fast Food,0.00584,0.00349
+Condis,Grocery,0.35977,0.23510
+Five guys,Fast Food,0.02885,0.01663
+Accessorize,Accessories,0.00101,0.00124
+Sergio & Cano,Apparel,0.00085,0.00113
+Solgade Online,Apparel,0.00083,0.00171
+BSM Aparcaments,Parking,0.00109,0.00071
+Esclatoil,Fuel,0.17055,0.12807
+Sprinter,Retail Stores,0.04355,0.05790
+Lowi,Retail Stores,0.14787,0.13835
+Juan Fornes Fornes,Food,0.00602,0.00730
+Altafit,Fitness,0.01171,0.01141
+Tinder,Dating App,0.00621,0.00252
+Aldi,Grocery,0.36246,0.48973
+Mango,Apparel,0.11582,0.25152
+Petrocat,Fuel,0.00777,0.01302
+British Airways,Airlines,0.00225,0.00235
+WWF,Non-Profit,0.00502,0.00347
+Movistar +,Streaming,0.00334,0.00327
+Movistar,Telecom,2.20666,2.38451
+Zoo Aquarium Madrid,Attractions,0.00423,0.00441
+Juguetilandia,Retail Stores,0.00360,0.00936
+Western Union,Financial Services,0.02408,0.01120
+Eroski,Grocery,0.49395,0.61479
+Balthazar,Restaurant,0.00141,0.00124
+Womensecret,Apparel,0.04028,0.09027
+Brico Depot,Home Goods,0.05026,0.07798
+B the travel brand,Travel,0.00802,0.02092
+Imaginarium,Retail Stores,0.00805,0.01534
+Marypaz,Apparel,0.00510,0.01379
+Deza Calidad,Grocery,0.00698,0.02732
+Fenie Energia,Energy,0.05718,0.09219
+Tamoil,Fuel,0.00988,0.00870
+Amazon MarketPlace,E-commerce,0.49032,0.26148
+FLAP,Gambling,0.00072,0.00215
+The Good Burguer,Fast Food,0.02487,0.01577
+W,Travel,0.00307,0.00664
+Indalo,Travel,0.00169,0.00164
+Jean Louis David,Beauty,0.00326,0.00573
+Buffalo grill,Restaurant,0.00228,0.00153
+Autopista Madrid Toledo,Transportation,0.00013,0.00033
+AXA,Insurance,0.33389,0.50411
+Metro Bilbao,Transportation,0.05698,0.03046
+Asos,E-commerce,0.09386,0.10134
+Europcar,Transportation,0.07209,0.05681
+Groupon,E-commerce,0.06042,0.07318
+eBay,E-commerce,0.04910,0.01881
+Simply Gasolinera,Fuel,0.00250,0.00461
+Amazon Buyvip,E-commerce,0.01610,0.01446
+Kiwoko,Grocery,0.11223,0.07933
+Multiopticas,Healthcare,0.03294,0.04265
+Vadepizza,Delivery,0.00223,0.00179
+PlayStation Network,Gaming,0.53479,0.14751
+Vueling,Transportation,0.36962,0.35360
+Axa Assistance,Insurance,0.00362,0.00732
+Halcon Viajes,Travel,0.01552,0.02347
+Tunels de Barcelona-Cadi,Transportation,0.00032,0.00035
+Udemy,Education,0.02656,0.00510
+Hailo,Transportation,0.00351,0.00445
+Traventia,Travel,0.00820,0.00919
+Instant Gaming,Entertainment,0.20402,0.01149
+BP,Fuel,0.26629,0.27055
+Telecable,Telecom,0.06423,0.06320
+Telepiensos,Pet Supplies,0.00456,0.00320
+Santander Seguros,Insurance,0.11982,0.15128
+Ticketea,Entertainment,0.07829,0.06308
+Parque de Atracciones de Madrid,Entertainment,0.01647,0.01770
+Beep,Transportation,0.01462,0.00408
+Multicines Pedrosa,Movies,0.00174,0.00079
+Autopista Madrid Sur,Transportation,0.00245,0.00271
+Rentalcars,Transportation,0.04620,0.04335
+Via Lactea,Attractions,0.00065,0.00075
+Divina Pastora,Restaurant,0.01681,0.02319
+TGI Fridays,Restaurant,0.03482,0.02137
+Babelia,Media,0.00104,0.00180
+FCE Bank,Financial Services,0.16892,0.11828
+CHC Energia,Energy,0.00890,0.03477
+Enterprise,Transportation,0.04556,0.04194
+Bauhaus,Home Improvement,0.04472,0.05851
+Shana,Apparel,0.00110,0.00363
+AP-1 Europistas,Transportation,0.00699,0.00827
+Letsbonus,Loyalty,0.00292,0.00375
+Hilton,Travel,0.01029,0.00928
+Accion contra el hambre,Non-Profit,0.01167,0.00894
+Deliberry,Delivery,0.01499,0.00873
+Raro Rare,Apparel,0.00062,0.00073
+Amgen seguros,Insurance,0.00732,0.01200
+Maskom,Cosmetics,0.00220,0.00278
+Flip Energia,Energy,0.00876,0.01013
+Bonarea,Retail Stores,0.16016,0.16114
+Iberpistas,Transportation,0.00586,0.00542
+Pokerstars,Gambling,0.02271,0.01753
+Glorias Multicines,Movies,0.00118,0.00041
+Blood Brothers,Entertainment,0.00276,0.00157
+Carl's Jr,Fast Food,0.00501,0.00278
+Westwing,Home Goods,0.00515,0.01288
+Electrodomesticos Miro,Electronics,0.00536,0.00607
+Spejo's,Restaurant,0.00078,0.00186
+LAE (Loterias y Apuestas del Estado),Entertainment,0.17099,0.16678
+FK Donna Uomo,Apparel,0.00045,0.00088
+Peyote,Restaurant,0.00100,0.00160
+Zity,Transportation,0.01987,0.01302
+Aucalsa,Fuel,0.01456,0.01439
+Tuenti Movil,Telecom,0.02405,0.01554
+Microsoft Xbox,Gaming,0.03368,0.00940
+Pipa&Co,Pet Supplies,0.00073,0.00148
+Consum,Grocery,0.70049,0.69446
+Hipercor,Grocery,0.12347,0.14815
+RIU,Travel,0.00730,0.00437
+Marieta,Jewelry,0.00077,0.00118
+Supeco,Grocery,0.02256,0.02939
+Burger King,Fast Food,0.30729,0.19283
+888,Gambling,0.02812,0.04701
+Serviapuestas,Gambling,0.00205,0.00448
+Crocantickets,Entertainment,0.01790,0.01141
+Glovo,Delivery,0.73358,0.34679
+beIN Sports,Entertainment,0.01632,0.00857
+Dominos Pizza,Fast Food,0.27043,0.10034
+The Body Shop,Beauty,0.00919,0.01161
+Oro Vivo,Jewelry,0.00394,0.00495
+Wowble,Travel,0.00071,0.00031
+Cruz Blanca,Healthcare,0.00182,0.00280
+Goldcar,Transportation,0.05439,0.05316
+TradeInn,Financial Services,0.00341,0.00544
+Metlife,Insurance,0.02690,0.03279
+La Oca,Restaurant,0.00075,0.00190
+Medicos del Mundo,Non-Profit,0.01111,0.00744
+McFit,Fitness,0.05709,0.04185
+Helvetia,Insurance,0.05026,0.07576
+Moneyman,Financial Services,0.06297,0.05430
+Transavia,Airlines,0.01359,0.01182
+Redentradas,Tickets,0.00094,0.00258
+The Phone House,Electronics,0.05359,0.04643
+Jazztel,Telecom,0.53586,0.58715
+Aparcamientos Sama,Parking,0.00103,0.00106
+Google Play,Subscription Services,0.12655,0.03573
+Super BM,Grocery,0.22036,0.21355
+The Irish Rover,Restaurant,0.00340,0.00208
+Oh my cut,Beauty,0.00156,0.00421
+Bonpreu,Grocery,0.26491,0.21981
+New Balance,Apparel,0.00842,0.01068
+Nike,Apparel,0.12024,0.14378
+Pannus,Apparel,0.00072,0.00038
+Hawkers,Apparel,0.02155,0.02035
+Banco Sabadell Seguros Generales,Insurance,0.05494,0.06835
+Bluemove,Transportation,0.00491,0.00389
+Simyo,Telecom,0.09973,0.10262
+Verdecora,Home Goods,0.02013,0.02573
+Banque PSA Finance,Financial Services,0.37558,0.37947
+Alterna,Beauty,0.01351,0.01354
+Krunch,Restaurant,0.00335,0.00215
+Botticelli,Restaurant,0.00217,0.00440
+Plus Ultra Seguros,Insurance,0.10721,0.16319
+Sanitas,Healthcare,0.23793,0.41286
+Bricor,Home Goods,0.01429,0.01758
+Atrapalo.com,Travel,0.05248,0.06934
+A loja do gato preto,Pet Supplies,0.00871,0.01065
+Mequedouno,E-commerce,0.01121,0.00887
+Loro Parque,Attractions,0.00298,0.00144
+Carrefour Market,Grocery,0.07078,0.07438
+Disa,Fuel,0.01961,0.01795
+Acesa,Transportation,0.08458,0.08585
+Somnium,Home Goods,0.00388,0.00240
+Hackett,Security Services,0.00329,0.00620
+E-Park,Transportation,0.00880,0.01239
+San Remo Perfumeries,Beauty,0.00241,0.00238
+Pompei,Restaurant,0.00403,0.00661
+Nicoli,Accessories,0.00108,0.00451
+Muy Mucho,Retail Stores,0.00449,0.00740
+Bankinter Consumer Finance,Financial Services,0.06749,0.09964
+Puma,Apparel,0.00365,0.00626
+casa del libro,Retail Stores,0.04064,0.03643
+Binter Canarias,Airlines,0.01569,0.01226
+Cines IMF,Movies,0.00222,0.00103
+Creditea,Financial Services,0.01007,0.02532
+Zooplus,Pet Supplies,0.12257,0.06344
+Saras Energia,Energy,0.00529,0.00648
+Vidal Tiendas,Retail Stores,0.08715,0.12607
+Norwegian,Transportation,0.06096,0.05866
+Pavapark,Parking,0.00216,0.00089
+Galp,Fuel,0.13696,0.12877
+UNED,Education,0.05999,0.04694
+Movo,Transportation,0.00216,0.00213
+Cines ABC,Entertainment,0.00529,0.00380
+Caritas,Non-Profit,0.00955,0.01343
+Dockers,Apparel,0.00325,0.00317
+Emirates,Airlines,0.01414,0.01554
+Ventura24,Financial Services,0.00308,0.00264
+Seguros Santa Lucia,Insurance,0.12894,0.26156
+Greenpeace,Non-Profit,0.01039,0.01261
+Makro,Grocery,0.13968,0.16253
+General Optica,Healthcare,0.04376,0.05714
+Telepeaje Via T,Transportation,0.04912,0.06056
+Champion,Apparel,0.00356,0.00589
+Carrefour Express,Grocery,0.05376,0.05073
+Cruz Roja,Non-Profit,0.06949,0.07801
+Parc de la Mar,Attractions,0.00043,0.00036
+Tulotero,Entertainment,0.10364,0.09930
+Taco Bell,Fast Food,0.02904,0.01654
+Securitas Direct,Security Services,0.14241,0.22664
+Sorli,Grocery,0.07725,0.05311
+Papa John's,Fast Food,0.02030,0.01134
+Bofrost,Delivery,0.02522,0.01229
+Asics,Apparel,0.01512,0.01750
+Ballenoil,Fuel,0.11397,0.13714
+Viena capellanes,Restaurant,0.00721,0.00683
+Tommy Mel's,Restaurant,0.01759,0.00986
+Badoo,Dating App,0.00920,0.00186
+Cines Renoir,Movies,0.00215,0.00160
+Liberty Seguros,Insurance,0.26504,0.40553
+Delticom,Automotive,0.00960,0.00473
+Qualitas Auto,Automotive,0.13663,0.09022
+Aldro Energia,Energy,0.01843,0.02817
+Endesa,Fuel,0.99202,1.52650
+Metro Madrid,Transportation,0.51517,0.38004
+Avanza Bus,Travel,0.00717,0.00241
+Primark,Apparel,0.32427,0.48375
+Disney Store,Retail Stores,0.03194,0.02213
+Iati Seguros,Insurance,0.01499,0.01208
+Aquopolis,Attractions,0.00546,0.00428
+Maxcoop,Grocery,0.00211,0.00221
+Wok,Restaurant,0.02635,0.01842
+Yves Rocher,Beauty,0.01145,0.01689
+Grupo Santander Consumer Finance,Financial Services,0.95286,1.06067
+Ulabox,Delivery,0.02900,0.01849
+Europ Assistance,Insurance,0.00159,0.00205
+Air Europa,Travel,0.08604,0.09097
