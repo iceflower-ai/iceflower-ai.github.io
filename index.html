@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Streaming Service Marketshares 2017 - 2021 | Iceflower Demo</title>
+<title>Revenue Ikea 2018 - 2020 | Iceflower Demo</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
 <link rel="preload" as="style" href="./_observablehq/theme-cotton,alt.css">
@@ -102,8 +102,118 @@ import {registerFile} from "./_observablehq/stdlib.js";
 
 registerFile("./data/hbo.csv", {"name":"./data/hbo.csv","mimeType":"text/csv","path":"./_file/data/hbo.4d3d955d.csv","lastModified":1712000956432});
 registerFile("./data/heatmap.csv", {"name":"./data/heatmap.csv","mimeType":"text/csv","path":"./_file/data/heatmap.efe1ac59.csv","lastModified":1712054788623});
+registerFile("./data/revenue_ikea.csv", {"name":"./data/revenue_ikea.csv","mimeType":"text/csv","path":"./_file/data/revenue_ikea.1fab651e.csv","lastModified":1712153703053});
 registerFile("./data/steam.csv", {"name":"./data/steam.csv","mimeType":"text/csv","path":"./_file/data/steam.780b009a.csv","lastModified":1711990348147});
 registerFile("./data/zara.csv", {"name":"./data/zara.csv","mimeType":"text/csv","path":"./_file/data/zara.802380c4.csv","lastModified":1711922643372});
+
+define({id: "c7ec2b3e", inputs: ["vl"], outputs: ["revenueChart"], body: (vl) => {
+function revenueChart(data, company) {
+  return vl.render({spec: {
+    resize: true,
+    padding: {top: 25, left: 40, right:10, bottom: 10},
+    background: null,
+    data: {values: data},
+    description: "company revenue",
+    width: 1000,
+
+    transform: [
+      {
+        window: [{
+          op: "lag", param: 365,
+          field: "revenue",
+          as: "previous"
+        }],
+        sort: [{field: "valuedate", order: "ascending"}]
+      },
+      {
+        window: [
+          {op: "average", field: "revenue", as: "weekly_revenue"},
+          {op: "average", field: "previous", as: "weekly_previous"}
+        ],
+        sort: [{field: "valuedate", order: "ascending"}],
+        frame: [-34, 0]
+      },
+      {calculate: "datum.weekly_revenue<datum.weekly_previous?datum.weekly_revenue:datum.weekly_previous", as: "lower"},      
+      {calculate: "datum.weekly_revenue>datum.weekly_previous?datum.weekly_revenue:datum.weekly_previous", as: "higher"},
+      {filter: {field: "valuedate", range: [{year: 2017, month: 12, date: 31}, {year: 2021, month: 1, day: 1}]}}
+    ],
+
+    encoding: {
+      x: {
+        field: "valuedate", type: "temporal", axis: {title: null}
+      },
+      y: {
+        title: "revenue / day", type: "quantitative", axis: {orient: "right", title: null}
+      }
+    },
+    layer: [{
+      mark: {type: "line", strokeWidth: 1, color: "gray"},
+      encoding: {y: {field: "weekly_revenue"}}
+    }, {
+      mark: {type: "line", strokeWidth: 0.3, color: "gray"},
+      encoding: {y: {field: "weekly_previous"}}
+    }, {
+      mark: {type: "area", color: "green"},
+      encoding: {
+        opacity: {value: 0.1 },
+        y: {field: "lower"},
+        y2: {field: "weekly_revenue"}
+      }
+    }, {
+      mark: {type: "area", color: "red"},
+      encoding: {
+        opacity: { value: 0.1 },
+        y: {field: "higher"},
+        y2: {field: "weekly_revenue"}
+      }
+    }, {
+      params: [
+        {
+          name: "index",
+          select: {
+            type: "point",
+            fields: ["valuedate"],
+            on: "pointermove",
+            clear: "pointerout",
+            nearest: true
+          }
+        }
+      ],
+      mark: {type: "point"},
+      encoding: {
+        opacity: {value: 0.0}
+      }    
+    }, {
+      transform: [{filter: {and: ["index.valuedate", {param: "index"}]}}],
+      layer: [
+      {
+        mark: {type: "rule", strokeWidth: 0.3}
+      }, {
+        mark: {type: "rule", strokeWidth: 0.3},
+        encoding: {
+          y: {field: "weekly_revenue"},
+          x: null
+        }
+      }, {
+        mark: {type: "text", align: "center", dx: 0, dy: -5},
+        encoding: {
+          y: {value: 0},
+          text: {field: "valuedate", type: "temporal"}
+        }
+      }, {
+        mark: {type: "text", align: "right", dx: -5, dy: -5, color: "black"},
+        encoding: {
+          y: {field: "weekly_revenue"},
+          x: {value: 0},
+          text: {field: "weekly_revenue", type: "quantitative", format: ".0f"}
+        }
+      }
+      ]
+    }]
+  }
+})}
+return {revenueChart};
+}});
 
 define({id: "8155f804", inputs: ["vl"], outputs: ["companyChart"], body: (vl) => {
 function companyChart(data, company) {
@@ -226,13 +336,21 @@ function companyChart(data, company) {
 return {companyChart};
 }});
 
-define({id: "9e13f697", inputs: ["FileAttachment"], outputs: ["streamingChart","ApiHeatmap","zara","steam","hbo"], body: async (FileAttachment) => {
+define({id: "2728ca0a", inputs: ["FileAttachment"], outputs: ["streamingChart","ApiHeatmap","zara","steam","hbo","revenue_ikea"], body: async (FileAttachment) => {
 const [{streamingChart}, {ApiHeatmap}] = await Promise.all([import("./_import/components/consumer.4443e282.js"), import("./_import/components/apiHeatmap.a0ecffdf.js")]);
 
 const zara = FileAttachment("./data/zara.csv").csv({typed: true});
 const steam = FileAttachment("./data/steam.csv").csv({typed: true});
 const hbo = FileAttachment("./data/hbo.csv").csv({typed: true});
-return {streamingChart,ApiHeatmap,zara,steam,hbo};
+
+const revenue_ikea = FileAttachment("./data/revenue_ikea.csv").csv({typed: true});
+return {streamingChart,ApiHeatmap,zara,steam,hbo,revenue_ikea};
+}});
+
+define({id: "697b79ef", inputs: ["revenueChart","revenue_ikea","display"], body: async (revenueChart,revenue_ikea,display) => {
+display(await(
+revenueChart(revenue_ikea, "Ikea")
+))
 }});
 
 define({id: "709226d4", inputs: ["streamingChart","display"], body: async (streamingChart,display) => {
@@ -318,11 +436,16 @@ return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
 }
 
 </style>
+<div id="cell-c7ec2b3e" class="observablehq observablehq--block"></div>
 <div id="cell-8155f804" class="observablehq observablehq--block"></div>
-<div id="cell-9e13f697" class="observablehq observablehq--block"></div>
+<div id="cell-2728ca0a" class="observablehq observablehq--block"></div>
 <div class="hero">
   <h1>Iceflower</h1>
   <h2>Crystalize your data!</h2>
+</div>
+<div class="card">
+<h1 id="revenue-ikea-2018---2020" tabindex="-1"><a class="observablehq-header-anchor" href="#revenue-ikea-2018---2020">Revenue Ikea 2018 - 2020</a></h1>
+<div id="cell-697b79ef" class="observablehq observablehq--block observablehq--loading"></div>
 </div>
 <div class="card">
 <h1 id="streaming-service-marketshares-2017---2021" tabindex="-1"><a class="observablehq-header-anchor" href="#streaming-service-marketshares-2017---2021">Streaming Service Marketshares 2017 - 2021</a></h1>
