@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<title>Revenue Ikea 2018 - 2020 | Iceflower Demo</title>
+<title>Revenues compared to previous year | Iceflower Demo</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
 <link rel="preload" as="style" href="./_observablehq/theme-cotton,alt.css">
@@ -102,7 +102,9 @@ import {registerFile} from "./_observablehq/stdlib.js";
 
 registerFile("./data/hbo.csv", {"name":"./data/hbo.csv","mimeType":"text/csv","path":"./_file/data/hbo.4d3d955d.csv","lastModified":1712000956432});
 registerFile("./data/heatmap.csv", {"name":"./data/heatmap.csv","mimeType":"text/csv","path":"./_file/data/heatmap.efe1ac59.csv","lastModified":1712054788623});
+registerFile("./data/revenue_amazon.csv", {"name":"./data/revenue_amazon.csv","mimeType":"text/csv","path":"./_file/data/revenue_amazon.d67b30db.csv","lastModified":1712181849060});
 registerFile("./data/revenue_ikea.csv", {"name":"./data/revenue_ikea.csv","mimeType":"text/csv","path":"./_file/data/revenue_ikea.1fab651e.csv","lastModified":1712153703053});
+registerFile("./data/revenue_netflix.csv", {"name":"./data/revenue_netflix.csv","mimeType":"text/csv","path":"./_file/data/revenue_netflix.6ef2b320.csv","lastModified":1712181861700});
 registerFile("./data/steam.csv", {"name":"./data/steam.csv","mimeType":"text/csv","path":"./_file/data/steam.780b009a.csv","lastModified":1711990348147});
 registerFile("./data/zara.csv", {"name":"./data/zara.csv","mimeType":"text/csv","path":"./_file/data/zara.802380c4.csv","lastModified":1711922643372});
 
@@ -336,7 +338,7 @@ function companyChart(data, company) {
 return {companyChart};
 }});
 
-define({id: "2728ca0a", inputs: ["FileAttachment"], outputs: ["streamingChart","ApiHeatmap","zara","steam","hbo","revenue_ikea"], body: async (FileAttachment) => {
+define({id: "754e86e8", inputs: ["FileAttachment"], outputs: ["streamingChart","ApiHeatmap","zara","steam","hbo","revenue_ikea","revenue_amazon","revenue_netflix"], body: async (FileAttachment) => {
 const [{streamingChart}, {ApiHeatmap}] = await Promise.all([import("./_import/components/consumer.4443e282.js"), import("./_import/components/apiHeatmap.a0ecffdf.js")]);
 
 const zara = FileAttachment("./data/zara.csv").csv({typed: true});
@@ -344,12 +346,20 @@ const steam = FileAttachment("./data/steam.csv").csv({typed: true});
 const hbo = FileAttachment("./data/hbo.csv").csv({typed: true});
 
 const revenue_ikea = FileAttachment("./data/revenue_ikea.csv").csv({typed: true});
-return {streamingChart,ApiHeatmap,zara,steam,hbo,revenue_ikea};
+const revenue_amazon = FileAttachment("./data/revenue_amazon.csv").csv({typed: true});
+const revenue_netflix = FileAttachment("./data/revenue_netflix.csv").csv({typed: true});
+return {streamingChart,ApiHeatmap,zara,steam,hbo,revenue_ikea,revenue_amazon,revenue_netflix};
 }});
 
-define({id: "697b79ef", inputs: ["revenueChart","revenue_ikea","display"], body: async (revenueChart,revenue_ikea,display) => {
+define({id: "a21296d7", inputs: ["revenue_ikea","revenue_amazon","revenue_netflix","view","Inputs","companies"], outputs: ["merchants","merchant"], body: (revenue_ikea,revenue_amazon,revenue_netflix,view,Inputs,companies) => {
+const merchants = [{name: "Ikea", data: revenue_ikea}, {name: "Amazon", data: revenue_amazon}, {name: "Netflix", data: revenue_netflix}]
+const merchant = view(Inputs.select(merchants, {label: "Company", format: x => x.name, value: companies.find(t => t.name === "Ikea")}));
+return {merchants,merchant};
+}});
+
+define({id: "eb0b81f9", inputs: ["revenueChart","merchant","display"], body: async (revenueChart,merchant,display) => {
 display(await(
-revenueChart(revenue_ikea, "Ikea")
+revenueChart(merchant.data, merchant.name)
 ))
 }});
 
@@ -438,14 +448,16 @@ return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
 </style>
 <div id="cell-c7ec2b3e" class="observablehq observablehq--block"></div>
 <div id="cell-8155f804" class="observablehq observablehq--block"></div>
-<div id="cell-2728ca0a" class="observablehq observablehq--block"></div>
+<div id="cell-754e86e8" class="observablehq observablehq--block"></div>
 <div class="hero">
   <h1>Iceflower</h1>
   <h2>Crystalize your data!</h2>
 </div>
 <div class="card">
-<h1 id="revenue-ikea-2018---2020" tabindex="-1"><a class="observablehq-header-anchor" href="#revenue-ikea-2018---2020">Revenue Ikea 2018 - 2020</a></h1>
-<div id="cell-697b79ef" class="observablehq observablehq--block observablehq--loading"></div>
+<h1 id="revenues-compared-to-previous-year" tabindex="-1"><a class="observablehq-header-anchor" href="#revenues-compared-to-previous-year">Revenues compared to previous year</a></h1>
+<div id="cell-a21296d7" class="observablehq observablehq--block"></div>
+<p>Three years of revenue. At every point the data is compared with the same day 365 days ago. Gains are highlited in green, losses in red.</p>
+<div id="cell-eb0b81f9" class="observablehq observablehq--block observablehq--loading"></div>
 </div>
 <div class="card">
 <h1 id="streaming-service-marketshares-2017---2021" tabindex="-1"><a class="observablehq-header-anchor" href="#streaming-service-marketshares-2017---2021">Streaming Service Marketshares 2017 - 2021</a></h1>
