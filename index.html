@@ -101,11 +101,11 @@ import {define} from "./_observablehq/client.js";
 import {registerFile} from "./_observablehq/stdlib.js";
 
 registerFile("./data/hbo.csv", {"name":"./data/hbo.csv","mimeType":"text/csv","path":"./_file/data/hbo.4d3d955d.csv","lastModified":1712000956432});
-registerFile("./data/heatmap.csv", {"name":"./data/heatmap.csv","mimeType":"text/csv","path":"./_file/data/heatmap.4738a94a.csv","lastModified":1712012021991});
+registerFile("./data/heatmap.csv", {"name":"./data/heatmap.csv","mimeType":"text/csv","path":"./_file/data/heatmap.efe1ac59.csv","lastModified":1712054788623});
 registerFile("./data/steam.csv", {"name":"./data/steam.csv","mimeType":"text/csv","path":"./_file/data/steam.780b009a.csv","lastModified":1711990348147});
 registerFile("./data/zara.csv", {"name":"./data/zara.csv","mimeType":"text/csv","path":"./_file/data/zara.802380c4.csv","lastModified":1711922643372});
 
-define({id: "b7e0f54b", inputs: ["vl"], outputs: ["companyChart"], body: (vl) => {
+define({id: "8155f804", inputs: ["vl"], outputs: ["companyChart"], body: (vl) => {
 function companyChart(data, company) {
   return vl.render({spec: {
     resize: true,
@@ -139,9 +139,14 @@ function companyChart(data, company) {
           },
           {filter: "datum.rank_desc <= 10 || datum.rank_asc <= 10"}
         ],
-        mark: "bar",
+        mark: {
+          type: "bar",
+          stroke: "black",
+          cursor: "pointer"
+        },
         params: [
-          {name: "pts", select: {type: "point", encodings: ["y"]}}
+          {name: "pts", select: {type: "point", encodings: ["y"]}},
+          {name: "highlight", select: {type: "point", on: "pointerover"}},
         ],
         encoding: {
           x: {field: "change", type: "quantitative", title: "Percentage"},
@@ -162,6 +167,15 @@ function companyChart(data, company) {
             field: "change",
             type: "quantitative",
             scale: {domainMid: 0, range: "diverging", domainMax: 300}
+          },
+          strokeWidth: {
+            condition: 
+              {
+                param: "highlight",
+                empty: false,
+                value: 1
+              },
+            value: 0
           }
         }
       },
@@ -245,9 +259,9 @@ const latencyByRouteCanvas = document.createElement("canvas");
 return {latencyHeatmap,latencyByRouteCanvas};
 }});
 
-define({id: "c23c87cb", inputs: ["resize","ApiHeatmap","counts","categories","latencyByRouteCanvas","categoryColor","display"], body: async (resize,ApiHeatmap,counts,categories,latencyByRouteCanvas,categoryColor,display) => {
+define({id: "0d6988f6", inputs: ["resize","ApiHeatmap","counts","categories","latencyByRouteCanvas","categoryColor","display"], body: async (resize,ApiHeatmap,counts,categories,latencyByRouteCanvas,categoryColor,display) => {
 display(await(
-resize((width) => ApiHeatmap(counts, categories, {y1: 0.5, y2: 1_000, canvas: latencyByRouteCanvas, color: categoryColor, width, label: "Basket (€)"}))
+resize((width) => ApiHeatmap(counts, categories, {y1: 1.0, y2: 1_000, canvas: latencyByRouteCanvas, color: categoryColor, width, label: "Basket (€)"}))
 ))
 }});
 
@@ -270,7 +284,7 @@ return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
   flex-direction: column;
   align-items: center;
   font-family: var(--sans-serif);
-  margin: 4rem 0 8rem;
+  margin: 2rem 0 6rem;
   text-wrap: balance;
   text-align: center;
 }
@@ -304,7 +318,7 @@ return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
 }
 
 </style>
-<div id="cell-b7e0f54b" class="observablehq observablehq--block"></div>
+<div id="cell-8155f804" class="observablehq observablehq--block"></div>
 <div id="cell-9e13f697" class="observablehq observablehq--block"></div>
 <div class="hero">
   <h1>Iceflower</h1>
@@ -325,7 +339,7 @@ return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
 <div id="cell-dc3e551d" class="observablehq observablehq--block"></div>
 <div class="card">
 <h1 id="64m-transactions-in-one-picture" tabindex="-1"><a class="observablehq-header-anchor" href="#64m-transactions-in-one-picture">64M transactions in one picture</a></h1>
-<div id="cell-c23c87cb" class="observablehq observablehq--block observablehq--loading"></div>
+<div id="cell-0d6988f6" class="observablehq observablehq--block observablehq--loading"></div>
 <h3 id="purchase-price-in-euro%2C-color-by-category" tabindex="-1"><a class="observablehq-header-anchor" href="#purchase-price-in-euro%2C-color-by-category">Purchase price in Euro, color by category</a></h3>
 </div>
 <div id="cell-b5329048" class="observablehq observablehq--block"></div>
