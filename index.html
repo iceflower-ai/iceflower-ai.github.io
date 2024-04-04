@@ -105,10 +105,11 @@ registerFile("./data/heatmap.csv", {"name":"./data/heatmap.csv","mimeType":"text
 registerFile("./data/revenue_amazon.csv", {"name":"./data/revenue_amazon.csv","mimeType":"text/csv","path":"./_file/data/revenue_amazon.d67b30db.csv","lastModified":1712181849060});
 registerFile("./data/revenue_ikea.csv", {"name":"./data/revenue_ikea.csv","mimeType":"text/csv","path":"./_file/data/revenue_ikea.1fab651e.csv","lastModified":1712153703053});
 registerFile("./data/revenue_netflix.csv", {"name":"./data/revenue_netflix.csv","mimeType":"text/csv","path":"./_file/data/revenue_netflix.6ef2b320.csv","lastModified":1712181861700});
+registerFile("./data/revenue_pandora.csv", {"name":"./data/revenue_pandora.csv","mimeType":"text/csv","path":"./_file/data/revenue_pandora.91ed059b.csv","lastModified":1712216583603});
 registerFile("./data/steam.csv", {"name":"./data/steam.csv","mimeType":"text/csv","path":"./_file/data/steam.780b009a.csv","lastModified":1711990348147});
 registerFile("./data/zara.csv", {"name":"./data/zara.csv","mimeType":"text/csv","path":"./_file/data/zara.802380c4.csv","lastModified":1711922643372});
 
-define({id: "c7ec2b3e", inputs: ["vl"], outputs: ["revenueChart"], body: (vl) => {
+define({id: "d8011d55", inputs: ["vl"], outputs: ["revenueChart"], body: (vl) => {
 function revenueChart(data, company) {
   return vl.render({spec: {
     resize: true,
@@ -189,9 +190,9 @@ function revenueChart(data, company) {
       transform: [{filter: {and: ["index.valuedate", {param: "index"}]}}],
       layer: [
       {
-        mark: {type: "rule", strokeWidth: 0.3}
+        mark: {type: "rule", strokeWidth: 0.3, color: "gray"}
       }, {
-        mark: {type: "rule", strokeWidth: 0.3},
+        mark: {type: "rule", strokeWidth: 0.3, color: "gray"},
         encoding: {
           y: {field: "weekly_revenue"},
           x: null
@@ -209,8 +210,7 @@ function revenueChart(data, company) {
           x: {value: 0},
           text: {field: "weekly_revenue", type: "quantitative", format: ".0f"}
         }
-      }
-      ]
+      }]
     }]
   }
 })}
@@ -338,7 +338,7 @@ function companyChart(data, company) {
 return {companyChart};
 }});
 
-define({id: "754e86e8", inputs: ["FileAttachment"], outputs: ["streamingChart","ApiHeatmap","zara","steam","hbo","revenue_ikea","revenue_amazon","revenue_netflix"], body: async (FileAttachment) => {
+define({id: "869f0b55", inputs: ["FileAttachment"], outputs: ["streamingChart","ApiHeatmap","zara","steam","hbo","revenue_ikea","revenue_amazon","revenue_netflix","revenue_pandora"], body: async (FileAttachment) => {
 const [{streamingChart}, {ApiHeatmap}] = await Promise.all([import("./_import/components/consumer.4443e282.js"), import("./_import/components/apiHeatmap.a0ecffdf.js")]);
 
 const zara = FileAttachment("./data/zara.csv").csv({typed: true});
@@ -348,11 +348,16 @@ const hbo = FileAttachment("./data/hbo.csv").csv({typed: true});
 const revenue_ikea = FileAttachment("./data/revenue_ikea.csv").csv({typed: true});
 const revenue_amazon = FileAttachment("./data/revenue_amazon.csv").csv({typed: true});
 const revenue_netflix = FileAttachment("./data/revenue_netflix.csv").csv({typed: true});
-return {streamingChart,ApiHeatmap,zara,steam,hbo,revenue_ikea,revenue_amazon,revenue_netflix};
+const revenue_pandora = FileAttachment("./data/revenue_pandora.csv").csv({typed: true});
+return {streamingChart,ApiHeatmap,zara,steam,hbo,revenue_ikea,revenue_amazon,revenue_netflix,revenue_pandora};
 }});
 
-define({id: "a21296d7", inputs: ["revenue_ikea","revenue_amazon","revenue_netflix","view","Inputs","companies"], outputs: ["merchants","merchant"], body: (revenue_ikea,revenue_amazon,revenue_netflix,view,Inputs,companies) => {
-const merchants = [{name: "Ikea", data: revenue_ikea}, {name: "Amazon", data: revenue_amazon}, {name: "Netflix", data: revenue_netflix}]
+define({id: "cec68394", inputs: ["revenue_ikea","revenue_amazon","revenue_netflix","revenue_pandora","view","Inputs","companies"], outputs: ["merchants","merchant"], body: (revenue_ikea,revenue_amazon,revenue_netflix,revenue_pandora,view,Inputs,companies) => {
+const merchants = [
+  {name: "Ikea", data: revenue_ikea}, 
+  {name: "Amazon", data: revenue_amazon}, 
+  {name: "Netflix", data: revenue_netflix}, 
+  {name: "Pandora", data: revenue_pandora}]
 const merchant = view(Inputs.select(merchants, {label: "Company", format: x => x.name, value: companies.find(t => t.name === "Ikea")}));
 return {merchants,merchant};
 }});
@@ -446,16 +451,16 @@ return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
 }
 
 </style>
-<div id="cell-c7ec2b3e" class="observablehq observablehq--block"></div>
+<div id="cell-d8011d55" class="observablehq observablehq--block"></div>
 <div id="cell-8155f804" class="observablehq observablehq--block"></div>
-<div id="cell-754e86e8" class="observablehq observablehq--block"></div>
+<div id="cell-869f0b55" class="observablehq observablehq--block"></div>
 <div class="hero">
   <h1>Iceflower</h1>
   <h2>Crystalize your data!</h2>
 </div>
 <div class="card">
 <h1 id="revenues-compared-to-previous-year" tabindex="-1"><a class="observablehq-header-anchor" href="#revenues-compared-to-previous-year">Revenues compared to previous year</a></h1>
-<div id="cell-a21296d7" class="observablehq observablehq--block"></div>
+<div id="cell-cec68394" class="observablehq observablehq--block"></div>
 <p>Three years of revenue. At every point the data is compared with the same day 365 days ago. Gains are highlited in green, losses in red.</p>
 <div id="cell-eb0b81f9" class="observablehq observablehq--block observablehq--loading"></div>
 </div>
@@ -465,7 +470,7 @@ return {categories,counts,topRoutesPixel,categoryColor,categorySwatch};
 <div id="cell-709226d4" class="observablehq observablehq--block observablehq--loading"></div>
 </div>
 <div class="card">
-<h1 id="customer-segmentation" tabindex="-1"><a class="observablehq-header-anchor" href="#customer-segmentation">Customer Segmentation</a></h1>
+<h1 id="cross-shopping" tabindex="-1"><a class="observablehq-header-anchor" href="#cross-shopping">Cross Shopping</a></h1>
 <div id="cell-9b9213dd" class="observablehq observablehq--block"></div>
 <p>All values compare share of wallet between customers of the company and those that aren't. E.g. Zara customers spend almost 200% more of their income on child related items then the rest of the population.</p>
 <p><span id="cell-e0d72a66" class="observablehq--loading"></span></p>
